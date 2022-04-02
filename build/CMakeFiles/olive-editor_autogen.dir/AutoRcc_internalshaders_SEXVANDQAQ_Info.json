@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/faranaiki/Sources/olive/build/olive-editor_autogen",
+	"CMAKE_BINARY_DIR" : "/home/faranaiki/Sources/olive/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/faranaiki/Sources/olive/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/faranaiki/Sources/olive",
+	"CMAKE_SOURCE_DIR" : "/home/faranaiki/Sources/olive",
+	"INCLUDE_DIR" : "/home/faranaiki/Sources/olive/build/olive-editor_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/faranaiki/Sources/olive/effects/internal/cornerpin.frag",
+		"/home/faranaiki/Sources/olive/effects/internal/blending.frag",
+		"/home/faranaiki/Sources/olive/effects/internal/cornerpin.vert",
+		"/home/faranaiki/Sources/olive/effects/internal/common.vert",
+		"/home/faranaiki/Sources/olive/effects/internal/premultiply.frag",
+		"/home/faranaiki/Sources/olive/effects/internal/dropshadow.frag"
+	],
+	"LOCK_FILE" : "/home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor_autogen.dir/AutoRcc_internalshaders_SEXVANDQAQ_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "internalshaders" ],
+	"OUTPUT_CHECKSUM" : "SEXVANDQAQ",
+	"OUTPUT_NAME" : "qrc_internalshaders.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor_autogen.dir/AutoRcc_internalshaders_SEXVANDQAQ_Used.txt",
+	"SOURCE" : "/home/faranaiki/Sources/olive/effects/internal/internalshaders.qrc",
+	"VERBOSITY" : 0
+}

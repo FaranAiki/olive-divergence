@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="Squared" category="FaranEffect">
+	<shader vert="common.vert" frag="squared.frag"/>
+	<row name="Interval">
+		<field type="double" id="intv_x" />
+		<field type="double" id="intv_y" />
+	</row>
+	<row name="Opacity">
+		<field type="double" id="opacity" />
+	</row>
+	<row name="Invert">
+		<field type="bool" id="invert" />
+	</row>
+</effect>

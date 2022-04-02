@@ -1,0 +1,8 @@
+/home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor.dir
+/home/faranaiki/Sources/olive/build/CMakeFiles/edit_cache.dir
+/home/faranaiki/Sources/olive/build/CMakeFiles/rebuild_cache.dir
+/home/faranaiki/Sources/olive/build/CMakeFiles/list_install_components.dir
+/home/faranaiki/Sources/olive/build/CMakeFiles/install.dir
+/home/faranaiki/Sources/olive/build/CMakeFiles/install/local.dir
+/home/faranaiki/Sources/olive/build/CMakeFiles/install/strip.dir
+/home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor_autogen.dir

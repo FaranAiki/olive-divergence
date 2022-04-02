@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="Pixel Shift" category="FaranEffect">
+	<row name="Interval">
+		<field type="double" id="intv_x" />
+		<field type="double" id="intv_y" />
+	</row>
+	<row name="Pixel Gap">
+		<field type="double" min="-100" max="100" id="gap_x" />
+		<field type="double" min="-100" max="100" id="gap_y" />
+	</row>
+	<row name="Pixel Rotation">
+		<field type="double" id="rotation" />
+	</row>
+	<row name="Horizontal First Side">
+		<field type="combo" id="side_type_x" default="0">
+			<option> Right </option>
+			<option> Left </option>
+		</field>
+	</row>
+	<row name="Vertical First Side">
+		<field type="combo" id="side_type_y" default="0">
+			<option> Top </option>
+			<option> Bottom </option>
+		</field>
+	</row>
+	<row name="Override With Black">
+		<field type="bool" id="black_ov" default="1" />
+	</row>
+	<shader vert="common.vert" frag="pishift.frag"/>
+</effect>
