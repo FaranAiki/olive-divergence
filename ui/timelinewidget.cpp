@@ -657,7 +657,8 @@ void TimelineWidget::mousePressEvent(QMouseEvent *event) {
     if (panel_timeline->creating) {
       int comp = 0;
       switch (panel_timeline->creating_object) {
-      case ADD_OBJ_TITLE:
+	  case ADD_OBJ_TEXT:
+      case ADD_OBJ_RICHTEXT:
       case ADD_OBJ_SOLID:
       case ADD_OBJ_BARS:
         comp = -1;
@@ -1071,8 +1072,11 @@ void TimelineWidget::mouseReleaseEvent(QMouseEvent *event) {
             }
 
             switch (panel_timeline->creating_object) {
-            case ADD_OBJ_TITLE:
-              c->set_name(tr("Title"));
+			case ADD_OBJ_TEXT:
+			  c->set_name(tr("Text"));
+			  c->effects.append(Effect::Create(c.get(), Effect::GetInternalMeta(EFFECT_INTERNAL_TEXT, EFFECT_TYPE_EFFECT)));
+            case ADD_OBJ_RICHTEXT:
+              c->set_name(tr("Rich Text"));
               c->effects.append(Effect::Create(c.get(), Effect::GetInternalMeta(EFFECT_INTERNAL_RICHTEXT, EFFECT_TYPE_EFFECT)));
               break;
             case ADD_OBJ_SOLID:

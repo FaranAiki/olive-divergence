@@ -5,8 +5,8 @@
 		<field type="double" id="intv_y" />
 	</row>
 	<row name="Pixel Gap">
-		<field type="double" min="-100" max="100" id="gap_x" />
-		<field type="double" min="-100" max="100" id="gap_y" />
+		<field type="double" id="gap_x" />
+		<field type="double" id="gap_y" />
 	</row>
 	<row name="Pixel Rotation">
 		<field type="double" id="rotation" />

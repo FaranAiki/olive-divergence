@@ -37,7 +37,8 @@
 #include "ui/panel.h"
 
 enum CreateObjects {
-  ADD_OBJ_TITLE,
+  ADD_OBJ_TEXT,
+  ADD_OBJ_RICHTEXT,
   ADD_OBJ_SOLID,
   ADD_OBJ_BARS,
   ADD_OBJ_TONE,

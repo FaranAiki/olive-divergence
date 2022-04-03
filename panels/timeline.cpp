@@ -1822,10 +1822,15 @@ int Timeline::getTimelineScreenPointFromFrame(long frame) {
 void Timeline::add_btn_click() {
   Menu add_menu(this);
 
-  QAction* titleMenuItem = new QAction(&add_menu);
-  titleMenuItem->setText(tr("Title..."));
-  titleMenuItem->setData(ADD_OBJ_TITLE);
-  add_menu.addAction(titleMenuItem);
+  QAction* textMenuItem = new QAction(&add_menu);
+  textMenuItem->setText(tr("Text..."));
+  textMenuItem->setData(ADD_OBJ_TEXT);
+  add_menu.addAction(textMenuItem);
+
+  QAction* richTextMenuItem = new QAction(&add_menu);
+  richTextMenuItem->setText(tr("Rich Text..."));
+  richTextMenuItem->setData(ADD_OBJ_RICHTEXT);
+  add_menu.addAction(richTextMenuItem);
 
   QAction* solidMenuItem = new QAction(&add_menu);
   solidMenuItem->setText(tr("Solid Color..."));

@@ -105,14 +105,9 @@ void RichTextEffect::redraw(double timecode)
   height -= 2 * padding;
 
   QTextDocument td;
-  QString text;
+  QString text(text_val->GetStringAt(timecode));
   
   if (advanced_text->GetValueAt(timecode).toInt()) {
-    text = 
-      text_val->GetStringAt(timecode)
-        .replace(QRegularExpression("(?<=&lt;)timecode(?=&gt;)"), QString("%1").arg(timecode))
-        .replace(QRegularExpression("(?<=&lt;)fps(?=&gt;)"), QString("%1").arg(timecode))
-    ;
     
     QRegularExpressionMatchIterator i = QRegularExpression("&lt;.*?&gt;").globalMatch(text);
     
@@ -121,8 +116,6 @@ void RichTextEffect::redraw(double timecode)
 	  qDebug() << match.captured();
 	}
     
-  } else {
-	text = text_val->GetStringAt(timecode);
   }
   
   td.setHtml(text);

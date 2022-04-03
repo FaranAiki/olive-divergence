@@ -88,6 +88,15 @@ private slots:
    * Index of the font_weight to retrieve the desired font weight from
    */
   void SetFontWeight(int i);
+  
+  /**
+   * @brief Slot for the font_name combobox
+   *
+   * @param font
+   *
+   * Set the font name
+   */
+  void SetFontFamily(QString font);
 
   /**
    * @brief Slot for text alignment buttons to set alignment based on their properties

@@ -367,7 +367,11 @@ void ExportDialog::export_thread_finished() {
   // If shutdown after exporting is enabled (forced), let the computer shutdown
   if (shutdown_after_checkbox->isChecked()) {
     QProcess p;
-    p.startDetached("shutdown -P 0");
+    #if defined(_WIN32) || defined(_WIN64)
+      p.startDetached("shutdown", (QStringList) {"/f"});
+    #elif defined(unix) || defined(__unix) || defined(__unix__) || defined (__linux__) ||  defined(linux) || defined(__linux) || defined(__APPLE__) || defined(__MACH__)
+      p.startDetached("shutdown", (QStringList) {"-P", "0"});
+    #endif
   }
   
   // If the export succeeded, close the dialog

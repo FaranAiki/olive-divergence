@@ -60,7 +60,7 @@ TextEditDialog::TextEditDialog(QWidget *parent, const QString &s, bool rich_text
 
     // Font Name
     font_list = new QFontComboBox();
-    connect(font_list, SIGNAL(currentIndexChanged(const QString&)), textEdit, SLOT(setFontFamily(const QString&)));
+    connect(font_list, SIGNAL(currentIndexChanged(const QString&)), this, SLOT(SetFontFamily(const QString&)));
     toolbar->addWidget(font_list);
 
     // Font Weight
@@ -173,6 +173,11 @@ const QString& TextEditDialog::get_string() {
 void TextEditDialog::accept() {
   result_str = rich_text_ ? textEdit->toHtml() : textEdit->toPlainText();
   QDialog::accept();
+}
+
+void TextEditDialog::SetFontFamily(QString font) {
+  qDebug() << font;
+  textEdit->setFontFamily(font.replace(",", ""));
 }
 
 void TextEditDialog::SetFontWeight(int i)
