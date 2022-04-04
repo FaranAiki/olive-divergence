@@ -62,6 +62,9 @@ private:
   DoubleField* shadow_softness;
   DoubleField* shadow_opacity;
   
+  DoubleField* trim_left;
+  DoubleField* trim_right;
+  
   BoolField* advanced_text;
 };
 

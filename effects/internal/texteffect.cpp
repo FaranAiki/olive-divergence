@@ -134,6 +134,16 @@ TextEffect::TextEffect(Clip* c, const EffectMeta* em) :
   shadow_opacity->SetMinimum(0);
   shadow_opacity->SetMaximum(100);
   
+  EffectRow* trim_row = new EffectRow(this, tr("Trim Text"));
+  trim_left = new DoubleField(trim_row, "trimleft");
+  trim_left->SetColumnSpan(1);
+  trim_left->SetDefault(0);
+  trim_left->SetMinimum(0);
+  trim_right = new DoubleField(trim_row, "trimright");
+  trim_right->SetColumnSpan(2);
+  trim_right->SetDefault(0);
+  trim_right->SetMinimum(0);
+  
   EffectRow* advanced_text_row = new EffectRow(this, tr("Advanced Text Edit"));
   advanced_text = new BoolField(advanced_text_row, "advancedtextedit");
   advanced_text->SetColumnSpan(2);
@@ -224,6 +234,9 @@ void TextEffect::redraw(double timecode) {
 	  }
 	}
   }
+
+  text.chop(trim_right->GetDoubleAt(timecode));
+  text.remove(0, trim_left->GetDoubleAt(timecode));
 
   QStringList lines = text.split('\n');
 
