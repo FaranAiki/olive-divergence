@@ -1,7 +1,9 @@
 /***
 
     Olive - Non-Linear Video Editor
-    Copyright (C) 2019  Olive Team
+    
+    Copyright (C) 2022 Muhammad Faran Aiki
+    Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -81,7 +83,10 @@ QList<QString> get_effects_paths() {
 
   // user path - best for linux
   effects_paths.append(QDir(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation)).filePath("effects"));
-
+  
+  // developer path - for debug, me
+  effects_paths.append(app_dir.filePath("../effects/shaders"));
+  
   // Olive will also accept a manually provided folder with an environment variable
   QString env_path(qgetenv("OLIVE_EFFECTS_PATH"));
   if (!env_path.isEmpty()) effects_paths.append(env_path);

@@ -1,7 +1,9 @@
 /***
 
     Olive - Non-Linear Video Editor
-    Copyright (C) 2019  Olive Team
+    
+    Copyright (C) 2022 Muhammad Faran Aiki
+    Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -27,7 +29,7 @@
 DemoNotice::DemoNotice(QWidget *parent) :
   QDialog(parent)
 {
-  setWindowTitle(tr("Welcome to Olive!"));
+  setWindowTitle(tr("Welcome to Olive Divergence!"));
 
   QVBoxLayout* vlayout = new QVBoxLayout(this);
 
@@ -42,13 +44,13 @@ DemoNotice::DemoNotice(QWidget *parent) :
 
   QLabel* text = new QLabel("<html><head/><body><p>"
                             "<span style=\" font-size:14pt;\">"
-                            + tr("Welcome to Olive!")
+                            + tr("Welcome to Olive Divergence!")
                             + "</span></p><p>"
-                            + tr("Olive is a free open-source video editor released under the GNU GPL. If you have paid for this software, you have been scammed.")
+                            + tr("Olive is a free open-source video editor released under the GNU GPL. Olive Divergence is the divergent version from it.")
                             + "</p><p>"
-                            + tr("This software is currently in ALPHA which means it is unstable and very likely to crash, have bugs, and have missing features. We offer no warranty so use at your own risk. Please report any bugs or feature requests at %1").arg("<a href=\"https://olivevideoeditor.org/\"><span style=\" text-decoration: underline; color:#007af4;\">www.olivevideoeditor.org</span></a>")
+                            + tr("We offer no warranty so use at your own risk. Please report any bugs or feature requests at %1").arg("<a href=\"https://github.com/FaranAiki/olive-divergence\"><span style=\" text-decoration: underline; color:#007af4;\">Olive Divergence's Github</span></a>")
                             + "</p><p>"
-                            + tr("Thank you for trying Olive and we hope you enjoy it!")
+                            + tr("Please contribute to this old unsupported project!")
                             + "</p></body></html>", this);
   text->setWordWrap(true);
   layout->addWidget(text);
