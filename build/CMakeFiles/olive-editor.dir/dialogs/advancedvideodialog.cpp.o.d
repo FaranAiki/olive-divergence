@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o: \
- /home/faranaiki/Sources/olive/dialogs/advancedvideodialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/dialogs/advancedvideodialog.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/dialogs/advancedvideodialog.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/advancedvideodialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -240,7 +240,7 @@ CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o: \
  /usr/include/qt/QtWidgets/qframe.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtWidgets/QSpinBox /usr/include/qt/QtWidgets/qspinbox.h \
- /home/faranaiki/Sources/olive/rendering/exportthread.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/exportthread.h \
  /usr/include/qt/QtCore/QThread /usr/include/qt/QtCore/qthread.h \
  /usr/include/qt/QtCore/qdeadlinetimer.h \
  /usr/include/qt/QtCore/qelapsedtimer.h /usr/include/c++/11.2.0/future \

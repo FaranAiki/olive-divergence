@@ -1,12 +1,12 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_filefield.cpp: /home/faranaiki/Sources/olive/effects/fields/filefield.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
-  /home/faranaiki/Sources/olive/effects/effectfield.h \
-  /home/faranaiki/Sources/olive/effects/keyframe.h \
-  /home/faranaiki/Sources/olive/timeline/marker.h \
-  /home/faranaiki/Sources/olive/timeline/selection.h \
-  /home/faranaiki/Sources/olive/undo/comboaction.h \
-  /home/faranaiki/Sources/olive/undo/undo.h \
-  /home/faranaiki/Sources/olive/undo/undostack.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_filefield.cpp: /home/faranaiki/Sources/olive-divergence/effects/fields/filefield.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
+  /home/faranaiki/Sources/olive-divergence/effects/effectfield.h \
+  /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
+  /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
+  /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+  /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+  /home/faranaiki/Sources/olive-divergence/undo/undo.h \
+  /home/faranaiki/Sources/olive-divergence/undo/undostack.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

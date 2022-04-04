@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o: \
- /home/faranaiki/Sources/olive/ui/resizablescrollbar.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/resizablescrollbar.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/resizablescrollbar.h \
+ /home/faranaiki/Sources/olive-divergence/ui/resizablescrollbar.h \
  /usr/include/qt/QtWidgets/QScrollBar \
  /usr/include/qt/QtWidgets/qscrollbar.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -245,7 +245,7 @@ CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o: \
  /usr/include/qt/QtWidgets/qrubberband.h \
  /usr/include/qt/QtWidgets/qframe.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/global/debug.h \
+ /home/faranaiki/Sources/olive-divergence/global/debug.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qcontiguouscache.h

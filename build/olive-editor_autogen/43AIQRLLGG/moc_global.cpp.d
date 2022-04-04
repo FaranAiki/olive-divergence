@@ -1,10 +1,10 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/43AIQRLLGG/moc_global.cpp: /home/faranaiki/Sources/olive/global/global.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
-  /home/faranaiki/Sources/olive/effects/keyframe.h \
-  /home/faranaiki/Sources/olive/timeline/marker.h \
-  /home/faranaiki/Sources/olive/timeline/selection.h \
-  /home/faranaiki/Sources/olive/undo/comboaction.h \
-  /home/faranaiki/Sources/olive/undo/undo.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/43AIQRLLGG/moc_global.cpp: /home/faranaiki/Sources/olive-divergence/global/global.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
+  /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
+  /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
+  /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+  /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+  /home/faranaiki/Sources/olive-divergence/undo/undo.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

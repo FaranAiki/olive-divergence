@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o: \
- /home/faranaiki/Sources/olive/ui/colorbutton.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/colorbutton.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/colorbutton.h \
+ /home/faranaiki/Sources/olive-divergence/ui/colorbutton.h \
  /usr/include/qt/QtWidgets/QPushButton \
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

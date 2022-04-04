@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o: \
- /home/faranaiki/Sources/olive/ui/clickablelabel.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/clickablelabel.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/clickablelabel.h \
+ /home/faranaiki/Sources/olive-divergence/ui/clickablelabel.h \
  /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \

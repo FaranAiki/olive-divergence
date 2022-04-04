@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faranaiki/Sources/olive
+CMAKE_SOURCE_DIR = /home/faranaiki/Sources/olive-divergence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/faranaiki/Sources/olive/build
+CMAKE_BINARY_DIR = /home/faranaiki/Sources/olive-divergence/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/olive-editor.dir/depend.make
@@ -70,64 +70,64 @@ include CMakeFiles/olive-editor.dir/progress.make
 include CMakeFiles/olive-editor.dir/flags.make
 
 olive_ar.qm: ../ts/olive_ar.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating olive_ar.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_ar.ts -qm /home/faranaiki/Sources/olive/build/olive_ar.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating olive_ar.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_ar.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_ar.qm
 
 olive_bs.qm: ../ts/olive_bs.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating olive_bs.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_bs.ts -qm /home/faranaiki/Sources/olive/build/olive_bs.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating olive_bs.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_bs.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_bs.qm
 
 olive_cs.qm: ../ts/olive_cs.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating olive_cs.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_cs.ts -qm /home/faranaiki/Sources/olive/build/olive_cs.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating olive_cs.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_cs.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_cs.qm
 
 olive_de.qm: ../ts/olive_de.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating olive_de.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_de.ts -qm /home/faranaiki/Sources/olive/build/olive_de.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating olive_de.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_de.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_de.qm
 
 olive_es.qm: ../ts/olive_es.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating olive_es.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_es.ts -qm /home/faranaiki/Sources/olive/build/olive_es.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating olive_es.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_es.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_es.qm
 
 olive_fr.qm: ../ts/olive_fr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating olive_fr.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_fr.ts -qm /home/faranaiki/Sources/olive/build/olive_fr.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating olive_fr.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_fr.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_fr.qm
 
 olive_it.qm: ../ts/olive_it.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating olive_it.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_it.ts -qm /home/faranaiki/Sources/olive/build/olive_it.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating olive_it.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_it.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_it.qm
 
 olive_ru.qm: ../ts/olive_ru.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating olive_ru.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_ru.ts -qm /home/faranaiki/Sources/olive/build/olive_ru.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating olive_ru.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_ru.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_ru.qm
 
 olive_sr.qm: ../ts/olive_sr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating olive_sr.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_sr.ts -qm /home/faranaiki/Sources/olive/build/olive_sr.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating olive_sr.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_sr.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_sr.qm
 
 olive_id.qm: ../ts/olive_id.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating olive_id.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_id.ts -qm /home/faranaiki/Sources/olive/build/olive_id.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating olive_id.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_id.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_id.qm
 
 olive_tr.qm: ../ts/olive_tr.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating olive_tr.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_tr.ts -qm /home/faranaiki/Sources/olive/build/olive_tr.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating olive_tr.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_tr.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_tr.qm
 
 olive_pt-BR.qm: ../ts/olive_pt-BR.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating olive_pt-BR.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_pt-BR.ts -qm /home/faranaiki/Sources/olive/build/olive_pt-BR.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating olive_pt-BR.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_pt-BR.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_pt-BR.qm
 
 olive_uk.qm: ../ts/olive_uk.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating olive_uk.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_uk.ts -qm /home/faranaiki/Sources/olive/build/olive_uk.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating olive_uk.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_uk.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_uk.qm
 
 olive_zh-CN.qm: ../ts/olive_zh-CN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating olive_zh-CN.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_zh-CN.ts -qm /home/faranaiki/Sources/olive/build/olive_zh-CN.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating olive_zh-CN.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_zh-CN.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_zh-CN.qm
 
 olive_zh-TW.qm: ../ts/olive_zh-TW.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating olive_zh-TW.qm"
-	/usr/bin/lrelease /home/faranaiki/Sources/olive/ts/olive_zh-TW.ts -qm /home/faranaiki/Sources/olive/build/olive_zh-TW.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating olive_zh-TW.qm"
+	/usr/bin/lrelease /home/faranaiki/Sources/olive-divergence/ts/olive_zh-TW.ts -qm /home/faranaiki/Sources/olive-divergence/build/olive_zh-TW.qm
 
 olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp: ../effects/internal/internalshaders.qrc
 olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp: CMakeFiles/olive-editor_autogen.dir/AutoRcc_internalshaders_SEXVANDQAQ_Info.json
@@ -138,8 +138,8 @@ olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp: ../effects/internal/com
 olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp: ../effects/internal/premultiply.frag
 olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp: ../effects/internal/dropshadow.frag
 olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp: /usr/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Automatic RCC for effects/internal/internalshaders.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor_autogen.dir/AutoRcc_internalshaders_SEXVANDQAQ_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Automatic RCC for effects/internal/internalshaders.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/faranaiki/Sources/olive-divergence/build/CMakeFiles/olive-editor_autogen.dir/AutoRcc_internalshaders_SEXVANDQAQ_Info.json 
 
 olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp: ../cursors/cursors.qrc
 olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp: CMakeFiles/olive-editor_autogen.dir/AutoRcc_cursors_QLWOC2ZJQE_Info.json
@@ -153,8 +153,8 @@ olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp: ../cursors/1_left.svg
 olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp: ../cursors/4.svg
 olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp: ../cursors/3_left.svg
 olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp: /usr/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Automatic RCC for cursors/cursors.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor_autogen.dir/AutoRcc_cursors_QLWOC2ZJQE_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Automatic RCC for cursors/cursors.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/faranaiki/Sources/olive-divergence/build/CMakeFiles/olive-editor_autogen.dir/AutoRcc_cursors_QLWOC2ZJQE_Info.json 
 
 olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp: ../icons/icons.qrc
 olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp: CMakeFiles/olive-editor_autogen.dir/AutoRcc_icons_2SEMU33LXP_Info.json
@@ -212,1828 +212,1828 @@ olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp: ../icons/new.svg
 olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp: ../icons/beam.svg
 olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp: ../icons/folder.svg
 olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp: /usr/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Automatic RCC for icons/icons.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor_autogen.dir/AutoRcc_icons_2SEMU33LXP_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Automatic RCC for icons/icons.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/faranaiki/Sources/olive-divergence/build/CMakeFiles/olive-editor_autogen.dir/AutoRcc_icons_2SEMU33LXP_Info.json 
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: olive-editor_autogen/mocs_compilation.cpp
 CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o -MF CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o -c /home/faranaiki/Sources/olive/build/olive-editor_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o -MF CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o -c /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/mocs_compilation.cpp
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/build/olive-editor_autogen/mocs_compilation.cpp > CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/mocs_compilation.cpp > CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/build/olive-editor_autogen/mocs_compilation.cpp -o CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/mocs_compilation.cpp -o CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o: ../dialogs/aboutdialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/aboutdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/aboutdialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/aboutdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/aboutdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/aboutdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/aboutdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o: ../dialogs/actionsearch.cpp
 CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o -c /home/faranaiki/Sources/olive/dialogs/actionsearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/actionsearch.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/actionsearch.cpp > CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/actionsearch.cpp > CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/actionsearch.cpp -o CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/actionsearch.cpp -o CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o: ../dialogs/advancedvideodialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/advancedvideodialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/advancedvideodialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/advancedvideodialog.cpp > CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/advancedvideodialog.cpp > CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/advancedvideodialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/advancedvideodialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/advancedvideodialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o: ../dialogs/autocutsilencedialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/autocutsilencedialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/autocutsilencedialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/autocutsilencedialog.cpp > CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/autocutsilencedialog.cpp > CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/autocutsilencedialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/autocutsilencedialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/autocutsilencedialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o: ../dialogs/clippropertiesdialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/clippropertiesdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/clippropertiesdialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/clippropertiesdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/clippropertiesdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/clippropertiesdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/clippropertiesdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/clippropertiesdialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o: ../dialogs/debugdialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/debugdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/debugdialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/debugdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/debugdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/debugdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/debugdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o: ../dialogs/demonotice.cpp
 CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o -c /home/faranaiki/Sources/olive/dialogs/demonotice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/demonotice.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/demonotice.cpp > CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/demonotice.cpp > CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/demonotice.cpp -o CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/demonotice.cpp -o CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o: ../dialogs/exportdialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/exportdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/exportdialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/exportdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/exportdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/exportdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/exportdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/exportdialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o: ../dialogs/loaddialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/loaddialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/loaddialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/loaddialog.cpp > CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/loaddialog.cpp > CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/loaddialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/loaddialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/loaddialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: ../dialogs/mediapropertiesdialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/mediapropertiesdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/mediapropertiesdialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/mediapropertiesdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/mediapropertiesdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/mediapropertiesdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/mediapropertiesdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o: ../dialogs/newsequencedialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/newsequencedialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/newsequencedialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/newsequencedialog.cpp > CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/newsequencedialog.cpp > CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/newsequencedialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/newsequencedialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/newsequencedialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o: ../dialogs/preferencesdialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/preferencesdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/preferencesdialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/preferencesdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/preferencesdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/preferencesdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/preferencesdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/preferencesdialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o: ../dialogs/proxydialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/proxydialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/proxydialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/proxydialog.cpp > CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/proxydialog.cpp > CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/proxydialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/proxydialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o: ../dialogs/replaceclipmediadialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/replaceclipmediadialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/replaceclipmediadialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/replaceclipmediadialog.cpp > CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/replaceclipmediadialog.cpp > CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/replaceclipmediadialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/replaceclipmediadialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/replaceclipmediadialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o: ../dialogs/speeddialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/speeddialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/speeddialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/speeddialog.cpp > CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/speeddialog.cpp > CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/speeddialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/speeddialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/speeddialog.cpp.s
 
 CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o: ../dialogs/texteditdialog.cpp
 CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o -c /home/faranaiki/Sources/olive/dialogs/texteditdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o -MF CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o.d -o CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o -c /home/faranaiki/Sources/olive-divergence/dialogs/texteditdialog.cpp
 
 CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/dialogs/texteditdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/dialogs/texteditdialog.cpp > CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.i
 
 CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/dialogs/texteditdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/dialogs/texteditdialog.cpp -o CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o: ../effects/fields/boolfield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/boolfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/boolfield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/boolfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/boolfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/boolfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/boolfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/boolfield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o: ../effects/fields/buttonfield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/buttonfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/buttonfield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/buttonfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/buttonfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/buttonfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/buttonfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/buttonfield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o: ../effects/fields/colorfield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/colorfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/colorfield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/colorfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/colorfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/colorfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/colorfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/colorfield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o: ../effects/fields/combofield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/combofield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/combofield.cpp > CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.cpp > CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/combofield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/combofield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o: ../effects/fields/doublefield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/doublefield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/doublefield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/doublefield.cpp > CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/doublefield.cpp > CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/doublefield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/doublefield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/doublefield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o: ../effects/fields/filefield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/filefield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/filefield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/filefield.cpp > CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/filefield.cpp > CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/filefield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/filefield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/filefield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o: ../effects/fields/fontfield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/fontfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/fontfield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/fontfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/fontfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/fontfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/fontfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/fontfield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o: ../effects/fields/labelfield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/labelfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/labelfield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/labelfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/labelfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/labelfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/labelfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/labelfield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o: ../effects/fields/stringfield.cpp
 CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o -c /home/faranaiki/Sources/olive/effects/fields/stringfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/fields/stringfield.cpp
 
 CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/fields/stringfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/fields/stringfield.cpp > CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/fields/stringfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/fields/stringfield.cpp -o CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o: ../effects/internal/audionoiseeffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/audionoiseeffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/audionoiseeffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/audionoiseeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/audionoiseeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/audionoiseeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/audionoiseeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/audionoiseeffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o: ../effects/internal/cornerpineffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/cornerpineffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/cornerpineffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/cornerpineffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/cornerpineffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/cornerpineffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/cornerpineffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/cornerpineffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o: ../effects/internal/crossdissolvetransition.cpp
 CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/crossdissolvetransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/crossdissolvetransition.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/crossdissolvetransition.cpp > CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/crossdissolvetransition.cpp > CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/crossdissolvetransition.cpp -o CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/crossdissolvetransition.cpp -o CMakeFiles/olive-editor.dir/effects/internal/crossdissolvetransition.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o: ../effects/internal/dropshadoweffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/dropshadoweffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/dropshadoweffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/dropshadoweffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/dropshadoweffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/dropshadoweffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/dropshadoweffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/dropshadoweffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o: ../effects/internal/exponentialfadetransition.cpp
 CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/exponentialfadetransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/exponentialfadetransition.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/exponentialfadetransition.cpp > CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/exponentialfadetransition.cpp > CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/exponentialfadetransition.cpp -o CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/exponentialfadetransition.cpp -o CMakeFiles/olive-editor.dir/effects/internal/exponentialfadetransition.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o: ../effects/internal/fillleftrighteffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/fillleftrighteffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/fillleftrighteffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/fillleftrighteffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/fillleftrighteffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/fillleftrighteffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/fillleftrighteffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/fillleftrighteffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o: ../effects/internal/frei0reffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/frei0reffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/frei0reffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/frei0reffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/frei0reffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/frei0reffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/frei0reffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/frei0reffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o: ../effects/internal/linearfadetransition.cpp
 CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/linearfadetransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/linearfadetransition.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/linearfadetransition.cpp > CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/linearfadetransition.cpp > CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/linearfadetransition.cpp -o CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/linearfadetransition.cpp -o CMakeFiles/olive-editor.dir/effects/internal/linearfadetransition.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o: ../effects/internal/logarithmicfadetransition.cpp
 CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/logarithmicfadetransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/logarithmicfadetransition.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/logarithmicfadetransition.cpp > CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/logarithmicfadetransition.cpp > CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/logarithmicfadetransition.cpp -o CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/logarithmicfadetransition.cpp -o CMakeFiles/olive-editor.dir/effects/internal/logarithmicfadetransition.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o: ../effects/internal/paneffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/paneffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/paneffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/paneffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/paneffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/paneffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/paneffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/paneffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o: ../effects/internal/richtexteffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/richtexteffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/richtexteffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/richtexteffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/richtexteffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/richtexteffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/richtexteffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o: ../effects/internal/shakeeffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/shakeeffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/shakeeffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/shakeeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/shakeeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/shakeeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/shakeeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o: ../effects/internal/solideffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/solideffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/solideffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/solideffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/solideffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/solideffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/solideffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/solideffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o: ../effects/internal/texteffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/texteffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/texteffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/texteffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/texteffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/texteffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/texteffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o: ../effects/internal/timecodeeffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/timecodeeffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/timecodeeffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/timecodeeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/timecodeeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/timecodeeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/timecodeeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/timecodeeffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o: ../effects/internal/toneeffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/toneeffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/toneeffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/toneeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/toneeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/toneeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/toneeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/toneeffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o: ../effects/internal/transformeffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/transformeffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/transformeffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/transformeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/transformeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/transformeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/transformeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/transformeffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o: ../effects/internal/voideffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/voideffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/voideffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/voideffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/voideffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/voideffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/voideffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/voideffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o: ../effects/internal/volumeeffect.cpp
 CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/volumeeffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/volumeeffect.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/volumeeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/volumeeffect.cpp > CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/volumeeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/volumeeffect.cpp -o CMakeFiles/olive-editor.dir/effects/internal/volumeeffect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o: ../effects/internal/vsthost.cpp
 CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o -c /home/faranaiki/Sources/olive/effects/internal/vsthost.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o -MF CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/internal/vsthost.cpp
 
 CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/internal/vsthost.cpp > CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/internal/vsthost.cpp > CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/internal/vsthost.cpp -o CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/internal/vsthost.cpp -o CMakeFiles/olive-editor.dir/effects/internal/vsthost.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/effect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/effect.cpp.o: ../effects/effect.cpp
 CMakeFiles/olive-editor.dir/effects/effect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/olive-editor.dir/effects/effect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effect.cpp.o -c /home/faranaiki/Sources/olive/effects/effect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/olive-editor.dir/effects/effect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effect.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effect.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effect.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/effect.cpp
 
 CMakeFiles/olive-editor.dir/effects/effect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/effect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/effect.cpp > CMakeFiles/olive-editor.dir/effects/effect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/effect.cpp > CMakeFiles/olive-editor.dir/effects/effect.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/effect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/effect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/effect.cpp -o CMakeFiles/olive-editor.dir/effects/effect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/effect.cpp -o CMakeFiles/olive-editor.dir/effects/effect.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o: ../effects/effectfield.cpp
 CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o -c /home/faranaiki/Sources/olive/effects/effectfield.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effectfield.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/effectfield.cpp
 
 CMakeFiles/olive-editor.dir/effects/effectfield.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/effectfield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/effectfield.cpp > CMakeFiles/olive-editor.dir/effects/effectfield.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/effectfield.cpp > CMakeFiles/olive-editor.dir/effects/effectfield.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/effectfield.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/effectfield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/effectfield.cpp -o CMakeFiles/olive-editor.dir/effects/effectfield.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/effectfield.cpp -o CMakeFiles/olive-editor.dir/effects/effectfield.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o: ../effects/effectgizmo.cpp
 CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o -c /home/faranaiki/Sources/olive/effects/effectgizmo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/effectgizmo.cpp
 
 CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/effectgizmo.cpp > CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/effectgizmo.cpp > CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/effectgizmo.cpp -o CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/effectgizmo.cpp -o CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o: ../effects/effectloaders.cpp
 CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o -c /home/faranaiki/Sources/olive/effects/effectloaders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/effectloaders.cpp
 
 CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/effectloaders.cpp > CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/effectloaders.cpp > CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/effectloaders.cpp -o CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/effectloaders.cpp -o CMakeFiles/olive-editor.dir/effects/effectloaders.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o: ../effects/effectrow.cpp
 CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o -c /home/faranaiki/Sources/olive/effects/effectrow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o -MF CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/effectrow.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/effectrow.cpp
 
 CMakeFiles/olive-editor.dir/effects/effectrow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/effectrow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/effectrow.cpp > CMakeFiles/olive-editor.dir/effects/effectrow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/effectrow.cpp > CMakeFiles/olive-editor.dir/effects/effectrow.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/effectrow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/effectrow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/effectrow.cpp -o CMakeFiles/olive-editor.dir/effects/effectrow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/effectrow.cpp -o CMakeFiles/olive-editor.dir/effects/effectrow.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o: ../effects/keyframe.cpp
 CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o -MF CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o -c /home/faranaiki/Sources/olive/effects/keyframe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o -MF CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/keyframe.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/keyframe.cpp
 
 CMakeFiles/olive-editor.dir/effects/keyframe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/keyframe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/keyframe.cpp > CMakeFiles/olive-editor.dir/effects/keyframe.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/keyframe.cpp > CMakeFiles/olive-editor.dir/effects/keyframe.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/keyframe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/keyframe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/keyframe.cpp -o CMakeFiles/olive-editor.dir/effects/keyframe.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/keyframe.cpp -o CMakeFiles/olive-editor.dir/effects/keyframe.cpp.s
 
 CMakeFiles/olive-editor.dir/effects/transition.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/effects/transition.cpp.o: ../effects/transition.cpp
 CMakeFiles/olive-editor.dir/effects/transition.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/olive-editor.dir/effects/transition.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/transition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/transition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/transition.cpp.o -c /home/faranaiki/Sources/olive/effects/transition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/olive-editor.dir/effects/transition.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/effects/transition.cpp.o -MF CMakeFiles/olive-editor.dir/effects/transition.cpp.o.d -o CMakeFiles/olive-editor.dir/effects/transition.cpp.o -c /home/faranaiki/Sources/olive-divergence/effects/transition.cpp
 
 CMakeFiles/olive-editor.dir/effects/transition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/effects/transition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/effects/transition.cpp > CMakeFiles/olive-editor.dir/effects/transition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/effects/transition.cpp > CMakeFiles/olive-editor.dir/effects/transition.cpp.i
 
 CMakeFiles/olive-editor.dir/effects/transition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/effects/transition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/effects/transition.cpp -o CMakeFiles/olive-editor.dir/effects/transition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/effects/transition.cpp -o CMakeFiles/olive-editor.dir/effects/transition.cpp.s
 
 CMakeFiles/olive-editor.dir/global/config.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/global/config.cpp.o: ../global/config.cpp
 CMakeFiles/olive-editor.dir/global/config.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/olive-editor.dir/global/config.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/config.cpp.o -MF CMakeFiles/olive-editor.dir/global/config.cpp.o.d -o CMakeFiles/olive-editor.dir/global/config.cpp.o -c /home/faranaiki/Sources/olive/global/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/olive-editor.dir/global/config.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/config.cpp.o -MF CMakeFiles/olive-editor.dir/global/config.cpp.o.d -o CMakeFiles/olive-editor.dir/global/config.cpp.o -c /home/faranaiki/Sources/olive-divergence/global/config.cpp
 
 CMakeFiles/olive-editor.dir/global/config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/global/config.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/global/config.cpp > CMakeFiles/olive-editor.dir/global/config.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/global/config.cpp > CMakeFiles/olive-editor.dir/global/config.cpp.i
 
 CMakeFiles/olive-editor.dir/global/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/global/config.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/global/config.cpp -o CMakeFiles/olive-editor.dir/global/config.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/global/config.cpp -o CMakeFiles/olive-editor.dir/global/config.cpp.s
 
 CMakeFiles/olive-editor.dir/global/debug.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/global/debug.cpp.o: ../global/debug.cpp
 CMakeFiles/olive-editor.dir/global/debug.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/olive-editor.dir/global/debug.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/debug.cpp.o -MF CMakeFiles/olive-editor.dir/global/debug.cpp.o.d -o CMakeFiles/olive-editor.dir/global/debug.cpp.o -c /home/faranaiki/Sources/olive/global/debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/olive-editor.dir/global/debug.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/debug.cpp.o -MF CMakeFiles/olive-editor.dir/global/debug.cpp.o.d -o CMakeFiles/olive-editor.dir/global/debug.cpp.o -c /home/faranaiki/Sources/olive-divergence/global/debug.cpp
 
 CMakeFiles/olive-editor.dir/global/debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/global/debug.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/global/debug.cpp > CMakeFiles/olive-editor.dir/global/debug.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/global/debug.cpp > CMakeFiles/olive-editor.dir/global/debug.cpp.i
 
 CMakeFiles/olive-editor.dir/global/debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/global/debug.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/global/debug.cpp -o CMakeFiles/olive-editor.dir/global/debug.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/global/debug.cpp -o CMakeFiles/olive-editor.dir/global/debug.cpp.s
 
 CMakeFiles/olive-editor.dir/global/global.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/global/global.cpp.o: ../global/global.cpp
 CMakeFiles/olive-editor.dir/global/global.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/olive-editor.dir/global/global.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/global.cpp.o -MF CMakeFiles/olive-editor.dir/global/global.cpp.o.d -o CMakeFiles/olive-editor.dir/global/global.cpp.o -c /home/faranaiki/Sources/olive/global/global.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/olive-editor.dir/global/global.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/global.cpp.o -MF CMakeFiles/olive-editor.dir/global/global.cpp.o.d -o CMakeFiles/olive-editor.dir/global/global.cpp.o -c /home/faranaiki/Sources/olive-divergence/global/global.cpp
 
 CMakeFiles/olive-editor.dir/global/global.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/global/global.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/global/global.cpp > CMakeFiles/olive-editor.dir/global/global.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/global/global.cpp > CMakeFiles/olive-editor.dir/global/global.cpp.i
 
 CMakeFiles/olive-editor.dir/global/global.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/global/global.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/global/global.cpp -o CMakeFiles/olive-editor.dir/global/global.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/global/global.cpp -o CMakeFiles/olive-editor.dir/global/global.cpp.s
 
 CMakeFiles/olive-editor.dir/global/math.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/global/math.cpp.o: ../global/math.cpp
 CMakeFiles/olive-editor.dir/global/math.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/olive-editor.dir/global/math.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/math.cpp.o -MF CMakeFiles/olive-editor.dir/global/math.cpp.o.d -o CMakeFiles/olive-editor.dir/global/math.cpp.o -c /home/faranaiki/Sources/olive/global/math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/olive-editor.dir/global/math.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/math.cpp.o -MF CMakeFiles/olive-editor.dir/global/math.cpp.o.d -o CMakeFiles/olive-editor.dir/global/math.cpp.o -c /home/faranaiki/Sources/olive-divergence/global/math.cpp
 
 CMakeFiles/olive-editor.dir/global/math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/global/math.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/global/math.cpp > CMakeFiles/olive-editor.dir/global/math.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/global/math.cpp > CMakeFiles/olive-editor.dir/global/math.cpp.i
 
 CMakeFiles/olive-editor.dir/global/math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/global/math.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/global/math.cpp -o CMakeFiles/olive-editor.dir/global/math.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/global/math.cpp -o CMakeFiles/olive-editor.dir/global/math.cpp.s
 
 CMakeFiles/olive-editor.dir/global/path.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/global/path.cpp.o: ../global/path.cpp
 CMakeFiles/olive-editor.dir/global/path.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/olive-editor.dir/global/path.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/path.cpp.o -MF CMakeFiles/olive-editor.dir/global/path.cpp.o.d -o CMakeFiles/olive-editor.dir/global/path.cpp.o -c /home/faranaiki/Sources/olive/global/path.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/olive-editor.dir/global/path.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/global/path.cpp.o -MF CMakeFiles/olive-editor.dir/global/path.cpp.o.d -o CMakeFiles/olive-editor.dir/global/path.cpp.o -c /home/faranaiki/Sources/olive-divergence/global/path.cpp
 
 CMakeFiles/olive-editor.dir/global/path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/global/path.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/global/path.cpp > CMakeFiles/olive-editor.dir/global/path.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/global/path.cpp > CMakeFiles/olive-editor.dir/global/path.cpp.i
 
 CMakeFiles/olive-editor.dir/global/path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/global/path.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/global/path.cpp -o CMakeFiles/olive-editor.dir/global/path.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/global/path.cpp -o CMakeFiles/olive-editor.dir/global/path.cpp.s
 
 CMakeFiles/olive-editor.dir/include/muparser.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/include/muparser.cpp.o: ../include/muparser.cpp
 CMakeFiles/olive-editor.dir/include/muparser.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/olive-editor.dir/include/muparser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/include/muparser.cpp.o -MF CMakeFiles/olive-editor.dir/include/muparser.cpp.o.d -o CMakeFiles/olive-editor.dir/include/muparser.cpp.o -c /home/faranaiki/Sources/olive/include/muparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/olive-editor.dir/include/muparser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/include/muparser.cpp.o -MF CMakeFiles/olive-editor.dir/include/muparser.cpp.o.d -o CMakeFiles/olive-editor.dir/include/muparser.cpp.o -c /home/faranaiki/Sources/olive-divergence/include/muparser.cpp
 
 CMakeFiles/olive-editor.dir/include/muparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/include/muparser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/include/muparser.cpp > CMakeFiles/olive-editor.dir/include/muparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/include/muparser.cpp > CMakeFiles/olive-editor.dir/include/muparser.cpp.i
 
 CMakeFiles/olive-editor.dir/include/muparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/include/muparser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/include/muparser.cpp -o CMakeFiles/olive-editor.dir/include/muparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/include/muparser.cpp -o CMakeFiles/olive-editor.dir/include/muparser.cpp.s
 
 CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o: ../panels/effectcontrols.cpp
 CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o -MF CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o -c /home/faranaiki/Sources/olive/panels/effectcontrols.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o -MF CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.o -c /home/faranaiki/Sources/olive-divergence/panels/effectcontrols.cpp
 
 CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/panels/effectcontrols.cpp > CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/panels/effectcontrols.cpp > CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.i
 
 CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/panels/effectcontrols.cpp -o CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/panels/effectcontrols.cpp -o CMakeFiles/olive-editor.dir/panels/effectcontrols.cpp.s
 
 CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o: ../panels/grapheditor.cpp
 CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o -MF CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o -c /home/faranaiki/Sources/olive/panels/grapheditor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o -MF CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.o -c /home/faranaiki/Sources/olive-divergence/panels/grapheditor.cpp
 
 CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/panels/grapheditor.cpp > CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/panels/grapheditor.cpp > CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.i
 
 CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/panels/grapheditor.cpp -o CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/panels/grapheditor.cpp -o CMakeFiles/olive-editor.dir/panels/grapheditor.cpp.s
 
 CMakeFiles/olive-editor.dir/panels/panels.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/panels/panels.cpp.o: ../panels/panels.cpp
 CMakeFiles/olive-editor.dir/panels/panels.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/olive-editor.dir/panels/panels.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/panels.cpp.o -MF CMakeFiles/olive-editor.dir/panels/panels.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/panels.cpp.o -c /home/faranaiki/Sources/olive/panels/panels.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/olive-editor.dir/panels/panels.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/panels.cpp.o -MF CMakeFiles/olive-editor.dir/panels/panels.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/panels.cpp.o -c /home/faranaiki/Sources/olive-divergence/panels/panels.cpp
 
 CMakeFiles/olive-editor.dir/panels/panels.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/panels/panels.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/panels/panels.cpp > CMakeFiles/olive-editor.dir/panels/panels.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/panels/panels.cpp > CMakeFiles/olive-editor.dir/panels/panels.cpp.i
 
 CMakeFiles/olive-editor.dir/panels/panels.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/panels/panels.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/panels/panels.cpp -o CMakeFiles/olive-editor.dir/panels/panels.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/panels/panels.cpp -o CMakeFiles/olive-editor.dir/panels/panels.cpp.s
 
 CMakeFiles/olive-editor.dir/panels/project.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/panels/project.cpp.o: ../panels/project.cpp
 CMakeFiles/olive-editor.dir/panels/project.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/olive-editor.dir/panels/project.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/project.cpp.o -MF CMakeFiles/olive-editor.dir/panels/project.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/project.cpp.o -c /home/faranaiki/Sources/olive/panels/project.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/olive-editor.dir/panels/project.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/project.cpp.o -MF CMakeFiles/olive-editor.dir/panels/project.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/project.cpp.o -c /home/faranaiki/Sources/olive-divergence/panels/project.cpp
 
 CMakeFiles/olive-editor.dir/panels/project.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/panels/project.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/panels/project.cpp > CMakeFiles/olive-editor.dir/panels/project.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/panels/project.cpp > CMakeFiles/olive-editor.dir/panels/project.cpp.i
 
 CMakeFiles/olive-editor.dir/panels/project.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/panels/project.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/panels/project.cpp -o CMakeFiles/olive-editor.dir/panels/project.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/panels/project.cpp -o CMakeFiles/olive-editor.dir/panels/project.cpp.s
 
 CMakeFiles/olive-editor.dir/panels/timeline.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/panels/timeline.cpp.o: ../panels/timeline.cpp
 CMakeFiles/olive-editor.dir/panels/timeline.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/olive-editor.dir/panels/timeline.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/timeline.cpp.o -MF CMakeFiles/olive-editor.dir/panels/timeline.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/timeline.cpp.o -c /home/faranaiki/Sources/olive/panels/timeline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/olive-editor.dir/panels/timeline.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/timeline.cpp.o -MF CMakeFiles/olive-editor.dir/panels/timeline.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/timeline.cpp.o -c /home/faranaiki/Sources/olive-divergence/panels/timeline.cpp
 
 CMakeFiles/olive-editor.dir/panels/timeline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/panels/timeline.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/panels/timeline.cpp > CMakeFiles/olive-editor.dir/panels/timeline.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/panels/timeline.cpp > CMakeFiles/olive-editor.dir/panels/timeline.cpp.i
 
 CMakeFiles/olive-editor.dir/panels/timeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/panels/timeline.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/panels/timeline.cpp -o CMakeFiles/olive-editor.dir/panels/timeline.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/panels/timeline.cpp -o CMakeFiles/olive-editor.dir/panels/timeline.cpp.s
 
 CMakeFiles/olive-editor.dir/panels/viewer.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/panels/viewer.cpp.o: ../panels/viewer.cpp
 CMakeFiles/olive-editor.dir/panels/viewer.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/olive-editor.dir/panels/viewer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/viewer.cpp.o -MF CMakeFiles/olive-editor.dir/panels/viewer.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/viewer.cpp.o -c /home/faranaiki/Sources/olive/panels/viewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/olive-editor.dir/panels/viewer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/panels/viewer.cpp.o -MF CMakeFiles/olive-editor.dir/panels/viewer.cpp.o.d -o CMakeFiles/olive-editor.dir/panels/viewer.cpp.o -c /home/faranaiki/Sources/olive-divergence/panels/viewer.cpp
 
 CMakeFiles/olive-editor.dir/panels/viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/panels/viewer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/panels/viewer.cpp > CMakeFiles/olive-editor.dir/panels/viewer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/panels/viewer.cpp > CMakeFiles/olive-editor.dir/panels/viewer.cpp.i
 
 CMakeFiles/olive-editor.dir/panels/viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/panels/viewer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/panels/viewer.cpp -o CMakeFiles/olive-editor.dir/panels/viewer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/panels/viewer.cpp -o CMakeFiles/olive-editor.dir/panels/viewer.cpp.s
 
 CMakeFiles/olive-editor.dir/project/clipboard.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/clipboard.cpp.o: ../project/clipboard.cpp
 CMakeFiles/olive-editor.dir/project/clipboard.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/olive-editor.dir/project/clipboard.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/clipboard.cpp.o -MF CMakeFiles/olive-editor.dir/project/clipboard.cpp.o.d -o CMakeFiles/olive-editor.dir/project/clipboard.cpp.o -c /home/faranaiki/Sources/olive/project/clipboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/olive-editor.dir/project/clipboard.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/clipboard.cpp.o -MF CMakeFiles/olive-editor.dir/project/clipboard.cpp.o.d -o CMakeFiles/olive-editor.dir/project/clipboard.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/clipboard.cpp
 
 CMakeFiles/olive-editor.dir/project/clipboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/clipboard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/clipboard.cpp > CMakeFiles/olive-editor.dir/project/clipboard.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/clipboard.cpp > CMakeFiles/olive-editor.dir/project/clipboard.cpp.i
 
 CMakeFiles/olive-editor.dir/project/clipboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/clipboard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/clipboard.cpp -o CMakeFiles/olive-editor.dir/project/clipboard.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/clipboard.cpp -o CMakeFiles/olive-editor.dir/project/clipboard.cpp.s
 
 CMakeFiles/olive-editor.dir/project/footage.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/footage.cpp.o: ../project/footage.cpp
 CMakeFiles/olive-editor.dir/project/footage.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/olive-editor.dir/project/footage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/footage.cpp.o -MF CMakeFiles/olive-editor.dir/project/footage.cpp.o.d -o CMakeFiles/olive-editor.dir/project/footage.cpp.o -c /home/faranaiki/Sources/olive/project/footage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/olive-editor.dir/project/footage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/footage.cpp.o -MF CMakeFiles/olive-editor.dir/project/footage.cpp.o.d -o CMakeFiles/olive-editor.dir/project/footage.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/footage.cpp
 
 CMakeFiles/olive-editor.dir/project/footage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/footage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/footage.cpp > CMakeFiles/olive-editor.dir/project/footage.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/footage.cpp > CMakeFiles/olive-editor.dir/project/footage.cpp.i
 
 CMakeFiles/olive-editor.dir/project/footage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/footage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/footage.cpp -o CMakeFiles/olive-editor.dir/project/footage.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/footage.cpp -o CMakeFiles/olive-editor.dir/project/footage.cpp.s
 
 CMakeFiles/olive-editor.dir/project/loadthread.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/loadthread.cpp.o: ../project/loadthread.cpp
 CMakeFiles/olive-editor.dir/project/loadthread.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/olive-editor.dir/project/loadthread.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/loadthread.cpp.o -MF CMakeFiles/olive-editor.dir/project/loadthread.cpp.o.d -o CMakeFiles/olive-editor.dir/project/loadthread.cpp.o -c /home/faranaiki/Sources/olive/project/loadthread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/olive-editor.dir/project/loadthread.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/loadthread.cpp.o -MF CMakeFiles/olive-editor.dir/project/loadthread.cpp.o.d -o CMakeFiles/olive-editor.dir/project/loadthread.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/loadthread.cpp
 
 CMakeFiles/olive-editor.dir/project/loadthread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/loadthread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/loadthread.cpp > CMakeFiles/olive-editor.dir/project/loadthread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/loadthread.cpp > CMakeFiles/olive-editor.dir/project/loadthread.cpp.i
 
 CMakeFiles/olive-editor.dir/project/loadthread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/loadthread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/loadthread.cpp -o CMakeFiles/olive-editor.dir/project/loadthread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/loadthread.cpp -o CMakeFiles/olive-editor.dir/project/loadthread.cpp.s
 
 CMakeFiles/olive-editor.dir/project/media.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/media.cpp.o: ../project/media.cpp
 CMakeFiles/olive-editor.dir/project/media.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/olive-editor.dir/project/media.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/media.cpp.o -MF CMakeFiles/olive-editor.dir/project/media.cpp.o.d -o CMakeFiles/olive-editor.dir/project/media.cpp.o -c /home/faranaiki/Sources/olive/project/media.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/olive-editor.dir/project/media.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/media.cpp.o -MF CMakeFiles/olive-editor.dir/project/media.cpp.o.d -o CMakeFiles/olive-editor.dir/project/media.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/media.cpp
 
 CMakeFiles/olive-editor.dir/project/media.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/media.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/media.cpp > CMakeFiles/olive-editor.dir/project/media.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/media.cpp > CMakeFiles/olive-editor.dir/project/media.cpp.i
 
 CMakeFiles/olive-editor.dir/project/media.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/media.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/media.cpp -o CMakeFiles/olive-editor.dir/project/media.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/media.cpp -o CMakeFiles/olive-editor.dir/project/media.cpp.s
 
 CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o: ../project/previewgenerator.cpp
 CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o -MF CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o.d -o CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o -c /home/faranaiki/Sources/olive/project/previewgenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o -MF CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o.d -o CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/previewgenerator.cpp
 
 CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/previewgenerator.cpp > CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/previewgenerator.cpp > CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.i
 
 CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/previewgenerator.cpp -o CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/previewgenerator.cpp -o CMakeFiles/olive-editor.dir/project/previewgenerator.cpp.s
 
 CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o: ../project/projectfilter.cpp
 CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o -MF CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o.d -o CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o -c /home/faranaiki/Sources/olive/project/projectfilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o -MF CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o.d -o CMakeFiles/olive-editor.dir/project/projectfilter.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/projectfilter.cpp
 
 CMakeFiles/olive-editor.dir/project/projectfilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/projectfilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/projectfilter.cpp > CMakeFiles/olive-editor.dir/project/projectfilter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/projectfilter.cpp > CMakeFiles/olive-editor.dir/project/projectfilter.cpp.i
 
 CMakeFiles/olive-editor.dir/project/projectfilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/projectfilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/projectfilter.cpp -o CMakeFiles/olive-editor.dir/project/projectfilter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/projectfilter.cpp -o CMakeFiles/olive-editor.dir/project/projectfilter.cpp.s
 
 CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o: ../project/projectmodel.cpp
 CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o -MF CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o.d -o CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o -c /home/faranaiki/Sources/olive/project/projectmodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o -MF CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o.d -o CMakeFiles/olive-editor.dir/project/projectmodel.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/projectmodel.cpp
 
 CMakeFiles/olive-editor.dir/project/projectmodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/projectmodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/projectmodel.cpp > CMakeFiles/olive-editor.dir/project/projectmodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/projectmodel.cpp > CMakeFiles/olive-editor.dir/project/projectmodel.cpp.i
 
 CMakeFiles/olive-editor.dir/project/projectmodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/projectmodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/projectmodel.cpp -o CMakeFiles/olive-editor.dir/project/projectmodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/projectmodel.cpp -o CMakeFiles/olive-editor.dir/project/projectmodel.cpp.s
 
 CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o: ../project/proxygenerator.cpp
 CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o -MF CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o.d -o CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o -c /home/faranaiki/Sources/olive/project/proxygenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o -MF CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o.d -o CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/proxygenerator.cpp
 
 CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/proxygenerator.cpp > CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/proxygenerator.cpp > CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.i
 
 CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/proxygenerator.cpp -o CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/proxygenerator.cpp -o CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.s
 
 CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o: ../project/sourcescommon.cpp
 CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o -MF CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o.d -o CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o -c /home/faranaiki/Sources/olive/project/sourcescommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o -MF CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o.d -o CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.o -c /home/faranaiki/Sources/olive-divergence/project/sourcescommon.cpp
 
 CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/project/sourcescommon.cpp > CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/project/sourcescommon.cpp > CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.i
 
 CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/project/sourcescommon.cpp -o CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/project/sourcescommon.cpp -o CMakeFiles/olive-editor.dir/project/sourcescommon.cpp.s
 
 CMakeFiles/olive-editor.dir/rendering/audio.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/rendering/audio.cpp.o: ../rendering/audio.cpp
 CMakeFiles/olive-editor.dir/rendering/audio.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/olive-editor.dir/rendering/audio.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/audio.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/audio.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/audio.cpp.o -c /home/faranaiki/Sources/olive/rendering/audio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/olive-editor.dir/rendering/audio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/audio.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/audio.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/audio.cpp.o -c /home/faranaiki/Sources/olive-divergence/rendering/audio.cpp
 
 CMakeFiles/olive-editor.dir/rendering/audio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/rendering/audio.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/rendering/audio.cpp > CMakeFiles/olive-editor.dir/rendering/audio.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/rendering/audio.cpp > CMakeFiles/olive-editor.dir/rendering/audio.cpp.i
 
 CMakeFiles/olive-editor.dir/rendering/audio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/rendering/audio.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/rendering/audio.cpp -o CMakeFiles/olive-editor.dir/rendering/audio.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/rendering/audio.cpp -o CMakeFiles/olive-editor.dir/rendering/audio.cpp.s
 
 CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o: ../rendering/cacher.cpp
 CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o -c /home/faranaiki/Sources/olive/rendering/cacher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/cacher.cpp.o -c /home/faranaiki/Sources/olive-divergence/rendering/cacher.cpp
 
 CMakeFiles/olive-editor.dir/rendering/cacher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/rendering/cacher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/rendering/cacher.cpp > CMakeFiles/olive-editor.dir/rendering/cacher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/rendering/cacher.cpp > CMakeFiles/olive-editor.dir/rendering/cacher.cpp.i
 
 CMakeFiles/olive-editor.dir/rendering/cacher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/rendering/cacher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/rendering/cacher.cpp -o CMakeFiles/olive-editor.dir/rendering/cacher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/rendering/cacher.cpp -o CMakeFiles/olive-editor.dir/rendering/cacher.cpp.s
 
 CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o: ../rendering/clipqueue.cpp
 CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o -c /home/faranaiki/Sources/olive/rendering/clipqueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o -c /home/faranaiki/Sources/olive-divergence/rendering/clipqueue.cpp
 
 CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/rendering/clipqueue.cpp > CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/rendering/clipqueue.cpp > CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.i
 
 CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/rendering/clipqueue.cpp -o CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/rendering/clipqueue.cpp -o CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.s
 
 CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o: ../rendering/exportthread.cpp
 CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o -c /home/faranaiki/Sources/olive/rendering/exportthread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.o -c /home/faranaiki/Sources/olive-divergence/rendering/exportthread.cpp
 
 CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/rendering/exportthread.cpp > CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/rendering/exportthread.cpp > CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.i
 
 CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/rendering/exportthread.cpp -o CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/rendering/exportthread.cpp -o CMakeFiles/olive-editor.dir/rendering/exportthread.cpp.s
 
 CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o: ../rendering/framebufferobject.cpp
 CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o -c /home/faranaiki/Sources/olive/rendering/framebufferobject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o -c /home/faranaiki/Sources/olive-divergence/rendering/framebufferobject.cpp
 
 CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/rendering/framebufferobject.cpp > CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/rendering/framebufferobject.cpp > CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.i
 
 CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/rendering/framebufferobject.cpp -o CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/rendering/framebufferobject.cpp -o CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.s
 
 CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o: ../rendering/renderfunctions.cpp
 CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o -c /home/faranaiki/Sources/olive/rendering/renderfunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.o -c /home/faranaiki/Sources/olive-divergence/rendering/renderfunctions.cpp
 
 CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/rendering/renderfunctions.cpp > CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/rendering/renderfunctions.cpp > CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.i
 
 CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/rendering/renderfunctions.cpp -o CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/rendering/renderfunctions.cpp -o CMakeFiles/olive-editor.dir/rendering/renderfunctions.cpp.s
 
 CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o: ../rendering/renderthread.cpp
 CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o -c /home/faranaiki/Sources/olive/rendering/renderthread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o -MF CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o.d -o CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o -c /home/faranaiki/Sources/olive-divergence/rendering/renderthread.cpp
 
 CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/rendering/renderthread.cpp > CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/rendering/renderthread.cpp > CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.i
 
 CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/rendering/renderthread.cpp -o CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/rendering/renderthread.cpp -o CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.s
 
 CMakeFiles/olive-editor.dir/timeline/clip.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/timeline/clip.cpp.o: ../timeline/clip.cpp
 CMakeFiles/olive-editor.dir/timeline/clip.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/olive-editor.dir/timeline/clip.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/timeline/clip.cpp.o -MF CMakeFiles/olive-editor.dir/timeline/clip.cpp.o.d -o CMakeFiles/olive-editor.dir/timeline/clip.cpp.o -c /home/faranaiki/Sources/olive/timeline/clip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/olive-editor.dir/timeline/clip.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/timeline/clip.cpp.o -MF CMakeFiles/olive-editor.dir/timeline/clip.cpp.o.d -o CMakeFiles/olive-editor.dir/timeline/clip.cpp.o -c /home/faranaiki/Sources/olive-divergence/timeline/clip.cpp
 
 CMakeFiles/olive-editor.dir/timeline/clip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/timeline/clip.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/timeline/clip.cpp > CMakeFiles/olive-editor.dir/timeline/clip.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/timeline/clip.cpp > CMakeFiles/olive-editor.dir/timeline/clip.cpp.i
 
 CMakeFiles/olive-editor.dir/timeline/clip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/timeline/clip.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/timeline/clip.cpp -o CMakeFiles/olive-editor.dir/timeline/clip.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/timeline/clip.cpp -o CMakeFiles/olive-editor.dir/timeline/clip.cpp.s
 
 CMakeFiles/olive-editor.dir/timeline/marker.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/timeline/marker.cpp.o: ../timeline/marker.cpp
 CMakeFiles/olive-editor.dir/timeline/marker.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/olive-editor.dir/timeline/marker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/timeline/marker.cpp.o -MF CMakeFiles/olive-editor.dir/timeline/marker.cpp.o.d -o CMakeFiles/olive-editor.dir/timeline/marker.cpp.o -c /home/faranaiki/Sources/olive/timeline/marker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/olive-editor.dir/timeline/marker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/timeline/marker.cpp.o -MF CMakeFiles/olive-editor.dir/timeline/marker.cpp.o.d -o CMakeFiles/olive-editor.dir/timeline/marker.cpp.o -c /home/faranaiki/Sources/olive-divergence/timeline/marker.cpp
 
 CMakeFiles/olive-editor.dir/timeline/marker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/timeline/marker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/timeline/marker.cpp > CMakeFiles/olive-editor.dir/timeline/marker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/timeline/marker.cpp > CMakeFiles/olive-editor.dir/timeline/marker.cpp.i
 
 CMakeFiles/olive-editor.dir/timeline/marker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/timeline/marker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/timeline/marker.cpp -o CMakeFiles/olive-editor.dir/timeline/marker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/timeline/marker.cpp -o CMakeFiles/olive-editor.dir/timeline/marker.cpp.s
 
 CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o: ../timeline/mediaimportdata.cpp
 CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o -MF CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o.d -o CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o -c /home/faranaiki/Sources/olive/timeline/mediaimportdata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o -MF CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o.d -o CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o -c /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.cpp
 
 CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/timeline/mediaimportdata.cpp > CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.cpp > CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.i
 
 CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/timeline/mediaimportdata.cpp -o CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.cpp -o CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.s
 
 CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o: ../timeline/sequence.cpp
 CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o -MF CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o.d -o CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o -c /home/faranaiki/Sources/olive/timeline/sequence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o -MF CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o.d -o CMakeFiles/olive-editor.dir/timeline/sequence.cpp.o -c /home/faranaiki/Sources/olive-divergence/timeline/sequence.cpp
 
 CMakeFiles/olive-editor.dir/timeline/sequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/timeline/sequence.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/timeline/sequence.cpp > CMakeFiles/olive-editor.dir/timeline/sequence.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/timeline/sequence.cpp > CMakeFiles/olive-editor.dir/timeline/sequence.cpp.i
 
 CMakeFiles/olive-editor.dir/timeline/sequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/timeline/sequence.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/timeline/sequence.cpp -o CMakeFiles/olive-editor.dir/timeline/sequence.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/timeline/sequence.cpp -o CMakeFiles/olive-editor.dir/timeline/sequence.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o: ../ui/audiomonitor.cpp
 CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o -MF CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o -c /home/faranaiki/Sources/olive/ui/audiomonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o -MF CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/audiomonitor.cpp
 
 CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/audiomonitor.cpp > CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/audiomonitor.cpp > CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/audiomonitor.cpp -o CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/audiomonitor.cpp -o CMakeFiles/olive-editor.dir/ui/audiomonitor.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/blur.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/blur.cpp.o: ../ui/blur.cpp
 CMakeFiles/olive-editor.dir/ui/blur.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/olive-editor.dir/ui/blur.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/blur.cpp.o -MF CMakeFiles/olive-editor.dir/ui/blur.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/blur.cpp.o -c /home/faranaiki/Sources/olive/ui/blur.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/olive-editor.dir/ui/blur.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/blur.cpp.o -MF CMakeFiles/olive-editor.dir/ui/blur.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/blur.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/blur.cpp
 
 CMakeFiles/olive-editor.dir/ui/blur.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/blur.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/blur.cpp > CMakeFiles/olive-editor.dir/ui/blur.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/blur.cpp > CMakeFiles/olive-editor.dir/ui/blur.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/blur.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/blur.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/blur.cpp -o CMakeFiles/olive-editor.dir/ui/blur.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/blur.cpp -o CMakeFiles/olive-editor.dir/ui/blur.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o: ../ui/clickablelabel.cpp
 CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o -MF CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o -c /home/faranaiki/Sources/olive/ui/clickablelabel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o -MF CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/clickablelabel.cpp
 
 CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/clickablelabel.cpp > CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/clickablelabel.cpp > CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/clickablelabel.cpp -o CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/clickablelabel.cpp -o CMakeFiles/olive-editor.dir/ui/clickablelabel.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o: ../ui/collapsiblewidget.cpp
 CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o -MF CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o -c /home/faranaiki/Sources/olive/ui/collapsiblewidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o -MF CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.cpp
 
 CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/collapsiblewidget.cpp > CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.cpp > CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/collapsiblewidget.cpp -o CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.cpp -o CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o: ../ui/columnedgridlayout.cpp
 CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o -MF CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o -c /home/faranaiki/Sources/olive/ui/columnedgridlayout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o -MF CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/columnedgridlayout.cpp
 
 CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/columnedgridlayout.cpp > CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/columnedgridlayout.cpp > CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/columnedgridlayout.cpp -o CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/columnedgridlayout.cpp -o CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o: ../ui/colorbutton.cpp
 CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o -MF CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o -c /home/faranaiki/Sources/olive/ui/colorbutton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o -MF CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/colorbutton.cpp
 
 CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/colorbutton.cpp > CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/colorbutton.cpp > CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/colorbutton.cpp -o CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/colorbutton.cpp -o CMakeFiles/olive-editor.dir/ui/colorbutton.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o: ../ui/comboboxex.cpp
 CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o -MF CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o -c /home/faranaiki/Sources/olive/ui/comboboxex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o -MF CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/comboboxex.cpp
 
 CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/comboboxex.cpp > CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/comboboxex.cpp > CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/comboboxex.cpp -o CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/comboboxex.cpp -o CMakeFiles/olive-editor.dir/ui/comboboxex.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/cursors.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/cursors.cpp.o: ../ui/cursors.cpp
 CMakeFiles/olive-editor.dir/ui/cursors.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/olive-editor.dir/ui/cursors.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/cursors.cpp.o -MF CMakeFiles/olive-editor.dir/ui/cursors.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/cursors.cpp.o -c /home/faranaiki/Sources/olive/ui/cursors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/olive-editor.dir/ui/cursors.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/cursors.cpp.o -MF CMakeFiles/olive-editor.dir/ui/cursors.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/cursors.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/cursors.cpp
 
 CMakeFiles/olive-editor.dir/ui/cursors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/cursors.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/cursors.cpp > CMakeFiles/olive-editor.dir/ui/cursors.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/cursors.cpp > CMakeFiles/olive-editor.dir/ui/cursors.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/cursors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/cursors.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/cursors.cpp -o CMakeFiles/olive-editor.dir/ui/cursors.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/cursors.cpp -o CMakeFiles/olive-editor.dir/ui/cursors.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/effectui.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/effectui.cpp.o: ../ui/effectui.cpp
 CMakeFiles/olive-editor.dir/ui/effectui.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/olive-editor.dir/ui/effectui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/effectui.cpp.o -MF CMakeFiles/olive-editor.dir/ui/effectui.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/effectui.cpp.o -c /home/faranaiki/Sources/olive/ui/effectui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/olive-editor.dir/ui/effectui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/effectui.cpp.o -MF CMakeFiles/olive-editor.dir/ui/effectui.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/effectui.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/effectui.cpp
 
 CMakeFiles/olive-editor.dir/ui/effectui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/effectui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/effectui.cpp > CMakeFiles/olive-editor.dir/ui/effectui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/effectui.cpp > CMakeFiles/olive-editor.dir/ui/effectui.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/effectui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/effectui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/effectui.cpp -o CMakeFiles/olive-editor.dir/ui/effectui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/effectui.cpp -o CMakeFiles/olive-editor.dir/ui/effectui.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o: ../ui/embeddedfilechooser.cpp
 CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o -MF CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o -c /home/faranaiki/Sources/olive/ui/embeddedfilechooser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o -MF CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/embeddedfilechooser.cpp
 
 CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/embeddedfilechooser.cpp > CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/embeddedfilechooser.cpp > CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/embeddedfilechooser.cpp -o CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/embeddedfilechooser.cpp -o CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o: ../ui/flowlayout.cpp
 CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o -MF CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o -c /home/faranaiki/Sources/olive/ui/flowlayout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o -MF CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/flowlayout.cpp
 
 CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/flowlayout.cpp > CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/flowlayout.cpp > CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/flowlayout.cpp -o CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/flowlayout.cpp -o CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o: ../ui/focusfilter.cpp
 CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o -MF CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o -c /home/faranaiki/Sources/olive/ui/focusfilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o -MF CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/focusfilter.cpp
 
 CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/focusfilter.cpp > CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/focusfilter.cpp > CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/focusfilter.cpp -o CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/focusfilter.cpp -o CMakeFiles/olive-editor.dir/ui/focusfilter.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o: ../ui/fontcombobox.cpp
 CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o -MF CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o -c /home/faranaiki/Sources/olive/ui/fontcombobox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o -MF CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/fontcombobox.cpp
 
 CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/fontcombobox.cpp > CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/fontcombobox.cpp > CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/fontcombobox.cpp -o CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/fontcombobox.cpp -o CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/graphview.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/graphview.cpp.o: ../ui/graphview.cpp
 CMakeFiles/olive-editor.dir/ui/graphview.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/olive-editor.dir/ui/graphview.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/graphview.cpp.o -MF CMakeFiles/olive-editor.dir/ui/graphview.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/graphview.cpp.o -c /home/faranaiki/Sources/olive/ui/graphview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/olive-editor.dir/ui/graphview.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/graphview.cpp.o -MF CMakeFiles/olive-editor.dir/ui/graphview.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/graphview.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/graphview.cpp
 
 CMakeFiles/olive-editor.dir/ui/graphview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/graphview.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/graphview.cpp > CMakeFiles/olive-editor.dir/ui/graphview.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/graphview.cpp > CMakeFiles/olive-editor.dir/ui/graphview.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/graphview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/graphview.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/graphview.cpp -o CMakeFiles/olive-editor.dir/ui/graphview.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/graphview.cpp -o CMakeFiles/olive-editor.dir/ui/graphview.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/icons.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/icons.cpp.o: ../ui/icons.cpp
 CMakeFiles/olive-editor.dir/ui/icons.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/olive-editor.dir/ui/icons.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/icons.cpp.o -MF CMakeFiles/olive-editor.dir/ui/icons.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/icons.cpp.o -c /home/faranaiki/Sources/olive/ui/icons.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/olive-editor.dir/ui/icons.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/icons.cpp.o -MF CMakeFiles/olive-editor.dir/ui/icons.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/icons.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/icons.cpp
 
 CMakeFiles/olive-editor.dir/ui/icons.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/icons.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/icons.cpp > CMakeFiles/olive-editor.dir/ui/icons.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/icons.cpp > CMakeFiles/olive-editor.dir/ui/icons.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/icons.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/icons.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/icons.cpp -o CMakeFiles/olive-editor.dir/ui/icons.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/icons.cpp -o CMakeFiles/olive-editor.dir/ui/icons.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o: ../ui/keyframedrawing.cpp
 CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o -MF CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o -c /home/faranaiki/Sources/olive/ui/keyframedrawing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o -MF CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/keyframedrawing.cpp
 
 CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/keyframedrawing.cpp > CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/keyframedrawing.cpp > CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/keyframedrawing.cpp -o CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/keyframedrawing.cpp -o CMakeFiles/olive-editor.dir/ui/keyframedrawing.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o: ../ui/keyframenavigator.cpp
 CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o -MF CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o -c /home/faranaiki/Sources/olive/ui/keyframenavigator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o -MF CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/keyframenavigator.cpp
 
 CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/keyframenavigator.cpp > CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/keyframenavigator.cpp > CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/keyframenavigator.cpp -o CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/keyframenavigator.cpp -o CMakeFiles/olive-editor.dir/ui/keyframenavigator.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o: ../ui/keyframeview.cpp
 CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o -MF CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o -c /home/faranaiki/Sources/olive/ui/keyframeview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o -MF CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/keyframeview.cpp
 
 CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/keyframeview.cpp > CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/keyframeview.cpp > CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/keyframeview.cpp -o CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/keyframeview.cpp -o CMakeFiles/olive-editor.dir/ui/keyframeview.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o: ../ui/labelslider.cpp
 CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o -MF CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o -c /home/faranaiki/Sources/olive/ui/labelslider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o -MF CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/labelslider.cpp
 
 CMakeFiles/olive-editor.dir/ui/labelslider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/labelslider.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/labelslider.cpp > CMakeFiles/olive-editor.dir/ui/labelslider.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/labelslider.cpp > CMakeFiles/olive-editor.dir/ui/labelslider.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/labelslider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/labelslider.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/labelslider.cpp -o CMakeFiles/olive-editor.dir/ui/labelslider.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/labelslider.cpp -o CMakeFiles/olive-editor.dir/ui/labelslider.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o: ../ui/mainwindow.cpp
 CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o -MF CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o -c /home/faranaiki/Sources/olive/ui/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o -MF CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/mainwindow.cpp
 
 CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/mainwindow.cpp > CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/mainwindow.cpp > CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/mainwindow.cpp -o CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/mainwindow.cpp -o CMakeFiles/olive-editor.dir/ui/mainwindow.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o: ../ui/mediaiconservice.cpp
 CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o -MF CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o -c /home/faranaiki/Sources/olive/ui/mediaiconservice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o -MF CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/mediaiconservice.cpp
 
 CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/mediaiconservice.cpp > CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/mediaiconservice.cpp > CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/mediaiconservice.cpp -o CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/mediaiconservice.cpp -o CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/menu.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/menu.cpp.o: ../ui/menu.cpp
 CMakeFiles/olive-editor.dir/ui/menu.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/olive-editor.dir/ui/menu.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/menu.cpp.o -MF CMakeFiles/olive-editor.dir/ui/menu.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/menu.cpp.o -c /home/faranaiki/Sources/olive/ui/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/olive-editor.dir/ui/menu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/menu.cpp.o -MF CMakeFiles/olive-editor.dir/ui/menu.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/menu.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/menu.cpp
 
 CMakeFiles/olive-editor.dir/ui/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/menu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/menu.cpp > CMakeFiles/olive-editor.dir/ui/menu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/menu.cpp > CMakeFiles/olive-editor.dir/ui/menu.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/menu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/menu.cpp -o CMakeFiles/olive-editor.dir/ui/menu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/menu.cpp -o CMakeFiles/olive-editor.dir/ui/menu.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o: ../ui/menuhelper.cpp
 CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o -MF CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o -c /home/faranaiki/Sources/olive/ui/menuhelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o -MF CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/menuhelper.cpp
 
 CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/menuhelper.cpp > CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/menuhelper.cpp > CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/menuhelper.cpp -o CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/menuhelper.cpp -o CMakeFiles/olive-editor.dir/ui/menuhelper.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/panel.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/panel.cpp.o: ../ui/panel.cpp
 CMakeFiles/olive-editor.dir/ui/panel.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/olive-editor.dir/ui/panel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/panel.cpp.o -MF CMakeFiles/olive-editor.dir/ui/panel.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/panel.cpp.o -c /home/faranaiki/Sources/olive/ui/panel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/olive-editor.dir/ui/panel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/panel.cpp.o -MF CMakeFiles/olive-editor.dir/ui/panel.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/panel.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/panel.cpp
 
 CMakeFiles/olive-editor.dir/ui/panel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/panel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/panel.cpp > CMakeFiles/olive-editor.dir/ui/panel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/panel.cpp > CMakeFiles/olive-editor.dir/ui/panel.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/panel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/panel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/panel.cpp -o CMakeFiles/olive-editor.dir/ui/panel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/panel.cpp -o CMakeFiles/olive-editor.dir/ui/panel.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o: ../ui/playbutton.cpp
 CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o -MF CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o -c /home/faranaiki/Sources/olive/ui/playbutton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o -MF CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/playbutton.cpp
 
 CMakeFiles/olive-editor.dir/ui/playbutton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/playbutton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/playbutton.cpp > CMakeFiles/olive-editor.dir/ui/playbutton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/playbutton.cpp > CMakeFiles/olive-editor.dir/ui/playbutton.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/playbutton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/playbutton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/playbutton.cpp -o CMakeFiles/olive-editor.dir/ui/playbutton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/playbutton.cpp -o CMakeFiles/olive-editor.dir/ui/playbutton.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o: ../ui/rectangleselect.cpp
 CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o -MF CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o -c /home/faranaiki/Sources/olive/ui/rectangleselect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o -MF CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/rectangleselect.cpp
 
 CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/rectangleselect.cpp > CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/rectangleselect.cpp > CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/rectangleselect.cpp -o CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/rectangleselect.cpp -o CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o: ../ui/resizablescrollbar.cpp
 CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o -MF CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o -c /home/faranaiki/Sources/olive/ui/resizablescrollbar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o -MF CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/resizablescrollbar.cpp
 
 CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/resizablescrollbar.cpp > CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/resizablescrollbar.cpp > CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/resizablescrollbar.cpp -o CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/resizablescrollbar.cpp -o CMakeFiles/olive-editor.dir/ui/resizablescrollbar.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o: ../ui/scrollarea.cpp
 CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o -MF CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o -c /home/faranaiki/Sources/olive/ui/scrollarea.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o -MF CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/scrollarea.cpp
 
 CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/scrollarea.cpp > CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/scrollarea.cpp > CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/scrollarea.cpp -o CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/scrollarea.cpp -o CMakeFiles/olive-editor.dir/ui/scrollarea.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o: ../ui/sourceiconview.cpp
 CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o -MF CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o -c /home/faranaiki/Sources/olive/ui/sourceiconview.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o -MF CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/sourceiconview.cpp
 
 CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/sourceiconview.cpp > CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/sourceiconview.cpp > CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/sourceiconview.cpp -o CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/sourceiconview.cpp -o CMakeFiles/olive-editor.dir/ui/sourceiconview.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o: ../ui/sourcetable.cpp
 CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o -MF CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o -c /home/faranaiki/Sources/olive/ui/sourcetable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o -MF CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/sourcetable.cpp
 
 CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/sourcetable.cpp > CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/sourcetable.cpp > CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/sourcetable.cpp -o CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/sourcetable.cpp -o CMakeFiles/olive-editor.dir/ui/sourcetable.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/styling.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/styling.cpp.o: ../ui/styling.cpp
 CMakeFiles/olive-editor.dir/ui/styling.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/olive-editor.dir/ui/styling.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/styling.cpp.o -MF CMakeFiles/olive-editor.dir/ui/styling.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/styling.cpp.o -c /home/faranaiki/Sources/olive/ui/styling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/olive-editor.dir/ui/styling.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/styling.cpp.o -MF CMakeFiles/olive-editor.dir/ui/styling.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/styling.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/styling.cpp
 
 CMakeFiles/olive-editor.dir/ui/styling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/styling.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/styling.cpp > CMakeFiles/olive-editor.dir/ui/styling.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/styling.cpp > CMakeFiles/olive-editor.dir/ui/styling.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/styling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/styling.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/styling.cpp -o CMakeFiles/olive-editor.dir/ui/styling.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/styling.cpp -o CMakeFiles/olive-editor.dir/ui/styling.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o: ../ui/texteditex.cpp
 CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o -MF CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o -c /home/faranaiki/Sources/olive/ui/texteditex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o -MF CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/texteditex.cpp
 
 CMakeFiles/olive-editor.dir/ui/texteditex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/texteditex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/texteditex.cpp > CMakeFiles/olive-editor.dir/ui/texteditex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/texteditex.cpp > CMakeFiles/olive-editor.dir/ui/texteditex.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/texteditex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/texteditex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/texteditex.cpp -o CMakeFiles/olive-editor.dir/ui/texteditex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/texteditex.cpp -o CMakeFiles/olive-editor.dir/ui/texteditex.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o: ../ui/timelineheader.cpp
 CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o -MF CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o -c /home/faranaiki/Sources/olive/ui/timelineheader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o -MF CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/timelineheader.cpp
 
 CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/timelineheader.cpp > CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/timelineheader.cpp > CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/timelineheader.cpp -o CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/timelineheader.cpp -o CMakeFiles/olive-editor.dir/ui/timelineheader.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o: ../ui/timelinewidget.cpp
 CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o -MF CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o -c /home/faranaiki/Sources/olive/ui/timelinewidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o -MF CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/timelinewidget.cpp
 
 CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/timelinewidget.cpp > CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/timelinewidget.cpp > CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/timelinewidget.cpp -o CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/timelinewidget.cpp -o CMakeFiles/olive-editor.dir/ui/timelinewidget.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o: ../ui/updatenotification.cpp
 CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o -MF CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o -c /home/faranaiki/Sources/olive/ui/updatenotification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o -MF CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/updatenotification.cpp
 
 CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/updatenotification.cpp > CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/updatenotification.cpp > CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/updatenotification.cpp -o CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/updatenotification.cpp -o CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o: ../ui/viewercontainer.cpp
 CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o -MF CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o -c /home/faranaiki/Sources/olive/ui/viewercontainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o -MF CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/viewercontainer.cpp
 
 CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/viewercontainer.cpp > CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/viewercontainer.cpp > CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/viewercontainer.cpp -o CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/viewercontainer.cpp -o CMakeFiles/olive-editor.dir/ui/viewercontainer.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o: ../ui/viewerwidget.cpp
 CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o -MF CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o -c /home/faranaiki/Sources/olive/ui/viewerwidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o -MF CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/viewerwidget.cpp
 
 CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/viewerwidget.cpp > CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/viewerwidget.cpp > CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/viewerwidget.cpp -o CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/viewerwidget.cpp -o CMakeFiles/olive-editor.dir/ui/viewerwidget.cpp.s
 
 CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o: ../ui/viewerwindow.cpp
 CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o -MF CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o -c /home/faranaiki/Sources/olive/ui/viewerwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o -MF CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o.d -o CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o -c /home/faranaiki/Sources/olive-divergence/ui/viewerwindow.cpp
 
 CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/ui/viewerwindow.cpp > CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/ui/viewerwindow.cpp > CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.i
 
 CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/ui/viewerwindow.cpp -o CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/ui/viewerwindow.cpp -o CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.s
 
 CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o: ../undo/comboaction.cpp
 CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o -MF CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o.d -o CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o -c /home/faranaiki/Sources/olive/undo/comboaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o -MF CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o.d -o CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o -c /home/faranaiki/Sources/olive-divergence/undo/comboaction.cpp
 
 CMakeFiles/olive-editor.dir/undo/comboaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/undo/comboaction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/undo/comboaction.cpp > CMakeFiles/olive-editor.dir/undo/comboaction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/undo/comboaction.cpp > CMakeFiles/olive-editor.dir/undo/comboaction.cpp.i
 
 CMakeFiles/olive-editor.dir/undo/comboaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/undo/comboaction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/undo/comboaction.cpp -o CMakeFiles/olive-editor.dir/undo/comboaction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/undo/comboaction.cpp -o CMakeFiles/olive-editor.dir/undo/comboaction.cpp.s
 
 CMakeFiles/olive-editor.dir/undo/undo.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/undo/undo.cpp.o: ../undo/undo.cpp
 CMakeFiles/olive-editor.dir/undo/undo.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/olive-editor.dir/undo/undo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/undo/undo.cpp.o -MF CMakeFiles/olive-editor.dir/undo/undo.cpp.o.d -o CMakeFiles/olive-editor.dir/undo/undo.cpp.o -c /home/faranaiki/Sources/olive/undo/undo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/olive-editor.dir/undo/undo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/undo/undo.cpp.o -MF CMakeFiles/olive-editor.dir/undo/undo.cpp.o.d -o CMakeFiles/olive-editor.dir/undo/undo.cpp.o -c /home/faranaiki/Sources/olive-divergence/undo/undo.cpp
 
 CMakeFiles/olive-editor.dir/undo/undo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/undo/undo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/undo/undo.cpp > CMakeFiles/olive-editor.dir/undo/undo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/undo/undo.cpp > CMakeFiles/olive-editor.dir/undo/undo.cpp.i
 
 CMakeFiles/olive-editor.dir/undo/undo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/undo/undo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/undo/undo.cpp -o CMakeFiles/olive-editor.dir/undo/undo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/undo/undo.cpp -o CMakeFiles/olive-editor.dir/undo/undo.cpp.s
 
 CMakeFiles/olive-editor.dir/undo/undostack.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/undo/undostack.cpp.o: ../undo/undostack.cpp
 CMakeFiles/olive-editor.dir/undo/undostack.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/olive-editor.dir/undo/undostack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/undo/undostack.cpp.o -MF CMakeFiles/olive-editor.dir/undo/undostack.cpp.o.d -o CMakeFiles/olive-editor.dir/undo/undostack.cpp.o -c /home/faranaiki/Sources/olive/undo/undostack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/olive-editor.dir/undo/undostack.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/undo/undostack.cpp.o -MF CMakeFiles/olive-editor.dir/undo/undostack.cpp.o.d -o CMakeFiles/olive-editor.dir/undo/undostack.cpp.o -c /home/faranaiki/Sources/olive-divergence/undo/undostack.cpp
 
 CMakeFiles/olive-editor.dir/undo/undostack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/undo/undostack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/undo/undostack.cpp > CMakeFiles/olive-editor.dir/undo/undostack.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/undo/undostack.cpp > CMakeFiles/olive-editor.dir/undo/undostack.cpp.i
 
 CMakeFiles/olive-editor.dir/undo/undostack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/undo/undostack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/undo/undostack.cpp -o CMakeFiles/olive-editor.dir/undo/undostack.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/undo/undostack.cpp -o CMakeFiles/olive-editor.dir/undo/undostack.cpp.s
 
 CMakeFiles/olive-editor.dir/main.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/main.cpp.o: ../main.cpp
 CMakeFiles/olive-editor.dir/main.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/olive-editor.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/main.cpp.o -MF CMakeFiles/olive-editor.dir/main.cpp.o.d -o CMakeFiles/olive-editor.dir/main.cpp.o -c /home/faranaiki/Sources/olive/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/olive-editor.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/main.cpp.o -MF CMakeFiles/olive-editor.dir/main.cpp.o.d -o CMakeFiles/olive-editor.dir/main.cpp.o -c /home/faranaiki/Sources/olive-divergence/main.cpp
 
 CMakeFiles/olive-editor.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/main.cpp > CMakeFiles/olive-editor.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/main.cpp > CMakeFiles/olive-editor.dir/main.cpp.i
 
 CMakeFiles/olive-editor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/main.cpp -o CMakeFiles/olive-editor.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/main.cpp -o CMakeFiles/olive-editor.dir/main.cpp.s
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o: olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp
 CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o -MF CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o.d -o CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o -c /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o -MF CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o.d -o CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.o -c /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp > CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp > CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.i
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp -o CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp -o CMakeFiles/olive-editor.dir/olive-editor_autogen/SEXVANDQAQ/qrc_internalshaders.cpp.s
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o: olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp
 CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o -MF CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o.d -o CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o -c /home/faranaiki/Sources/olive/build/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o -MF CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o.d -o CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o -c /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/build/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp > CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp > CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.i
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/build/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp -o CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp -o CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.s
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o: CMakeFiles/olive-editor.dir/flags.make
 CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o: olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp
 CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o: CMakeFiles/olive-editor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o -MF CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o.d -o CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o -c /home/faranaiki/Sources/olive/build/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o -MF CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o.d -o CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o -c /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive/build/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp > CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp > CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.i
 
 CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive/build/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp -o CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp -o CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.s
 
 # Object files for target olive-editor
 olive__editor_OBJECTS = \
@@ -2320,7 +2320,7 @@ olive-editor: /usr/lib/libQt5Core.so.5.15.3
 olive-editor: /usr/lib/libavcodec.so
 olive-editor: /usr/lib/libavutil.so
 olive-editor: CMakeFiles/olive-editor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Linking CXX executable olive-editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Linking CXX executable olive-editor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/olive-editor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2349,6 +2349,6 @@ CMakeFiles/olive-editor.dir/depend: olive_tr.qm
 CMakeFiles/olive-editor.dir/depend: olive_uk.qm
 CMakeFiles/olive-editor.dir/depend: olive_zh-CN.qm
 CMakeFiles/olive-editor.dir/depend: olive_zh-TW.qm
-	cd /home/faranaiki/Sources/olive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faranaiki/Sources/olive /home/faranaiki/Sources/olive /home/faranaiki/Sources/olive/build /home/faranaiki/Sources/olive/build /home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/faranaiki/Sources/olive-divergence/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faranaiki/Sources/olive-divergence /home/faranaiki/Sources/olive-divergence /home/faranaiki/Sources/olive-divergence/build /home/faranaiki/Sources/olive-divergence/build /home/faranaiki/Sources/olive-divergence/build/CMakeFiles/olive-editor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/olive-editor.dir/depend
 

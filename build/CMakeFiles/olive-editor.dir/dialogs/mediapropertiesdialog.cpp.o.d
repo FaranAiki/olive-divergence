@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: \
- /home/faranaiki/Sources/olive/dialogs/mediapropertiesdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/dialogs/mediapropertiesdialog.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/dialogs/mediapropertiesdialog.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/mediapropertiesdialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -253,7 +253,7 @@ CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: \
  /usr/include/qt/QtWidgets/qspinbox.h /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
- /home/faranaiki/Sources/olive/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/common.h \
  /usr/include/inttypes.h /usr/include/c++/11.2.0/math.h \
@@ -288,9 +288,9 @@ CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: \
  /usr/include/qt/QtCore/qmutex.h /usr/include/qt/QtGui/QPixmap \
  /usr/include/qt/QtGui/qpixmap.h /usr/include/qt/QtGui/QIcon \
  /usr/include/qt/QtGui/qicon.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
- /home/faranaiki/Sources/olive/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtWidgets/QGridLayout \
  /usr/include/qt/QtWidgets/qgridlayout.h \
@@ -307,7 +307,7 @@ CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: \
  /usr/include/qt/QtWidgets/qtreewidgetitemiterator.h \
  /usr/include/qt/QtWidgets/QGroupBox \
  /usr/include/qt/QtWidgets/qgroupbox.h /usr/include/qt/QtWidgets/QSpinBox \
- /home/faranaiki/Sources/olive/panels/project.h \
+ /home/faranaiki/Sources/olive-divergence/panels/project.h \
  /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
  /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QDir \
  /usr/include/qt/QtCore/qdir.h /usr/include/qt/QtCore/qfileinfo.h \
@@ -317,22 +317,22 @@ CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: \
  /usr/include/qt/QtCore/QXmlStreamWriter /usr/include/qt/QtCore/QFile \
  /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtWidgets/QPushButton \
  /usr/include/qt/QtWidgets/qpushbutton.h \
- /home/faranaiki/Sources/olive/project/projectmodel.h \
+ /home/faranaiki/Sources/olive-divergence/project/projectmodel.h \
  /usr/include/qt/QtCore/QAbstractItemModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/project/projectfilter.h \
+ /home/faranaiki/Sources/olive-divergence/project/projectfilter.h \
  /usr/include/qt/QtCore/QSortFilterProxyModel \
  /usr/include/qt/QtCore/qsortfilterproxymodel.h \
  /usr/include/qt/QtCore/qabstractproxymodel.h \
- /home/faranaiki/Sources/olive/project/projectelements.h \
- /home/faranaiki/Sources/olive/project/media.h \
- /home/faranaiki/Sources/olive/project/footage.h \
- /home/faranaiki/Sources/olive/project/sourcescommon.h \
+ /home/faranaiki/Sources/olive-divergence/project/projectelements.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/sourcescommon.h \
  /usr/include/qt/QtCore/QModelIndexList \
- /home/faranaiki/Sources/olive/ui/panel.h \
+ /home/faranaiki/Sources/olive-divergence/ui/panel.h \
  /usr/include/qt/QtWidgets/QDockWidget \
  /usr/include/qt/QtWidgets/qdockwidget.h \
- /home/faranaiki/Sources/olive/ui/sourceiconview.h \
+ /home/faranaiki/Sources/olive-divergence/ui/sourceiconview.h \
  /usr/include/qt/QtWidgets/QListView \
  /usr/include/qt/QtWidgets/qlistview.h /usr/include/qt/QtGui/QDropEvent \
  /usr/include/qt/QtGui/qevent.h /usr/include/qt/QtCore/qcoreevent.h \
@@ -340,16 +340,16 @@ CMakeFiles/olive-editor.dir/dialogs/mediapropertiesdialog.cpp.o: \
  /usr/include/qt/QtGui/qtouchdevice.h \
  /usr/include/qt/QtWidgets/QStyledItemDelegate \
  /usr/include/qt/QtWidgets/qstyleditemdelegate.h \
- /home/faranaiki/Sources/olive/timeline/mediaimportdata.h \
- /home/faranaiki/Sources/olive/undo/undo.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undo.h \
  /usr/include/qt/QtWidgets/QUndoStack \
  /usr/include/qt/QtWidgets/qundostack.h \
  /usr/include/qt/QtWidgets/QUndoCommand \
  /usr/include/qt/QtCore/QModelIndex \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/effects/keyframe.h \
- /home/faranaiki/Sources/olive/ui/sourcetable.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
+ /home/faranaiki/Sources/olive-divergence/ui/sourcetable.h \
  /usr/include/qt/QtWidgets/QTreeView \
  /usr/include/qt/QtWidgets/qtreeview.h \
- /home/faranaiki/Sources/olive/undo/undostack.h
+ /home/faranaiki/Sources/olive-divergence/undo/undostack.h

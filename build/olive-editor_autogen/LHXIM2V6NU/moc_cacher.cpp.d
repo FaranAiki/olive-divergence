@@ -1,6 +1,6 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/moc_cacher.cpp: /home/faranaiki/Sources/olive/rendering/cacher.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
-  /home/faranaiki/Sources/olive/rendering/clipqueue.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/moc_cacher.cpp: /home/faranaiki/Sources/olive-divergence/rendering/cacher.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
+  /home/faranaiki/Sources/olive-divergence/rendering/clipqueue.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/embeddedfilechooser.cpp.o: \
- /home/faranaiki/Sources/olive/ui/embeddedfilechooser.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/embeddedfilechooser.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/embeddedfilechooser.h \
+ /home/faranaiki/Sources/olive-divergence/ui/embeddedfilechooser.h \
  /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \

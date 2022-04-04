@@ -1,8 +1,10 @@
 CMakeFiles/olive-editor.dir/ui/blur.cpp.o: \
- /home/faranaiki/Sources/olive/ui/blur.cpp /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/blur.h /usr/include/qt/QtGui/QImage \
- /usr/include/qt/QtGui/qimage.h /usr/include/qt/QtGui/qtguiglobal.h \
- /usr/include/qt/QtCore/qglobal.h /usr/include/c++/11.2.0/type_traits \
+ /home/faranaiki/Sources/olive-divergence/ui/blur.cpp \
+ /usr/include/stdc-predef.h \
+ /home/faranaiki/Sources/olive-divergence/ui/blur.h \
+ /usr/include/qt/QtGui/QImage /usr/include/qt/QtGui/qimage.h \
+ /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/c++/11.2.0/type_traits \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

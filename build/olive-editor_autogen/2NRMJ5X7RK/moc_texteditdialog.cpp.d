@@ -1,7 +1,7 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_texteditdialog.cpp: /home/faranaiki/Sources/olive/dialogs/texteditdialog.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
-  /home/faranaiki/Sources/olive/ui/colorbutton.h \
-  /home/faranaiki/Sources/olive/ui/labelslider.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_texteditdialog.cpp: /home/faranaiki/Sources/olive-divergence/dialogs/texteditdialog.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
+  /home/faranaiki/Sources/olive-divergence/ui/colorbutton.h \
+  /home/faranaiki/Sources/olive-divergence/ui/labelslider.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

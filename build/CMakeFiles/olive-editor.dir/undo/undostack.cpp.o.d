@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/undo/undostack.cpp.o: \
- /home/faranaiki/Sources/olive/undo/undostack.cpp \
+ /home/faranaiki/Sources/olive-divergence/undo/undostack.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/undo/undostack.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undostack.h \
  /usr/include/qt/QtWidgets/QUndoStack \
  /usr/include/qt/QtWidgets/qundostack.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

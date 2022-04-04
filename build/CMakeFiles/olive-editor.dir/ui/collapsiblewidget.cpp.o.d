@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o: \
- /home/faranaiki/Sources/olive/ui/collapsiblewidget.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/collapsiblewidget.h \
+ /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.h \
  /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -250,5 +250,5 @@ CMakeFiles/olive-editor.dir/ui/collapsiblewidget.cpp.o: \
  /usr/include/qt/QtGui/qvector2d.h /usr/include/qt/QtGui/qtouchdevice.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
- /home/faranaiki/Sources/olive/ui/icons.h \
- /home/faranaiki/Sources/olive/global/debug.h
+ /home/faranaiki/Sources/olive-divergence/ui/icons.h \
+ /home/faranaiki/Sources/olive-divergence/global/debug.h

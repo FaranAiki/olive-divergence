@@ -1,5 +1,5 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_columnedgridlayout.cpp: /home/faranaiki/Sources/olive/ui/columnedgridlayout.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_columnedgridlayout.cpp: /home/faranaiki/Sources/olive-divergence/ui/columnedgridlayout.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \

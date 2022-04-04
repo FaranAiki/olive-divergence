@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o: \
- /home/faranaiki/Sources/olive/dialogs/aboutdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/dialogs/aboutdialog.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/dialogs/aboutdialog.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/aboutdialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -233,8 +233,8 @@ CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o: \
  /usr/include/qt/QtWidgets/qlabel.h /usr/include/qt/QtWidgets/qframe.h \
  /usr/include/qt/QtWidgets/QDialogButtonBox \
  /usr/include/qt/QtWidgets/qdialogbuttonbox.h \
- /home/faranaiki/Sources/olive/global/global.h \
- /home/faranaiki/Sources/olive/undo/undo.h \
+ /home/faranaiki/Sources/olive-divergence/global/global.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undo.h \
  /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
@@ -246,13 +246,13 @@ CMakeFiles/olive-editor.dir/dialogs/aboutdialog.cpp.o: \
  /usr/include/qt/QtCore/QModelIndex \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/effects/keyframe.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
  /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
  /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QFile \
  /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \

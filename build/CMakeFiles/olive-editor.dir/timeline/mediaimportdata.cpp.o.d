@@ -1,8 +1,8 @@
 CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o: \
- /home/faranaiki/Sources/olive/timeline/mediaimportdata.cpp \
+ /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/timeline/mediaimportdata.h \
- /home/faranaiki/Sources/olive/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/qalgorithms.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/11.2.0/type_traits \
@@ -219,13 +219,13 @@ CMakeFiles/olive-editor.dir/timeline/mediaimportdata.cpp.o: \
  /usr/include/qt/QtGui/qpolygon.h /usr/include/qt/QtGui/qregion.h \
  /usr/include/qt/QtCore/qdatastream.h /usr/include/qt/QtCore/qiodevice.h \
  /usr/include/qt/QtCore/qline.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
  /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtGui/qfont.h /usr/include/qt/QtGui/qfontmetrics.h \
- /home/faranaiki/Sources/olive/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/common.h \
  /usr/include/inttypes.h /usr/include/c++/11.2.0/math.h \

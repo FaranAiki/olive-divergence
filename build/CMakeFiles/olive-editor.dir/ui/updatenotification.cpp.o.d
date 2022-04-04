@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o: \
- /home/faranaiki/Sources/olive/ui/updatenotification.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/updatenotification.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/updatenotification.h \
+ /home/faranaiki/Sources/olive-divergence/ui/updatenotification.h \
  /usr/include/qt/QtNetwork/QNetworkReply \
  /usr/include/qt/QtNetwork/qnetworkreply.h \
  /usr/include/qt/QtNetwork/qtnetworkglobal.h \
@@ -259,7 +259,7 @@ CMakeFiles/olive-editor.dir/ui/updatenotification.cpp.o: \
  /usr/include/qt/QtGui/qfontmetrics.h /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
- /home/faranaiki/Sources/olive/ui/mainwindow.h \
+ /home/faranaiki/Sources/olive-divergence/ui/mainwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h

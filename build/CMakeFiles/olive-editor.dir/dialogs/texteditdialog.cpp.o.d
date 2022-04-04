@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o: \
- /home/faranaiki/Sources/olive/dialogs/texteditdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/dialogs/texteditdialog.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/dialogs/texteditdialog.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/texteditdialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -255,11 +255,11 @@ CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o: \
  /usr/include/qt/QtWidgets/qtabwidget.h \
  /usr/include/qt/QtWidgets/qrubberband.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/ui/labelslider.h \
+ /home/faranaiki/Sources/olive-divergence/ui/labelslider.h \
  /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
  /usr/include/qt/QtWidgets/QUndoCommand \
  /usr/include/qt/QtWidgets/qundostack.h \
- /home/faranaiki/Sources/olive/ui/colorbutton.h \
+ /home/faranaiki/Sources/olive-divergence/ui/colorbutton.h \
  /usr/include/qt/QtWidgets/QPushButton \
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h /usr/include/qt/QtGui/QColor \
@@ -275,5 +275,5 @@ CMakeFiles/olive-editor.dir/dialogs/texteditdialog.cpp.o: \
  /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QDebug \
  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qcontiguouscache.h \
- /home/faranaiki/Sources/olive/ui/icons.h /usr/include/qt/QtGui/QIcon \
- /usr/include/qt/QtGui/qicon.h
+ /home/faranaiki/Sources/olive-divergence/ui/icons.h \
+ /usr/include/qt/QtGui/QIcon /usr/include/qt/QtGui/qicon.h

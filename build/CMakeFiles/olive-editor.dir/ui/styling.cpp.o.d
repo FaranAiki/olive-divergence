@@ -1,8 +1,10 @@
 CMakeFiles/olive-editor.dir/ui/styling.cpp.o: \
- /home/faranaiki/Sources/olive/ui/styling.cpp /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/styling.h /usr/include/qt/QtGui/QColor \
- /usr/include/qt/QtGui/qcolor.h /usr/include/qt/QtGui/qtguiglobal.h \
- /usr/include/qt/QtCore/qglobal.h /usr/include/c++/11.2.0/type_traits \
+ /home/faranaiki/Sources/olive-divergence/ui/styling.cpp \
+ /usr/include/stdc-predef.h \
+ /home/faranaiki/Sources/olive-divergence/ui/styling.h \
+ /usr/include/qt/QtGui/QColor /usr/include/qt/QtGui/qcolor.h \
+ /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/c++/11.2.0/type_traits \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -179,6 +181,6 @@ CMakeFiles/olive-editor.dir/ui/styling.cpp.o: \
  /usr/include/bits/uio_lim.h /usr/include/qt/QtCore/qbytearraylist.h \
  /usr/include/qt/QtCore/qregexp.h /usr/include/qt/QtCore/qstringmatcher.h \
  /usr/include/qt/QtGui/qrgba64.h \
- /home/faranaiki/Sources/olive/global/config.h \
+ /home/faranaiki/Sources/olive-divergence/global/config.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
- /home/faranaiki/Sources/olive/ui/styling.h
+ /home/faranaiki/Sources/olive-divergence/ui/styling.h

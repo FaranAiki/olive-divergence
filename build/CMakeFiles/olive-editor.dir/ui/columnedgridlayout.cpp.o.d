@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/columnedgridlayout.cpp.o: \
- /home/faranaiki/Sources/olive/ui/columnedgridlayout.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/columnedgridlayout.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/columnedgridlayout.h \
+ /home/faranaiki/Sources/olive-divergence/ui/columnedgridlayout.h \
  /usr/include/qt/QtWidgets/QGridLayout \
  /usr/include/qt/QtWidgets/qgridlayout.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

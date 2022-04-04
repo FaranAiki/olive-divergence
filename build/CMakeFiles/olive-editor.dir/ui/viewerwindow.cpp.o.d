@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o: \
- /home/faranaiki/Sources/olive/ui/viewerwindow.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/viewerwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/viewerwindow.h \
+ /home/faranaiki/Sources/olive-divergence/ui/viewerwindow.h \
  /usr/include/qt/QtWidgets/QOpenGLWidget \
  /usr/include/qt/QtWidgets/qopenglwidget.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -261,7 +261,7 @@ CMakeFiles/olive-editor.dir/ui/viewerwindow.cpp.o: \
  /usr/include/qt/QtGui/qopenglcontext.h /usr/include/qt/QtCore/QDebug \
  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qcontiguouscache.h \
- /home/faranaiki/Sources/olive/ui/mainwindow.h \
+ /home/faranaiki/Sources/olive-divergence/ui/mainwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtabwidget.h

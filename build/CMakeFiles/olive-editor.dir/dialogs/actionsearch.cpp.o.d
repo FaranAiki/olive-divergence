@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o: \
- /home/faranaiki/Sources/olive/dialogs/actionsearch.cpp \
+ /home/faranaiki/Sources/olive-divergence/dialogs/actionsearch.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/dialogs/actionsearch.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/actionsearch.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -261,6 +261,6 @@ CMakeFiles/olive-editor.dir/dialogs/actionsearch.cpp.o: \
  /usr/include/qt/QtGui/qtouchdevice.h /usr/include/qt/QtWidgets/QMenuBar \
  /usr/include/qt/QtWidgets/qmenubar.h /usr/include/qt/QtWidgets/qmenu.h \
  /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
- /home/faranaiki/Sources/olive/ui/mainwindow.h \
+ /home/faranaiki/Sources/olive-divergence/ui/mainwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h

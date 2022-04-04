@@ -1,6 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/panel.cpp.o: \
- /home/faranaiki/Sources/olive/ui/panel.cpp /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/panel.h \
+ /home/faranaiki/Sources/olive-divergence/ui/panel.cpp \
+ /usr/include/stdc-predef.h \
+ /home/faranaiki/Sources/olive-divergence/ui/panel.h \
  /usr/include/qt/QtWidgets/QDockWidget \
  /usr/include/qt/QtWidgets/qdockwidget.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

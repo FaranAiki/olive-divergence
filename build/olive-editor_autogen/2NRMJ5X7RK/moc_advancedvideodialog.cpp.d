@@ -1,6 +1,6 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_advancedvideodialog.cpp: /home/faranaiki/Sources/olive/dialogs/advancedvideodialog.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
-  /home/faranaiki/Sources/olive/rendering/exportthread.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_advancedvideodialog.cpp: /home/faranaiki/Sources/olive-divergence/dialogs/advancedvideodialog.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
+  /home/faranaiki/Sources/olive-divergence/rendering/exportthread.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

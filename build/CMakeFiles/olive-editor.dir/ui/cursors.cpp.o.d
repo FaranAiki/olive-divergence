@@ -1,8 +1,10 @@
 CMakeFiles/olive-editor.dir/ui/cursors.cpp.o: \
- /home/faranaiki/Sources/olive/ui/cursors.cpp /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/cursors.h /usr/include/qt/QtGui/QCursor \
- /usr/include/qt/QtGui/qcursor.h /usr/include/qt/QtGui/qtguiglobal.h \
- /usr/include/qt/QtCore/qglobal.h /usr/include/c++/11.2.0/type_traits \
+ /home/faranaiki/Sources/olive-divergence/ui/cursors.cpp \
+ /usr/include/stdc-predef.h \
+ /home/faranaiki/Sources/olive-divergence/ui/cursors.h \
+ /usr/include/qt/QtGui/QCursor /usr/include/qt/QtGui/qcursor.h \
+ /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/c++/11.2.0/type_traits \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

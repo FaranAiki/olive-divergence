@@ -1,20 +1,20 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/moc_project.cpp: /home/faranaiki/Sources/olive/panels/project.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
-  /home/faranaiki/Sources/olive/effects/keyframe.h \
-  /home/faranaiki/Sources/olive/project/footage.h \
-  /home/faranaiki/Sources/olive/project/media.h \
-  /home/faranaiki/Sources/olive/project/projectelements.h \
-  /home/faranaiki/Sources/olive/project/projectfilter.h \
-  /home/faranaiki/Sources/olive/project/projectmodel.h \
-  /home/faranaiki/Sources/olive/project/sourcescommon.h \
-  /home/faranaiki/Sources/olive/timeline/marker.h \
-  /home/faranaiki/Sources/olive/timeline/mediaimportdata.h \
-  /home/faranaiki/Sources/olive/timeline/selection.h \
-  /home/faranaiki/Sources/olive/ui/panel.h \
-  /home/faranaiki/Sources/olive/ui/sourceiconview.h \
-  /home/faranaiki/Sources/olive/ui/sourcetable.h \
-  /home/faranaiki/Sources/olive/undo/comboaction.h \
-  /home/faranaiki/Sources/olive/undo/undo.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/moc_project.cpp: /home/faranaiki/Sources/olive-divergence/panels/project.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
+  /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
+  /home/faranaiki/Sources/olive-divergence/project/footage.h \
+  /home/faranaiki/Sources/olive-divergence/project/media.h \
+  /home/faranaiki/Sources/olive-divergence/project/projectelements.h \
+  /home/faranaiki/Sources/olive-divergence/project/projectfilter.h \
+  /home/faranaiki/Sources/olive-divergence/project/projectmodel.h \
+  /home/faranaiki/Sources/olive-divergence/project/sourcescommon.h \
+  /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
+  /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.h \
+  /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+  /home/faranaiki/Sources/olive-divergence/ui/panel.h \
+  /home/faranaiki/Sources/olive-divergence/ui/sourceiconview.h \
+  /home/faranaiki/Sources/olive-divergence/ui/sourcetable.h \
+  /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+  /home/faranaiki/Sources/olive-divergence/undo/undo.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

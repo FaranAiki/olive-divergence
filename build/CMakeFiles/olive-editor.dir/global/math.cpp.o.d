@@ -1,9 +1,10 @@
 CMakeFiles/olive-editor.dir/global/math.cpp.o: \
- /home/faranaiki/Sources/olive/global/math.cpp /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/global/math.h /usr/include/qt/QtCore/QRect \
- /usr/include/qt/QtCore/qrect.h /usr/include/qt/QtCore/qmargins.h \
- /usr/include/qt/QtCore/qnamespace.h /usr/include/qt/QtCore/qglobal.h \
- /usr/include/c++/11.2.0/type_traits \
+ /home/faranaiki/Sources/olive-divergence/global/math.cpp \
+ /usr/include/stdc-predef.h \
+ /home/faranaiki/Sources/olive-divergence/global/math.h \
+ /usr/include/qt/QtCore/QRect /usr/include/qt/QtCore/qrect.h \
+ /usr/include/qt/QtCore/qmargins.h /usr/include/qt/QtCore/qnamespace.h \
+ /usr/include/qt/QtCore/qglobal.h /usr/include/c++/11.2.0/type_traits \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -174,7 +175,7 @@ CMakeFiles/olive-editor.dir/global/math.cpp.o: \
  /usr/include/c++/11.2.0/bits/stl_vector.h \
  /usr/include/c++/11.2.0/bits/stl_bvector.h \
  /usr/include/c++/11.2.0/bits/vector.tcc \
- /home/faranaiki/Sources/olive/global/debug.h \
+ /home/faranaiki/Sources/olive-divergence/global/debug.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qhash.h /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/qvector.h /usr/include/c++/11.2.0/list \

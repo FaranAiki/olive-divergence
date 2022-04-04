@@ -1,5 +1,5 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/moc_effectgizmo.cpp: /home/faranaiki/Sources/olive/effects/effectgizmo.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/moc_effectgizmo.cpp: /home/faranaiki/Sources/olive-divergence/effects/effectgizmo.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \

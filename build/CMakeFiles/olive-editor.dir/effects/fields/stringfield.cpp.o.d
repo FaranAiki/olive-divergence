@@ -1,8 +1,8 @@
 CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o: \
- /home/faranaiki/Sources/olive/effects/fields/stringfield.cpp \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/stringfield.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/effects/fields/stringfield.h \
- /home/faranaiki/Sources/olive/effects/fields/../effectfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/stringfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/../effectfield.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/11.2.0/type_traits \
@@ -197,8 +197,8 @@ CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o: \
  /usr/include/qt/QtCore/qmap.h /usr/include/qt/QtCore/qhash.h \
  /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/QVector \
  /usr/include/qt/QtCore/qvector.h \
- /home/faranaiki/Sources/olive/effects/keyframe.h \
- /home/faranaiki/Sources/olive/undo/undo.h \
+ /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undo.h \
  /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -237,13 +237,13 @@ CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o: \
  /usr/include/qt/QtCore/QModelIndex \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/undo/undostack.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undostack.h \
  /usr/include/qt/QtCore/QtMath /usr/include/qt/QtCore/qmath.h \
  /usr/include/c++/11.2.0/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -255,7 +255,7 @@ CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o: \
  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qset.h \
  /usr/include/qt/QtCore/qcontiguouscache.h \
- /home/faranaiki/Sources/olive/ui/texteditex.h \
+ /home/faranaiki/Sources/olive-divergence/ui/texteditex.h \
  /usr/include/qt/QtWidgets/QTextEdit \
  /usr/include/qt/QtWidgets/qtextedit.h \
  /usr/include/qt/QtWidgets/qabstractscrollarea.h \
@@ -264,6 +264,6 @@ CMakeFiles/olive-editor.dir/effects/fields/stringfield.cpp.o: \
  /usr/include/qt/QtGui/qtextformat.h \
  /usr/include/qt/QtWidgets/QPushButton \
  /usr/include/qt/QtWidgets/qpushbutton.h \
- /home/faranaiki/Sources/olive/global/config.h \
- /home/faranaiki/Sources/olive/ui/styling.h /usr/include/qt/QtGui/QColor \
- /usr/include/qt/QtGui/qcolor.h
+ /home/faranaiki/Sources/olive-divergence/global/config.h \
+ /home/faranaiki/Sources/olive-divergence/ui/styling.h \
+ /usr/include/qt/QtGui/QColor /usr/include/qt/QtGui/qcolor.h

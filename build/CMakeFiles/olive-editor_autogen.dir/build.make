@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faranaiki/Sources/olive
+CMAKE_SOURCE_DIR = /home/faranaiki/Sources/olive-divergence
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/faranaiki/Sources/olive/build
+CMAKE_BINARY_DIR = /home/faranaiki/Sources/olive-divergence/build
 
 # Utility rule file for olive-editor_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/olive-editor_autogen.dir/compiler_depend.make
 include CMakeFiles/olive-editor_autogen.dir/progress.make
 
 CMakeFiles/olive-editor_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target olive-editor"
-	/usr/bin/cmake -E cmake_autogen /home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/faranaiki/Sources/olive-divergence/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target olive-editor"
+	/usr/bin/cmake -E cmake_autogen /home/faranaiki/Sources/olive-divergence/build/CMakeFiles/olive-editor_autogen.dir/AutogenInfo.json ""
 
 olive-editor_autogen: CMakeFiles/olive-editor_autogen
 olive-editor_autogen: CMakeFiles/olive-editor_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/olive-editor_autogen.dir/clean:
 .PHONY : CMakeFiles/olive-editor_autogen.dir/clean
 
 CMakeFiles/olive-editor_autogen.dir/depend:
-	cd /home/faranaiki/Sources/olive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faranaiki/Sources/olive /home/faranaiki/Sources/olive /home/faranaiki/Sources/olive/build /home/faranaiki/Sources/olive/build /home/faranaiki/Sources/olive/build/CMakeFiles/olive-editor_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/faranaiki/Sources/olive-divergence/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/faranaiki/Sources/olive-divergence /home/faranaiki/Sources/olive-divergence /home/faranaiki/Sources/olive-divergence/build /home/faranaiki/Sources/olive-divergence/build /home/faranaiki/Sources/olive-divergence/build/CMakeFiles/olive-editor_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/olive-editor_autogen.dir/depend
 

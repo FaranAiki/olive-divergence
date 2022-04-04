@@ -1,6 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o: \
- /home/faranaiki/Sources/olive/ui/texteditex.cpp \
- /usr/include/stdc-predef.h /home/faranaiki/Sources/olive/ui/texteditex.h \
+ /home/faranaiki/Sources/olive-divergence/ui/texteditex.cpp \
+ /usr/include/stdc-predef.h \
+ /home/faranaiki/Sources/olive-divergence/ui/texteditex.h \
  /usr/include/qt/QtWidgets/QTextEdit \
  /usr/include/qt/QtWidgets/qtextedit.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -242,7 +243,7 @@ CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o: \
  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qlocale.h /usr/include/qt/QtCore/qset.h \
  /usr/include/qt/QtCore/qcontiguouscache.h \
- /home/faranaiki/Sources/olive/dialogs/texteditdialog.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/texteditdialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/QPlainTextEdit \
  /usr/include/qt/QtWidgets/qplaintextedit.h \
@@ -267,15 +268,16 @@ CMakeFiles/olive-editor.dir/ui/texteditex.cpp.o: \
  /usr/include/qt/QtWidgets/qtabwidget.h \
  /usr/include/qt/QtWidgets/qrubberband.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/ui/labelslider.h \
+ /home/faranaiki/Sources/olive-divergence/ui/labelslider.h \
  /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
  /usr/include/qt/QtWidgets/QUndoCommand \
  /usr/include/qt/QtWidgets/qundostack.h \
- /home/faranaiki/Sources/olive/ui/colorbutton.h \
+ /home/faranaiki/Sources/olive-divergence/ui/colorbutton.h \
  /usr/include/qt/QtGui/QColor /usr/include/qt/QtGui/qcolor.h \
- /home/faranaiki/Sources/olive/ui/menu.h /usr/include/qt/QtWidgets/QMenu \
- /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/qaction.h \
+ /home/faranaiki/Sources/olive-divergence/ui/menu.h \
+ /usr/include/qt/QtWidgets/QMenu /usr/include/qt/QtWidgets/qmenu.h \
+ /usr/include/qt/QtWidgets/qaction.h \
  /usr/include/qt/QtWidgets/qactiongroup.h \
- /home/faranaiki/Sources/olive/ui/mainwindow.h \
+ /home/faranaiki/Sources/olive-divergence/ui/mainwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h

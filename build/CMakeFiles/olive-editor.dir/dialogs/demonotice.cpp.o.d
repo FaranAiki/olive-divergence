@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/dialogs/demonotice.cpp.o: \
- /home/faranaiki/Sources/olive/dialogs/demonotice.cpp \
+ /home/faranaiki/Sources/olive-divergence/dialogs/demonotice.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/dialogs/demonotice.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/demonotice.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \

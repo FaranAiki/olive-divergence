@@ -1,6 +1,8 @@
 ﻿/***
 
     Olive - Non-Linear Video Editor
+    
+    Copyright (C) 2022 Muhammad Faran Aiki
     Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify

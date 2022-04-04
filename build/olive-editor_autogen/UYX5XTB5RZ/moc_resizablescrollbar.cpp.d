@@ -1,5 +1,5 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_resizablescrollbar.cpp: /home/faranaiki/Sources/olive/ui/resizablescrollbar.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_resizablescrollbar.cpp: /home/faranaiki/Sources/olive-divergence/ui/resizablescrollbar.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

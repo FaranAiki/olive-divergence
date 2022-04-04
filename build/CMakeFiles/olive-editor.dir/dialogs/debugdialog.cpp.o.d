@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o: \
- /home/faranaiki/Sources/olive/dialogs/debugdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/dialogs/debugdialog.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/dialogs/debugdialog.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/debugdialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -240,7 +240,7 @@ CMakeFiles/olive-editor.dir/dialogs/debugdialog.cpp.o: \
  /usr/include/qt/QtWidgets/qscrollbar.h \
  /usr/include/qt/QtWidgets/qabstractslider.h \
  /usr/include/qt/QtCore/QEvent /usr/include/qt/QtCore/qcoreevent.h \
- /home/faranaiki/Sources/olive/global/debug.h \
+ /home/faranaiki/Sources/olive-divergence/global/debug.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
  /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qlocale.h \
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h

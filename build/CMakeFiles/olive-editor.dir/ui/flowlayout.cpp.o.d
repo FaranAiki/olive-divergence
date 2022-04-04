@@ -1,5 +1,5 @@
 CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o: \
- /home/faranaiki/Sources/olive/ui/flowlayout.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/flowlayout.cpp \
  /usr/include/stdc-predef.h /usr/include/qt/QtWidgets/QtWidgets \
  /usr/include/qt/QtWidgets/QtWidgetsDepends /usr/include/qt/QtCore/QtCore \
  /usr/include/qt/QtCore/QtCoreDepends /usr/include/qt/QtCore/qglobal.h \
@@ -699,6 +699,6 @@ CMakeFiles/olive-editor.dir/ui/flowlayout.cpp.o: \
  /usr/include/qt/QtWidgets/qwidgetaction.h \
  /usr/include/qt/QtWidgets/qwizard.h \
  /usr/include/qt/QtWidgets/qtwidgetsversion.h \
- /home/faranaiki/Sources/olive/ui/flowlayout.h \
+ /home/faranaiki/Sources/olive-divergence/ui/flowlayout.h \
  /usr/include/qt/QtWidgets/QLayout /usr/include/qt/QtCore/QRect \
  /usr/include/qt/QtWidgets/QStyle

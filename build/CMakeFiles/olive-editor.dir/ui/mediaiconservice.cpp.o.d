@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o: \
- /home/faranaiki/Sources/olive/ui/mediaiconservice.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/mediaiconservice.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/mediaiconservice.h \
+ /home/faranaiki/Sources/olive-divergence/ui/mediaiconservice.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/11.2.0/type_traits \
@@ -195,7 +195,7 @@ CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o: \
  /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
  /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/QMutex /usr/include/qt/QtCore/qmutex.h \
- /home/faranaiki/Sources/olive/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/qt/QtCore/qhash.h \
@@ -223,13 +223,13 @@ CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o: \
  /usr/include/qt/QtGui/qpolygon.h /usr/include/qt/QtGui/qregion.h \
  /usr/include/qt/QtCore/qdatastream.h /usr/include/qt/QtCore/qiodevice.h \
  /usr/include/qt/QtCore/qline.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
  /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtGui/qfont.h /usr/include/qt/QtGui/qfontmetrics.h \
- /home/faranaiki/Sources/olive/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/common.h \
  /usr/include/inttypes.h /usr/include/c++/11.2.0/math.h \
@@ -260,8 +260,8 @@ CMakeFiles/olive-editor.dir/ui/mediaiconservice.cpp.o: \
  /usr/include/qt/QtCore/qvector.h /usr/include/qt/QtCore/QMetaType \
  /usr/include/qt/QtCore/qmetatype.h /usr/include/qt/QtGui/QPixmap \
  /usr/include/qt/QtGui/qpixmap.h \
- /home/faranaiki/Sources/olive/project/projectmodel.h \
+ /home/faranaiki/Sources/olive-divergence/project/projectmodel.h \
  /usr/include/qt/QtCore/QAbstractItemModel \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h \
- /home/faranaiki/Sources/olive/ui/icons.h
+ /home/faranaiki/Sources/olive-divergence/ui/icons.h

@@ -1,5 +1,5 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/moc_projectfilter.cpp: /home/faranaiki/Sources/olive/project/projectfilter.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/moc_projectfilter.cpp: /home/faranaiki/Sources/olive-divergence/project/projectfilter.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \

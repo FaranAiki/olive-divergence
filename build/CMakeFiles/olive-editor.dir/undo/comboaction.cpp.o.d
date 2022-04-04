@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/undo/comboaction.cpp.o: \
- /home/faranaiki/Sources/olive/undo/comboaction.cpp \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
  /usr/include/qt/QtWidgets/QUndoCommand \
  /usr/include/qt/QtWidgets/qundostack.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

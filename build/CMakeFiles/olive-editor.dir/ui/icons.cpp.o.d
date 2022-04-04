@@ -1,8 +1,10 @@
 CMakeFiles/olive-editor.dir/ui/icons.cpp.o: \
- /home/faranaiki/Sources/olive/ui/icons.cpp /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/icons.h /usr/include/qt/QtGui/QIcon \
- /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtGui/qtguiglobal.h \
- /usr/include/qt/QtCore/qglobal.h /usr/include/c++/11.2.0/type_traits \
+ /home/faranaiki/Sources/olive-divergence/ui/icons.cpp \
+ /usr/include/stdc-predef.h \
+ /home/faranaiki/Sources/olive-divergence/ui/icons.h \
+ /usr/include/qt/QtGui/QIcon /usr/include/qt/QtGui/qicon.h \
+ /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
+ /usr/include/c++/11.2.0/type_traits \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -217,8 +219,8 @@ CMakeFiles/olive-editor.dir/ui/icons.cpp.o: \
  /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qlocale.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qset.h \
  /usr/include/qt/QtCore/qcontiguouscache.h \
- /home/faranaiki/Sources/olive/global/global.h \
- /home/faranaiki/Sources/olive/undo/undo.h \
+ /home/faranaiki/Sources/olive-divergence/global/global.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undo.h \
  /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -235,17 +237,17 @@ CMakeFiles/olive-editor.dir/ui/icons.cpp.o: \
  /usr/include/qt/QtCore/qvector.h /usr/include/qt/QtCore/QVariant \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/QModelIndex \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/effects/keyframe.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
  /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
  /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QFile \
  /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \
  /usr/include/qt/QtCore/QTranslator /usr/include/qt/QtCore/qtranslator.h \
- /home/faranaiki/Sources/olive/global/config.h \
- /home/faranaiki/Sources/olive/ui/styling.h /usr/include/qt/QtGui/QColor \
- /usr/include/qt/QtGui/qcolor.h
+ /home/faranaiki/Sources/olive-divergence/global/config.h \
+ /home/faranaiki/Sources/olive-divergence/ui/styling.h \
+ /usr/include/qt/QtGui/QColor /usr/include/qt/QtGui/qcolor.h

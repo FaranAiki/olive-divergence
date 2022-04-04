@@ -1,8 +1,8 @@
 CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o: \
- /home/faranaiki/Sources/olive/effects/internal/shakeeffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/effects/internal/shakeeffect.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/effects/internal/shakeeffect.h \
- /home/faranaiki/Sources/olive/effects/effect.h \
+ /home/faranaiki/Sources/olive-divergence/effects/internal/shakeeffect.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effect.h \
  /usr/include/c++/11.2.0/memory \
  /usr/include/c++/11.2.0/bits/stl_algobase.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -283,7 +283,7 @@ CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o: \
  /usr/include/bits/iscanonical.h /usr/include/c++/11.2.0/bits/random.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
  /usr/include/c++/11.2.0/bits/random.tcc \
- /home/faranaiki/Sources/olive/ui/collapsiblewidget.h \
+ /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.h \
  /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
  /usr/include/qt/QtWidgets/QHBoxLayout \
@@ -291,46 +291,46 @@ CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o: \
  /usr/include/qt/QtWidgets/QVBoxLayout /usr/include/qt/QtWidgets/QFrame \
  /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtGui/QIcon \
  /usr/include/qt/QtGui/qicon.h \
- /home/faranaiki/Sources/olive/effects/effectrow.h \
- /home/faranaiki/Sources/olive/effects/effectfields.h \
- /home/faranaiki/Sources/olive/effects/fields/boolfield.h \
- /home/faranaiki/Sources/olive/effects/fields/../effectfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectrow.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectfields.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/boolfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/../effectfield.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
- /home/faranaiki/Sources/olive/effects/keyframe.h \
- /home/faranaiki/Sources/olive/undo/undo.h \
+ /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undo.h \
  /usr/include/qt/QtWidgets/QUndoStack \
  /usr/include/qt/QtWidgets/qundostack.h \
  /usr/include/qt/QtWidgets/QUndoCommand \
  /usr/include/qt/QtCore/QModelIndex \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/undo/undostack.h \
- /home/faranaiki/Sources/olive/effects/fields/buttonfield.h \
- /home/faranaiki/Sources/olive/effects/fields/colorfield.h \
- /home/faranaiki/Sources/olive/effects/fields/combofield.h \
- /home/faranaiki/Sources/olive/effects/fields/doublefield.h \
- /home/faranaiki/Sources/olive/ui/labelslider.h \
- /home/faranaiki/Sources/olive/effects/fields/filefield.h \
- /home/faranaiki/Sources/olive/effects/fields/fontfield.h \
- /home/faranaiki/Sources/olive/effects/fields/combofield.h \
- /home/faranaiki/Sources/olive/effects/fields/labelfield.h \
- /home/faranaiki/Sources/olive/effects/fields/stringfield.h \
- /home/faranaiki/Sources/olive/effects/effectgizmo.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undostack.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/buttonfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/colorfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/doublefield.h \
+ /home/faranaiki/Sources/olive-divergence/ui/labelslider.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/filefield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/fontfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/labelfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/stringfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectgizmo.h \
  /usr/include/qt/QtCore/QRect /usr/include/qt/QtCore/qrect.h \
  /usr/include/qt/QtCore/QPoint /usr/include/qt/QtCore/qpoint.h \
  /usr/include/qt/QtCore/QtMath /usr/include/qt/QtCore/qmath.h \
- /home/faranaiki/Sources/olive/timeline/clip.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/clip.h \
  /usr/include/qt/QtCore/QWaitCondition \
  /usr/include/qt/QtCore/qwaitcondition.h \
  /usr/include/qt/QtCore/QDeadlineTimer \
  /usr/include/qt/QtCore/qdeadlinetimer.h \
  /usr/include/qt/QtGui/QOpenGLFramebufferObject \
  /usr/include/qt/QtGui/qopenglframebufferobject.h \
- /home/faranaiki/Sources/olive/rendering/cacher.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/cacher.h \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/common.h \
  /usr/include/c++/11.2.0/math.h /usr/include/libavutil/attributes.h \
@@ -363,22 +363,22 @@ CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o: \
  /usr/include/libavfilter/avfilter.h \
  /usr/include/libavfilter/buffersink.h /usr/include/libavutil/opt.h \
  /usr/include/libavutil/pixdesc.h \
- /home/faranaiki/Sources/olive/rendering/clipqueue.h \
- /home/faranaiki/Sources/olive/effects/transition.h \
- /home/faranaiki/Sources/olive/effects/effect.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/clipqueue.h \
+ /home/faranaiki/Sources/olive-divergence/effects/transition.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effect.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
- /home/faranaiki/Sources/olive/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
  /usr/include/qt/QtCore/QMetaType /usr/include/qt/QtCore/qmetatype.h \
  /usr/include/qt/QtGui/QPixmap /usr/include/qt/QtGui/qpixmap.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
- /home/faranaiki/Sources/olive/timeline/sequence.h \
- /home/faranaiki/Sources/olive/timeline/clip.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/panels/timeline.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/sequence.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/clip.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/panels/timeline.h \
  /usr/include/qt/QtCore/QTime /usr/include/qt/QtCore/qdatetime.h \
- /home/faranaiki/Sources/olive/ui/timelinewidget.h \
+ /home/faranaiki/Sources/olive-divergence/ui/timelinewidget.h \
  /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
  /usr/include/qt/QtCore/qbasictimer.h \
  /usr/include/qt/QtWidgets/QScrollBar \
@@ -392,15 +392,15 @@ CMakeFiles/olive-editor.dir/effects/internal/shakeeffect.cpp.o: \
  /usr/include/qt/QtGui/qinputmethod.h \
  /usr/include/qt/QtWidgets/QDesktopWidget \
  /usr/include/qt/QtWidgets/qdesktopwidget.h \
- /home/faranaiki/Sources/olive/ui/timelinetools.h \
- /home/faranaiki/Sources/olive/ui/timelinetools.h \
- /home/faranaiki/Sources/olive/timeline/mediaimportdata.h \
- /home/faranaiki/Sources/olive/ui/timelineheader.h \
+ /home/faranaiki/Sources/olive-divergence/ui/timelinetools.h \
+ /home/faranaiki/Sources/olive-divergence/ui/timelinetools.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.h \
+ /home/faranaiki/Sources/olive-divergence/ui/timelineheader.h \
  /usr/include/qt/QtGui/QFontMetrics /usr/include/qt/QtGui/qfontmetrics.h \
- /home/faranaiki/Sources/olive/ui/resizablescrollbar.h \
- /home/faranaiki/Sources/olive/ui/audiomonitor.h \
- /home/faranaiki/Sources/olive/ui/panel.h \
+ /home/faranaiki/Sources/olive-divergence/ui/resizablescrollbar.h \
+ /home/faranaiki/Sources/olive-divergence/ui/audiomonitor.h \
+ /home/faranaiki/Sources/olive-divergence/ui/panel.h \
  /usr/include/qt/QtWidgets/QDockWidget \
  /usr/include/qt/QtWidgets/qdockwidget.h \
- /home/faranaiki/Sources/olive/global/debug.h \
+ /home/faranaiki/Sources/olive-divergence/global/debug.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h

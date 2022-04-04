@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/fontcombobox.cpp.o: \
- /home/faranaiki/Sources/olive/ui/fontcombobox.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/fontcombobox.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/fontcombobox.h \
+ /home/faranaiki/Sources/olive-divergence/ui/fontcombobox.h \
  /usr/include/qt/QtWidgets/QComboBox \
  /usr/include/qt/QtWidgets/qcombobox.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

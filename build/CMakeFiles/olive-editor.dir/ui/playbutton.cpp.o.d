@@ -1,6 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/playbutton.cpp.o: \
- /home/faranaiki/Sources/olive/ui/playbutton.cpp \
- /usr/include/stdc-predef.h /home/faranaiki/Sources/olive/ui/playbutton.h \
+ /home/faranaiki/Sources/olive-divergence/ui/playbutton.cpp \
+ /usr/include/stdc-predef.h \
+ /home/faranaiki/Sources/olive-divergence/ui/playbutton.h \
  /usr/include/qt/QtWidgets/QPushButton \
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

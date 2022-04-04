@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o: \
- /home/faranaiki/Sources/olive/effects/effectgizmo.cpp \
+ /home/faranaiki/Sources/olive-divergence/effects/effectgizmo.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/effects/effectgizmo.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectgizmo.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/qobject.h \
  /usr/include/qt/QtCore/qobjectdefs.h /usr/include/qt/QtCore/qnamespace.h \
  /usr/include/qt/QtCore/qglobal.h /usr/include/c++/11.2.0/type_traits \
@@ -201,7 +201,7 @@ CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o: \
  /usr/include/qt/QtGui/qcolor.h /usr/include/qt/QtGui/qtguiglobal.h \
  /usr/include/qt/QtGui/qtgui-config.h /usr/include/qt/QtGui/qrgb.h \
  /usr/include/qt/QtGui/qrgba64.h \
- /home/faranaiki/Sources/olive/ui/labelslider.h \
+ /home/faranaiki/Sources/olive-divergence/ui/labelslider.h \
  /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtWidgets/qtwidgets-config.h \
@@ -232,12 +232,12 @@ CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o: \
  /usr/include/qt/QtGui/qkeysequence.h \
  /usr/include/qt/QtWidgets/QUndoCommand \
  /usr/include/qt/QtWidgets/qundostack.h \
- /home/faranaiki/Sources/olive/effects/fields/doublefield.h \
- /home/faranaiki/Sources/olive/effects/fields/../effectfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/doublefield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/../effectfield.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h \
- /home/faranaiki/Sources/olive/effects/keyframe.h \
- /home/faranaiki/Sources/olive/undo/undo.h \
+ /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undo.h \
  /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
@@ -245,13 +245,13 @@ CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o: \
  /usr/include/qt/QtCore/QModelIndex \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
  /usr/include/qt/QtCore/qvariant.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/undo/undostack.h \
- /home/faranaiki/Sources/olive/effects/effect.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undostack.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effect.h \
  /usr/include/qt/QtGui/QOpenGLFunctions \
  /usr/include/qt/QtGui/qopenglfunctions.h /usr/include/qt/QtGui/qopengl.h \
  /usr/include/GL/gl.h /usr/include/qt/QtGui/qopenglext.h \
@@ -304,21 +304,21 @@ CMakeFiles/olive-editor.dir/effects/effectgizmo.cpp.o: \
  /usr/include/bits/iscanonical.h /usr/include/c++/11.2.0/bits/random.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
  /usr/include/c++/11.2.0/bits/random.tcc \
- /home/faranaiki/Sources/olive/ui/collapsiblewidget.h \
+ /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.h \
  /usr/include/qt/QtWidgets/QHBoxLayout \
  /usr/include/qt/QtWidgets/qboxlayout.h \
  /usr/include/qt/QtWidgets/QVBoxLayout /usr/include/qt/QtWidgets/QFrame \
  /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtGui/QIcon \
  /usr/include/qt/QtGui/qicon.h \
- /home/faranaiki/Sources/olive/effects/effectrow.h \
- /home/faranaiki/Sources/olive/effects/effectfields.h \
- /home/faranaiki/Sources/olive/effects/fields/boolfield.h \
- /home/faranaiki/Sources/olive/effects/fields/buttonfield.h \
- /home/faranaiki/Sources/olive/effects/fields/colorfield.h \
- /home/faranaiki/Sources/olive/effects/fields/combofield.h \
- /home/faranaiki/Sources/olive/effects/fields/doublefield.h \
- /home/faranaiki/Sources/olive/effects/fields/filefield.h \
- /home/faranaiki/Sources/olive/effects/fields/fontfield.h \
- /home/faranaiki/Sources/olive/effects/fields/combofield.h \
- /home/faranaiki/Sources/olive/effects/fields/labelfield.h \
- /home/faranaiki/Sources/olive/effects/fields/stringfield.h
+ /home/faranaiki/Sources/olive-divergence/effects/effectrow.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectfields.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/boolfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/buttonfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/colorfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/doublefield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/filefield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/fontfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/labelfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/stringfield.h

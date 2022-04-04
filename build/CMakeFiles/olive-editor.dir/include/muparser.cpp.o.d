@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/include/muparser.cpp.o: \
- /home/faranaiki/Sources/olive/include/muparser.cpp \
+ /home/faranaiki/Sources/olive-divergence/include/muparser.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/include/muparser.h \
+ /home/faranaiki/Sources/olive-divergence/include/muparser.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtCore/qchar.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/11.2.0/type_traits \

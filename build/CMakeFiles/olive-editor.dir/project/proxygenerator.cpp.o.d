@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o: \
- /home/faranaiki/Sources/olive/project/proxygenerator.cpp \
+ /home/faranaiki/Sources/olive-divergence/project/proxygenerator.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/project/proxygenerator.h \
+ /home/faranaiki/Sources/olive-divergence/project/proxygenerator.h \
  /usr/include/qt/QtCore/QThread /usr/include/qt/QtCore/qthread.h \
  /usr/include/qt/QtCore/qobject.h /usr/include/qt/QtCore/qobjectdefs.h \
  /usr/include/qt/QtCore/qnamespace.h /usr/include/qt/QtCore/qglobal.h \
@@ -209,7 +209,7 @@ CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o: \
  /usr/include/qt/QtCore/qwaitcondition.h \
  /usr/include/qt/QtCore/QDeadlineTimer \
  /usr/include/qt/QtCore/qdeadlinetimer.h \
- /home/faranaiki/Sources/olive/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/qt/QtCore/qhash.h \
@@ -233,13 +233,13 @@ CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o: \
  /usr/include/qt/QtGui/qpolygon.h /usr/include/qt/QtGui/qregion.h \
  /usr/include/qt/QtCore/qdatastream.h /usr/include/qt/QtCore/qiodevice.h \
  /usr/include/qt/QtCore/qline.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
  /usr/include/qt/QtGui/qbrush.h /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtGui/qfont.h /usr/include/qt/QtGui/qfontmetrics.h \
- /home/faranaiki/Sources/olive/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/common.h \
  /usr/include/inttypes.h /usr/include/c++/11.2.0/math.h \
@@ -269,10 +269,11 @@ CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o: \
  /usr/include/libavformat/version.h /usr/include/qt/QtCore/QMetaType \
  /usr/include/qt/QtCore/qmetatype.h /usr/include/qt/QtGui/QPixmap \
  /usr/include/qt/QtGui/qpixmap.h \
- /home/faranaiki/Sources/olive/global/path.h /usr/include/qt/QtCore/QDir \
- /usr/include/qt/QtCore/qdir.h /usr/include/qt/QtCore/qfileinfo.h \
- /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/qfiledevice.h \
- /home/faranaiki/Sources/olive/project/previewgenerator.h \
+ /home/faranaiki/Sources/olive-divergence/global/path.h \
+ /usr/include/qt/QtCore/QDir /usr/include/qt/QtCore/qdir.h \
+ /usr/include/qt/QtCore/qfileinfo.h /usr/include/qt/QtCore/qfile.h \
+ /usr/include/qt/QtCore/qfiledevice.h \
+ /home/faranaiki/Sources/olive-divergence/project/previewgenerator.h \
  /usr/include/qt/QtCore/QSemaphore /usr/include/qt/QtCore/qsemaphore.h \
  /usr/include/libavcodec/avcodec.h /usr/include/libavutil/frame.h \
  /usr/include/libavcodec/codec.h /usr/include/libavcodec/codec_desc.h \
@@ -282,7 +283,7 @@ CMakeFiles/olive-editor.dir/project/proxygenerator.cpp.o: \
  /usr/include/libswresample/swresample.h \
  /usr/include/libavutil/channel_layout.h \
  /usr/include/libswresample/version.h \
- /home/faranaiki/Sources/olive/ui/mainwindow.h \
+ /home/faranaiki/Sources/olive-divergence/ui/mainwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

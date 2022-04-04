@@ -1,5 +1,5 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_viewerwindow.cpp: /home/faranaiki/Sources/olive/ui/viewerwindow.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_viewerwindow.cpp: /home/faranaiki/Sources/olive-divergence/ui/viewerwindow.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
   /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

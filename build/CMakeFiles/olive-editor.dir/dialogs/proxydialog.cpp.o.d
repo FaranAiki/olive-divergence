@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o: \
- /home/faranaiki/Sources/olive/dialogs/proxydialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/dialogs/proxydialog.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/dialogs/proxydialog.h \
+ /home/faranaiki/Sources/olive-divergence/dialogs/proxydialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -240,15 +240,15 @@ CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o: \
  /usr/include/qt/QtWidgets/qrubberband.h \
  /usr/include/qt/QtWidgets/qframe.h \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtGui/QIcon /usr/include/qt/QtGui/qicon.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qpen.h \
- /home/faranaiki/Sources/olive/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/common.h \
  /usr/include/inttypes.h /usr/include/c++/11.2.0/math.h \
@@ -296,7 +296,7 @@ CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o: \
  /usr/include/qt/QtWidgets/qmessagebox.h /usr/include/qt/QtCore/QDebug \
  /usr/include/qt/QtCore/qdebug.h /usr/include/qt/QtCore/qtextstream.h \
  /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
- /home/faranaiki/Sources/olive/project/proxygenerator.h \
+ /home/faranaiki/Sources/olive-divergence/project/proxygenerator.h \
  /usr/include/qt/QtCore/QThread /usr/include/qt/QtCore/qthread.h \
  /usr/include/qt/QtCore/qdeadlinetimer.h \
  /usr/include/qt/QtCore/qelapsedtimer.h /usr/include/c++/11.2.0/future \
@@ -309,11 +309,11 @@ CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o: \
  /usr/include/qt/QtCore/qwaitcondition.h \
  /usr/include/qt/QtCore/QDeadlineTimer \
  /usr/include/qt/QtCore/qdeadlinetimer.h \
- /home/faranaiki/Sources/olive/ui/mainwindow.h \
+ /home/faranaiki/Sources/olive-divergence/ui/mainwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
- /home/faranaiki/Sources/olive/global/global.h \
- /home/faranaiki/Sources/olive/undo/undo.h \
+ /home/faranaiki/Sources/olive-divergence/global/global.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undo.h \
  /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
@@ -322,9 +322,9 @@ CMakeFiles/olive-editor.dir/dialogs/proxydialog.cpp.o: \
  /usr/include/qt/QtWidgets/QUndoCommand \
  /usr/include/qt/QtCore/QModelIndex \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/effects/keyframe.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
  /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
  /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QFile \
  /usr/include/qt/QtCore/qfile.h /usr/include/qt/QtCore/QTranslator \

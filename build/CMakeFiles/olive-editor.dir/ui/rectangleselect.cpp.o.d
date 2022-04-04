@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/ui/rectangleselect.cpp.o: \
- /home/faranaiki/Sources/olive/ui/rectangleselect.cpp \
+ /home/faranaiki/Sources/olive-divergence/ui/rectangleselect.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/ui/rectangleselect.h \
+ /home/faranaiki/Sources/olive-divergence/ui/rectangleselect.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
  /usr/include/c++/11.2.0/type_traits \

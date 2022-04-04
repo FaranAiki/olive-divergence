@@ -1,8 +1,8 @@
-/home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/moc_proxygenerator.cpp: /home/faranaiki/Sources/olive/project/proxygenerator.h \
-  /home/faranaiki/Sources/olive/build/olive-editor_autogen/moc_predefs.h \
-  /home/faranaiki/Sources/olive/project/footage.h \
-  /home/faranaiki/Sources/olive/project/media.h \
-  /home/faranaiki/Sources/olive/timeline/marker.h \
+/home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/moc_proxygenerator.cpp: /home/faranaiki/Sources/olive-divergence/project/proxygenerator.h \
+  /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/moc_predefs.h \
+  /home/faranaiki/Sources/olive-divergence/project/footage.h \
+  /home/faranaiki/Sources/olive-divergence/project/media.h \
+  /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

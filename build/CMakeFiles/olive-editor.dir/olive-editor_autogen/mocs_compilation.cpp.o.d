@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/mocs_compilation.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_aboutdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_aboutdialog.cpp \
  /usr/include/c++/11.2.0/memory \
  /usr/include/c++/11.2.0/bits/stl_algobase.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -102,7 +102,7 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11.2.0/bits/atomic_base.h \
  /usr/include/c++/11.2.0/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11.2.0/backward/auto_ptr.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/aboutdialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/aboutdialog.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -224,8 +224,8 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_actionsearch.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/actionsearch.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_actionsearch.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/actionsearch.h \
  /usr/include/qt/QtWidgets/QLineEdit \
  /usr/include/qt/QtWidgets/qlineedit.h /usr/include/qt/QtWidgets/qframe.h \
  /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
@@ -252,12 +252,12 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qrubberband.h /usr/include/qt/QtWidgets/QMenu \
  /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/qaction.h \
  /usr/include/qt/QtWidgets/qactiongroup.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_advancedvideodialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/advancedvideodialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_advancedvideodialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/advancedvideodialog.h \
  /usr/include/qt/QtWidgets/QComboBox \
  /usr/include/qt/QtWidgets/qcombobox.h /usr/include/qt/QtWidgets/QSpinBox \
  /usr/include/qt/QtWidgets/qspinbox.h \
- /home/faranaiki/Sources/olive/rendering/exportthread.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/exportthread.h \
  /usr/include/qt/QtCore/QThread /usr/include/qt/QtCore/qthread.h \
  /usr/include/qt/QtCore/qdeadlinetimer.h \
  /usr/include/qt/QtCore/qelapsedtimer.h /usr/include/c++/11.2.0/future \
@@ -301,12 +301,12 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/libavcodec/codec_id.h /usr/include/libavcodec/codec_par.h \
  /usr/include/libavcodec/defs.h /usr/include/libavcodec/packet.h \
  /usr/include/libavcodec/version.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_autocutsilencedialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/autocutsilencedialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_autocutsilencedialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/autocutsilencedialog.h \
  /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
- /home/faranaiki/Sources/olive/timeline/clip.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/clip.h \
  /usr/include/qt/QtCore/QVector /usr/include/qt/QtCore/qvector.h \
  /usr/include/qt/QtGui/QOpenGLFramebufferObject \
  /usr/include/qt/QtGui/qopenglframebufferobject.h \
@@ -315,7 +315,7 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/qopengltexture.h \
  /usr/include/qt/QtCore/QScopedPointer \
  /usr/include/qt/QtCore/qscopedpointer.h \
- /home/faranaiki/Sources/olive/rendering/cacher.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/cacher.h \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavcodec/codec_par.h /usr/include/libavcodec/defs.h \
  /usr/include/libavcodec/packet.h /usr/include/libavformat/avio.h \
@@ -328,8 +328,8 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/libavfilter/avfilter.h \
  /usr/include/libavfilter/buffersink.h /usr/include/libavutil/opt.h \
  /usr/include/libavutil/pixdesc.h \
- /home/faranaiki/Sources/olive/rendering/clipqueue.h \
- /home/faranaiki/Sources/olive/effects/effect.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/clipqueue.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effect.h \
  /usr/include/qt/QtCore/QObject /usr/include/qt/QtCore/QString \
  /usr/include/qt/QtCore/qstring.h /usr/include/qt/QtGui/QColor \
  /usr/include/qt/QtGui/qcolor.h /usr/include/qt/QtGui/QOpenGLFunctions \
@@ -366,110 +366,110 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11.2.0/bits/random.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/opt_random.h \
  /usr/include/c++/11.2.0/bits/random.tcc \
- /home/faranaiki/Sources/olive/ui/collapsiblewidget.h \
+ /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.h \
  /usr/include/qt/QtWidgets/QHBoxLayout \
  /usr/include/qt/QtWidgets/qboxlayout.h \
  /usr/include/qt/QtWidgets/QVBoxLayout /usr/include/qt/QtWidgets/QFrame \
  /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtGui/QIcon \
  /usr/include/qt/QtGui/qicon.h \
- /home/faranaiki/Sources/olive/effects/effectrow.h \
- /home/faranaiki/Sources/olive/effects/effectfields.h \
- /home/faranaiki/Sources/olive/effects/fields/boolfield.h \
- /home/faranaiki/Sources/olive/effects/fields/../effectfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectrow.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectfields.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/boolfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/../effectfield.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
- /home/faranaiki/Sources/olive/effects/keyframe.h \
- /home/faranaiki/Sources/olive/undo/undo.h \
+ /home/faranaiki/Sources/olive-divergence/effects/keyframe.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undo.h \
  /usr/include/qt/QtWidgets/QUndoStack \
  /usr/include/qt/QtWidgets/qundostack.h \
  /usr/include/qt/QtWidgets/QUndoCommand \
  /usr/include/qt/QtCore/QModelIndex \
  /usr/include/qt/QtCore/qabstractitemmodel.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
  /usr/include/qt/QtGui/QPainter /usr/include/qt/QtGui/qpainter.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/undo/undostack.h \
- /home/faranaiki/Sources/olive/effects/fields/buttonfield.h \
- /home/faranaiki/Sources/olive/effects/fields/colorfield.h \
- /home/faranaiki/Sources/olive/effects/fields/combofield.h \
- /home/faranaiki/Sources/olive/effects/fields/doublefield.h \
- /home/faranaiki/Sources/olive/ui/labelslider.h \
- /home/faranaiki/Sources/olive/effects/fields/filefield.h \
- /home/faranaiki/Sources/olive/effects/fields/fontfield.h \
- /home/faranaiki/Sources/olive/effects/fields/combofield.h \
- /home/faranaiki/Sources/olive/effects/fields/labelfield.h \
- /home/faranaiki/Sources/olive/effects/fields/stringfield.h \
- /home/faranaiki/Sources/olive/effects/effectgizmo.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/undo/undostack.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/buttonfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/colorfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/doublefield.h \
+ /home/faranaiki/Sources/olive-divergence/ui/labelslider.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/filefield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/fontfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/combofield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/labelfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/fields/stringfield.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectgizmo.h \
  /usr/include/qt/QtCore/QRect /usr/include/qt/QtCore/qrect.h \
  /usr/include/qt/QtCore/QPoint /usr/include/qt/QtCore/qpoint.h \
- /home/faranaiki/Sources/olive/effects/transition.h \
- /home/faranaiki/Sources/olive/effects/effect.h \
- /home/faranaiki/Sources/olive/undo/comboaction.h \
- /home/faranaiki/Sources/olive/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/effects/transition.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effect.h \
+ /home/faranaiki/Sources/olive-divergence/undo/comboaction.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
  /usr/include/qt/QtCore/QList /usr/include/qt/QtCore/qlist.h \
- /home/faranaiki/Sources/olive/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
  /usr/include/qt/QtCore/QMetaType /usr/include/qt/QtCore/qmetatype.h \
  /usr/include/qt/QtGui/QPixmap /usr/include/qt/QtGui/qpixmap.h \
- /home/faranaiki/Sources/olive/timeline/marker.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_clippropertiesdialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/clippropertiesdialog.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_debugdialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/debugdialog.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/marker.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_clippropertiesdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/clippropertiesdialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_debugdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/debugdialog.h \
  /usr/include/qt/QtWidgets/QTextEdit \
  /usr/include/qt/QtWidgets/qtextedit.h \
  /usr/include/qt/QtGui/qtextdocument.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_demonotice.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/demonotice.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_exportdialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/exportdialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_demonotice.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/demonotice.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_exportdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/exportdialog.h \
  /usr/include/qt/QtWidgets/QDoubleSpinBox \
  /usr/include/qt/QtWidgets/QProgressBar \
  /usr/include/qt/QtWidgets/qprogressbar.h \
  /usr/include/qt/QtWidgets/QGroupBox \
  /usr/include/qt/QtWidgets/qgroupbox.h \
- /home/faranaiki/Sources/olive/timeline/sequence.h \
- /home/faranaiki/Sources/olive/timeline/clip.h \
- /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_loaddialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/loaddialog.h \
- /home/faranaiki/Sources/olive/project/projectelements.h \
- /home/faranaiki/Sources/olive/project/media.h \
- /home/faranaiki/Sources/olive/project/footage.h \
- /home/faranaiki/Sources/olive/project/loadthread.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/sequence.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/clip.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/selection.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_loaddialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/loaddialog.h \
+ /home/faranaiki/Sources/olive-divergence/project/projectelements.h \
+ /home/faranaiki/Sources/olive-divergence/project/media.h \
+ /home/faranaiki/Sources/olive-divergence/project/footage.h \
+ /home/faranaiki/Sources/olive-divergence/project/loadthread.h \
  /usr/include/qt/QtCore/QDir /usr/include/qt/QtCore/qdir.h \
  /usr/include/qt/QtCore/qfileinfo.h /usr/include/qt/QtWidgets/QMessageBox \
  /usr/include/qt/QtWidgets/qmessagebox.h \
  /usr/include/qt/QtWidgets/qdialog.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_mediapropertiesdialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/mediapropertiesdialog.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_newsequencedialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/newsequencedialog.h \
- /home/faranaiki/Sources/olive/panels/project.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_mediapropertiesdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/mediapropertiesdialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_newsequencedialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/newsequencedialog.h \
+ /home/faranaiki/Sources/olive-divergence/panels/project.h \
  /usr/include/qt/QtCore/QTimer /usr/include/qt/QtCore/qtimer.h \
  /usr/include/qt/QtCore/qbasictimer.h /usr/include/qt/QtCore/QFile \
  /usr/include/qt/QtCore/qfile.h \
- /home/faranaiki/Sources/olive/project/projectmodel.h \
+ /home/faranaiki/Sources/olive-divergence/project/projectmodel.h \
  /usr/include/qt/QtCore/QAbstractItemModel \
- /home/faranaiki/Sources/olive/project/projectfilter.h \
+ /home/faranaiki/Sources/olive-divergence/project/projectfilter.h \
  /usr/include/qt/QtCore/QSortFilterProxyModel \
  /usr/include/qt/QtCore/qsortfilterproxymodel.h \
  /usr/include/qt/QtCore/qabstractproxymodel.h \
- /home/faranaiki/Sources/olive/project/sourcescommon.h \
+ /home/faranaiki/Sources/olive-divergence/project/sourcescommon.h \
  /usr/include/qt/QtCore/QModelIndexList \
- /home/faranaiki/Sources/olive/ui/panel.h \
+ /home/faranaiki/Sources/olive-divergence/ui/panel.h \
  /usr/include/qt/QtWidgets/QDockWidget \
  /usr/include/qt/QtWidgets/qdockwidget.h \
- /home/faranaiki/Sources/olive/ui/sourceiconview.h \
+ /home/faranaiki/Sources/olive-divergence/ui/sourceiconview.h \
  /usr/include/qt/QtWidgets/QListView \
  /usr/include/qt/QtWidgets/qlistview.h /usr/include/qt/QtGui/QDropEvent \
  /usr/include/qt/QtWidgets/QStyledItemDelegate \
  /usr/include/qt/QtWidgets/qstyleditemdelegate.h \
- /home/faranaiki/Sources/olive/timeline/mediaimportdata.h \
- /home/faranaiki/Sources/olive/ui/sourcetable.h \
+ /home/faranaiki/Sources/olive-divergence/timeline/mediaimportdata.h \
+ /home/faranaiki/Sources/olive-divergence/ui/sourcetable.h \
  /usr/include/qt/QtWidgets/QTreeView \
  /usr/include/qt/QtWidgets/qtreeview.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_preferencesdialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/preferencesdialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_preferencesdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/preferencesdialog.h \
  /usr/include/qt/QtWidgets/QKeySequenceEdit \
  /usr/include/qt/QtWidgets/qkeysequenceedit.h \
  /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
@@ -480,14 +480,14 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qtreeview.h \
  /usr/include/qt/QtWidgets/qtreewidgetitemiterator.h \
  /usr/include/qt/QtWidgets/QTreeWidgetItem \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_proxydialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/proxydialog.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_replaceclipmediadialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/replaceclipmediadialog.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_speeddialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/speeddialog.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/moc_texteditdialog.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/texteditdialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_proxydialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/proxydialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_replaceclipmediadialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/replaceclipmediadialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_speeddialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/speeddialog.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/moc_texteditdialog.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/2NRMJ5X7RK/../../../dialogs/texteditdialog.h \
  /usr/include/qt/QtWidgets/QPlainTextEdit \
  /usr/include/qt/QtWidgets/qplaintextedit.h \
  /usr/include/qt/QtWidgets/qtextedit.h \
@@ -498,99 +498,99 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/QFontComboBox \
  /usr/include/qt/QtWidgets/qfontcombobox.h \
  /usr/include/qt/QtWidgets/qcombobox.h \
- /home/faranaiki/Sources/olive/ui/colorbutton.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/moc_effect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/effect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/moc_effectfield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/effectfield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/moc_effectgizmo.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/effectgizmo.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/moc_effectrow.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/effectrow.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_boolfield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/boolfield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_buttonfield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/buttonfield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_colorfield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/colorfield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_combofield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/combofield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_doublefield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/doublefield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_filefield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/filefield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_fontfield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/fontfield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_labelfield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/labelfield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/moc_stringfield.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/stringfield.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_audionoiseeffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/audionoiseeffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_cornerpineffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/cornerpineffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_fillleftrighteffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/fillleftrighteffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_frei0reffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/frei0reffect.h \
+ /home/faranaiki/Sources/olive-divergence/ui/colorbutton.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/moc_effect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/effect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/moc_effectfield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/effectfield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/moc_effectgizmo.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/effectgizmo.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/moc_effectrow.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/effectrow.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_boolfield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/boolfield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_buttonfield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/buttonfield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_colorfield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/colorfield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_combofield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/combofield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_doublefield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/doublefield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_filefield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/filefield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_fontfield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/fontfield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_labelfield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/labelfield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/moc_stringfield.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/Q2V3TQ6V4J/../../../effects/fields/stringfield.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_audionoiseeffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/audionoiseeffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_cornerpineffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/cornerpineffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_fillleftrighteffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/fillleftrighteffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_frei0reffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/frei0reffect.h \
  /usr/include/qt/QtCore/QLibrary /usr/include/qt/QtCore/qlibrary.h \
  /usr/include/frei0r.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_paneffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/paneffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_richtexteffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/richtexteffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_shakeeffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/shakeeffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_solideffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/solideffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_paneffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/paneffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_richtexteffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/richtexteffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_shakeeffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/shakeeffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_solideffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/solideffect.h \
  /usr/include/qt/QtGui/QImage /usr/include/qt/QtGui/qimage.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_texteffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/texteffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_texteffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/texteffect.h \
  /usr/include/qt/QtGui/QFont /usr/include/qt/QtGui/qfont.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_timecodeeffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/timecodeeffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_toneeffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/toneeffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_transformeffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/transformeffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_voideffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/voideffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_volumeeffect.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/volumeeffect.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/moc_vsthost.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/vsthost.h \
- /home/faranaiki/Sources/olive/include/vestige.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/moc_transition.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/transition.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/43AIQRLLGG/moc_global.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/43AIQRLLGG/../../../global/global.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_timecodeeffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/timecodeeffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_toneeffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/toneeffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_transformeffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/transformeffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_voideffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/voideffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_volumeeffect.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/volumeeffect.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/moc_vsthost.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/SEXVANDQAQ/../../../effects/internal/vsthost.h \
+ /home/faranaiki/Sources/olive-divergence/include/vestige.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/moc_transition.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/6SLW5EYZHQ/../../../effects/transition.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/43AIQRLLGG/moc_global.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/43AIQRLLGG/../../../global/global.h \
  /usr/include/qt/QtCore/QTranslator /usr/include/qt/QtCore/qtranslator.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/moc_effectcontrols.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/effectcontrols.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/moc_effectcontrols.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/effectcontrols.h \
  /usr/include/qt/QtWidgets/QScrollArea \
  /usr/include/qt/QtWidgets/qscrollarea.h \
  /usr/include/qt/QtWidgets/QScrollBar \
  /usr/include/qt/QtWidgets/qscrollbar.h \
  /usr/include/qt/QtWidgets/QSplitter \
  /usr/include/qt/QtWidgets/qsplitter.h \
- /home/faranaiki/Sources/olive/ui/timelineheader.h \
+ /home/faranaiki/Sources/olive-divergence/ui/timelineheader.h \
  /usr/include/qt/QtGui/QFontMetrics /usr/include/qt/QtGui/qfontmetrics.h \
- /home/faranaiki/Sources/olive/ui/keyframeview.h \
- /home/faranaiki/Sources/olive/ui/effectui.h \
- /home/faranaiki/Sources/olive/ui/collapsiblewidget.h \
- /home/faranaiki/Sources/olive/ui/resizablescrollbar.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/moc_grapheditor.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/grapheditor.h \
- /home/faranaiki/Sources/olive/ui/graphview.h \
- /home/faranaiki/Sources/olive/effects/effectrow.h \
- /home/faranaiki/Sources/olive/effects/effectfields.h \
- /home/faranaiki/Sources/olive/ui/keyframenavigator.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/moc_project.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/project.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/moc_timeline.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/timeline.h \
+ /home/faranaiki/Sources/olive-divergence/ui/keyframeview.h \
+ /home/faranaiki/Sources/olive-divergence/ui/effectui.h \
+ /home/faranaiki/Sources/olive-divergence/ui/collapsiblewidget.h \
+ /home/faranaiki/Sources/olive-divergence/ui/resizablescrollbar.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/moc_grapheditor.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/grapheditor.h \
+ /home/faranaiki/Sources/olive-divergence/ui/graphview.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectrow.h \
+ /home/faranaiki/Sources/olive-divergence/effects/effectfields.h \
+ /home/faranaiki/Sources/olive-divergence/ui/keyframenavigator.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/moc_project.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/project.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/moc_timeline.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/timeline.h \
  /usr/include/qt/QtCore/QTime /usr/include/qt/QtCore/qdatetime.h \
- /home/faranaiki/Sources/olive/ui/timelinewidget.h \
+ /home/faranaiki/Sources/olive-divergence/ui/timelinewidget.h \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtCore/qcoreapplication.h \
@@ -599,37 +599,37 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtGui/qinputmethod.h \
  /usr/include/qt/QtWidgets/QDesktopWidget \
  /usr/include/qt/QtWidgets/qdesktopwidget.h \
- /home/faranaiki/Sources/olive/ui/timelinetools.h \
- /home/faranaiki/Sources/olive/ui/timelinetools.h \
- /home/faranaiki/Sources/olive/ui/audiomonitor.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/moc_viewer.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/viewer.h \
- /home/faranaiki/Sources/olive/ui/viewerwidget.h \
+ /home/faranaiki/Sources/olive-divergence/ui/timelinetools.h \
+ /home/faranaiki/Sources/olive-divergence/ui/timelinetools.h \
+ /home/faranaiki/Sources/olive-divergence/ui/audiomonitor.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/moc_viewer.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/MJFHPCJYR3/../../../panels/viewer.h \
+ /home/faranaiki/Sources/olive-divergence/ui/viewerwidget.h \
  /usr/include/qt/QtWidgets/QOpenGLWidget \
  /usr/include/qt/QtWidgets/qopenglwidget.h \
  /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtGui/QMatrix4x4 \
  /usr/include/qt/QtGui/qmatrix4x4.h \
- /home/faranaiki/Sources/olive/ui/viewerwindow.h \
- /home/faranaiki/Sources/olive/ui/viewercontainer.h \
- /home/faranaiki/Sources/olive/rendering/renderthread.h \
+ /home/faranaiki/Sources/olive-divergence/ui/viewerwindow.h \
+ /home/faranaiki/Sources/olive-divergence/ui/viewercontainer.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/renderthread.h \
  /usr/include/qt/QtGui/QOpenGLContext \
  /usr/include/qt/QtGui/qopenglcontext.h \
- /home/faranaiki/Sources/olive/rendering/framebufferobject.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/moc_loadthread.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/../../../project/loadthread.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/moc_previewgenerator.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/../../../project/previewgenerator.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/framebufferobject.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/moc_loadthread.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/../../../project/loadthread.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/moc_previewgenerator.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/../../../project/previewgenerator.h \
  /usr/include/qt/QtCore/QSemaphore /usr/include/qt/QtCore/qsemaphore.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/moc_projectfilter.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/../../../project/projectfilter.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/moc_projectmodel.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/../../../project/projectmodel.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/moc_proxygenerator.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/../../../project/proxygenerator.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/moc_sourcescommon.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/QV7S676PVK/../../../project/sourcescommon.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/moc_audio.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/../../../rendering/audio.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/moc_projectfilter.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/../../../project/projectfilter.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/moc_projectmodel.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/../../../project/projectmodel.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/moc_proxygenerator.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/../../../project/proxygenerator.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/moc_sourcescommon.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/QV7S676PVK/../../../project/sourcescommon.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/moc_audio.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/../../../rendering/audio.h \
  /usr/include/qt/QtCore/QIODevice /usr/include/qt/QtCore/qiodevice.h \
  /usr/include/qt/QtMultimedia/QAudioOutput \
  /usr/include/qt/QtMultimedia/qaudiooutput.h \
@@ -639,65 +639,65 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtMultimedia/qaudio.h \
  /usr/include/qt/QtMultimedia/qaudioformat.h \
  /usr/include/qt/QtMultimedia/qaudiodeviceinfo.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/moc_cacher.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/../../../rendering/cacher.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/moc_exportthread.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/../../../rendering/exportthread.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/moc_renderthread.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/LHXIM2V6NU/../../../rendering/renderthread.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_audiomonitor.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/audiomonitor.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_clickablelabel.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/clickablelabel.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_collapsiblewidget.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/collapsiblewidget.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_colorbutton.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/colorbutton.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_columnedgridlayout.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/columnedgridlayout.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_comboboxex.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/comboboxex.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_effectui.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/effectui.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_embeddedfilechooser.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/embeddedfilechooser.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_focusfilter.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/focusfilter.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_fontcombobox.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/fontcombobox.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_graphview.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/graphview.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_keyframenavigator.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/keyframenavigator.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_keyframeview.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/keyframeview.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_labelslider.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/labelslider.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_mainwindow.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/mainwindow.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/moc_cacher.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/../../../rendering/cacher.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/moc_exportthread.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/../../../rendering/exportthread.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/moc_renderthread.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/LHXIM2V6NU/../../../rendering/renderthread.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_audiomonitor.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/audiomonitor.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_clickablelabel.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/clickablelabel.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_collapsiblewidget.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/collapsiblewidget.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_colorbutton.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/colorbutton.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_columnedgridlayout.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/columnedgridlayout.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_comboboxex.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/comboboxex.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_effectui.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/effectui.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_embeddedfilechooser.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/embeddedfilechooser.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_focusfilter.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/focusfilter.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_fontcombobox.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/fontcombobox.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_graphview.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/graphview.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_keyframenavigator.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/keyframenavigator.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_keyframeview.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/keyframeview.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_labelslider.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/labelslider.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_mainwindow.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/mainwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_mediaiconservice.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/mediaiconservice.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_menuhelper.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/menuhelper.h \
- /home/faranaiki/Sources/olive/ui/menu.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_panel.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/panel.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_resizablescrollbar.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/resizablescrollbar.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_sourceiconview.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/sourceiconview.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_sourcetable.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/sourcetable.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_texteditex.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/texteditex.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_timelineheader.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/timelineheader.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_timelinewidget.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/timelinewidget.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_updatenotification.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/updatenotification.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_mediaiconservice.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/mediaiconservice.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_menuhelper.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/menuhelper.h \
+ /home/faranaiki/Sources/olive-divergence/ui/menu.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_panel.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/panel.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_resizablescrollbar.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/resizablescrollbar.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_sourceiconview.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/sourceiconview.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_sourcetable.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/sourcetable.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_texteditex.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/texteditex.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_timelineheader.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/timelineheader.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_timelinewidget.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/timelinewidget.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_updatenotification.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/updatenotification.h \
  /usr/include/qt/QtNetwork/QNetworkReply \
  /usr/include/qt/QtNetwork/qnetworkreply.h \
  /usr/include/qt/QtNetwork/qtnetworkglobal.h \
@@ -726,9 +726,9 @@ CMakeFiles/olive-editor.dir/olive-editor_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtNetwork/QSslPreSharedKeyAuthenticator \
  /usr/include/qt/QtNetwork/qsslpresharedkeyauthenticator.h \
  /usr/include/qt/QtCore/QMetaType \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_viewercontainer.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/viewercontainer.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_viewerwidget.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/viewerwidget.h \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/moc_viewerwindow.cpp \
- /home/faranaiki/Sources/olive/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/viewerwindow.h
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_viewercontainer.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/viewercontainer.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_viewerwidget.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/viewerwidget.h \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/moc_viewerwindow.cpp \
+ /home/faranaiki/Sources/olive-divergence/build/olive-editor_autogen/UYX5XTB5RZ/../../../ui/viewerwindow.h

@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/rendering/framebufferobject.cpp.o: \
- /home/faranaiki/Sources/olive/rendering/framebufferobject.cpp \
+ /home/faranaiki/Sources/olive-divergence/rendering/framebufferobject.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/rendering/framebufferobject.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/framebufferobject.h \
  /usr/include/qt/QtGui/QOpenGLContext \
  /usr/include/qt/QtGui/qopenglcontext.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \

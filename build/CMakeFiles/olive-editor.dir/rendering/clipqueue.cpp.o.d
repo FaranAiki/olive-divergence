@@ -1,7 +1,7 @@
 CMakeFiles/olive-editor.dir/rendering/clipqueue.cpp.o: \
- /home/faranaiki/Sources/olive/rendering/clipqueue.cpp \
+ /home/faranaiki/Sources/olive-divergence/rendering/clipqueue.cpp \
  /usr/include/stdc-predef.h \
- /home/faranaiki/Sources/olive/rendering/clipqueue.h \
+ /home/faranaiki/Sources/olive-divergence/rendering/clipqueue.h \
  /usr/include/libavformat/avformat.h /usr/include/time.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
