@@ -204,13 +204,27 @@ CMakeFiles/olive-editor.dir/main.cpp.o: \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
  /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
  /usr/include/qt/QtCore/qhash.h /usr/include/qt/QtCore/qshareddata.h \
- /home/faranaiki/Sources/olive/global/debug.h \
- /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
- /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qiodevice.h \
- /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
- /usr/include/qt/QtCore/qsharedpointer.h \
- /usr/include/qt/QtCore/qsharedpointer_impl.h \
- /usr/include/c++/11.2.0/memory \
+ /home/faranaiki/Sources/olive/include/muparser.h \
+ /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
+ /usr/include/muParser.h /usr/include/muParserBase.h \
+ /usr/include/c++/11.2.0/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/11.2.0/iostream \
+ /usr/include/c++/11.2.0/ostream /usr/include/c++/11.2.0/ios \
+ /usr/include/c++/11.2.0/bits/basic_ios.h \
+ /usr/include/c++/11.2.0/bits/locale_facets.h \
+ /usr/include/c++/11.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/11.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/11.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
+ /usr/include/c++/11.2.0/bits/istream.tcc /usr/include/c++/11.2.0/memory \
  /usr/include/c++/11.2.0/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11.2.0/bits/align.h /usr/include/c++/11.2.0/bit \
  /usr/include/c++/11.2.0/bits/unique_ptr.h \
@@ -219,8 +233,28 @@ CMakeFiles/olive-editor.dir/main.cpp.o: \
  /usr/include/c++/11.2.0/ext/concurrence.h \
  /usr/include/c++/11.2.0/bits/shared_ptr_atomic.h \
  /usr/include/c++/11.2.0/backward/auto_ptr.h \
+ /usr/include/c++/11.2.0/locale \
+ /usr/include/c++/11.2.0/bits/locale_facets_nonio.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11.2.0/bits/codecvt.h \
+ /usr/include/c++/11.2.0/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11.2.0/bits/locale_conv.h /usr/include/muParserDef.h \
+ /usr/include/c++/11.2.0/sstream /usr/include/c++/11.2.0/bits/sstream.tcc \
+ /usr/include/muParserFixes.h /usr/include/muParserTokenReader.h \
+ /usr/include/c++/11.2.0/cstring /usr/include/c++/11.2.0/stack \
+ /usr/include/c++/11.2.0/deque /usr/include/c++/11.2.0/bits/stl_deque.h \
+ /usr/include/c++/11.2.0/bits/deque.tcc \
+ /usr/include/c++/11.2.0/bits/stl_stack.h /usr/include/muParserToken.h \
+ /usr/include/muParserError.h /usr/include/muParserCallback.h \
+ /usr/include/muParserBytecode.h /usr/include/muParserTemplateMagic.h \
+ /home/faranaiki/Sources/olive/global/debug.h \
+ /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
+ /usr/include/qt/QtCore/qtextstream.h /usr/include/qt/QtCore/qiodevice.h \
+ /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qcontiguouscache.h \
+ /usr/include/qt/QtCore/qsharedpointer.h \
+ /usr/include/qt/QtCore/qsharedpointer_impl.h \
  /home/faranaiki/Sources/olive/global/config.h \
- /usr/include/qt/QtCore/QString /usr/include/qt/QtCore/qstring.h \
  /home/faranaiki/Sources/olive/ui/styling.h /usr/include/qt/QtGui/QColor \
  /usr/include/qt/QtGui/qcolor.h /usr/include/qt/QtGui/qrgb.h \
  /usr/include/qt/QtGui/qrgba64.h \
@@ -286,14 +320,7 @@ CMakeFiles/olive-editor.dir/main.cpp.o: \
  /home/faranaiki/Sources/olive/rendering/cacher.h \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/common.h \
- /usr/include/c++/11.2.0/math.h /usr/include/c++/11.2.0/cmath \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/libavutil/attributes.h \
+ /usr/include/c++/11.2.0/math.h /usr/include/libavutil/attributes.h \
  /usr/include/libavutil/macros.h /usr/include/libavutil/avconfig.h \
  /usr/include/libavutil/version.h /usr/include/libavutil/mem.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/error.h \

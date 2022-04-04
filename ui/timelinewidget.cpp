@@ -1,7 +1,7 @@
 ﻿/***
 
     Olive - Non-Linear Video Editor
-    Copyright (C) 2019  Olive Team
+    Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -1075,6 +1075,7 @@ void TimelineWidget::mouseReleaseEvent(QMouseEvent *event) {
 			case ADD_OBJ_TEXT:
 			  c->set_name(tr("Text"));
 			  c->effects.append(Effect::Create(c.get(), Effect::GetInternalMeta(EFFECT_INTERNAL_TEXT, EFFECT_TYPE_EFFECT)));
+			  break;
             case ADD_OBJ_RICHTEXT:
               c->set_name(tr("Rich Text"));
               c->effects.append(Effect::Create(c.get(), Effect::GetInternalMeta(EFFECT_INTERNAL_RICHTEXT, EFFECT_TYPE_EFFECT)));

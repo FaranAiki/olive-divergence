@@ -116,6 +116,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/olive-editor.dir/global/math.cpp.o.d"
   "CMakeFiles/olive-editor.dir/global/path.cpp.o"
   "CMakeFiles/olive-editor.dir/global/path.cpp.o.d"
+  "CMakeFiles/olive-editor.dir/include/muparser.cpp.o"
+  "CMakeFiles/olive-editor.dir/include/muparser.cpp.o.d"
   "CMakeFiles/olive-editor.dir/main.cpp.o"
   "CMakeFiles/olive-editor.dir/main.cpp.o.d"
   "CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o"

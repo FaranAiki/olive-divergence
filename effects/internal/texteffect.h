@@ -1,7 +1,7 @@
 /***
 
     Olive - Non-Linear Video Editor
-    Copyright (C) 2019  Olive Team
+    Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -31,6 +31,7 @@ class TextEffect : public Effect {
 public:
   TextEffect(Clip* c, const EffectMeta *em);
   void redraw(double timecode);
+  bool AlwaysUpdate(void);
 private slots:
   void outline_enable(bool);
   void shadow_enable(bool);
@@ -58,7 +59,8 @@ private:
   ColorField* shadow_color;
   DoubleField* shadow_softness;
   DoubleField* shadow_opacity;
-
+  
+  BoolField* advanced_text;
 };
 
 #endif // TEXTEFFECT_H

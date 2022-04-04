@@ -1,7 +1,7 @@
 /***
 
     Olive - Non-Linear Video Editor
-    Copyright (C) 2019  Olive Team
+    Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -59,10 +59,10 @@ OliveGlobal::OliveGlobal() :
 
   // if available, append the current Git hash (defined by `qmake` and the Makefile)
 #ifdef GITHASH
-  version_id = QString(" | %1").arg(GITHASH);
+  version_id = QString("%1").arg(GITHASH);
 #endif
 
-  olive::AppName = QString("Olive (November 2019 | Alpha%1)").arg(version_id);
+  olive::AppName = QString("Olive Divergence: %1").arg(version_id);
 
   // set the file filter used in all file dialogs pertaining to Olive project files.
   project_file_filter = tr("Olive Project %1").arg("(*.ove)");

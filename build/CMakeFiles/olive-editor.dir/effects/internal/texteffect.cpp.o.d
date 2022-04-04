@@ -351,6 +351,37 @@ CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o: \
  /usr/include/qt/QtWidgets/QMenu /usr/include/qt/QtWidgets/qmenu.h \
  /usr/include/qt/QtWidgets/qaction.h \
  /usr/include/qt/QtWidgets/qactiongroup.h \
+ /home/faranaiki/Sources/olive/include/muparser.h /usr/include/muParser.h \
+ /usr/include/muParserBase.h /usr/include/c++/11.2.0/iostream \
+ /usr/include/c++/11.2.0/ostream /usr/include/c++/11.2.0/ios \
+ /usr/include/c++/11.2.0/bits/basic_ios.h \
+ /usr/include/c++/11.2.0/bits/locale_facets.h \
+ /usr/include/c++/11.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/11.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/11.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
+ /usr/include/c++/11.2.0/bits/istream.tcc /usr/include/c++/11.2.0/locale \
+ /usr/include/c++/11.2.0/bits/locale_facets_nonio.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11.2.0/bits/codecvt.h \
+ /usr/include/c++/11.2.0/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11.2.0/bits/locale_conv.h /usr/include/muParserDef.h \
+ /usr/include/c++/11.2.0/sstream /usr/include/c++/11.2.0/bits/sstream.tcc \
+ /usr/include/muParserFixes.h /usr/include/muParserTokenReader.h \
+ /usr/include/c++/11.2.0/cstring /usr/include/c++/11.2.0/stack \
+ /usr/include/c++/11.2.0/deque /usr/include/c++/11.2.0/bits/stl_deque.h \
+ /usr/include/c++/11.2.0/bits/deque.tcc \
+ /usr/include/c++/11.2.0/bits/stl_stack.h /usr/include/muParserToken.h \
+ /usr/include/muParserError.h /usr/include/muParserCallback.h \
+ /usr/include/muParserBytecode.h /usr/include/muParserTemplateMagic.h \
+ /home/faranaiki/Sources/olive/ui/comboboxex.h \
+ /home/faranaiki/Sources/olive/ui/colorbutton.h \
+ /home/faranaiki/Sources/olive/ui/fontcombobox.h \
+ /home/faranaiki/Sources/olive/ui/blur.h \
  /home/faranaiki/Sources/olive/timeline/clip.h \
  /usr/include/qt/QtCore/QWaitCondition \
  /usr/include/qt/QtCore/qwaitcondition.h \
@@ -404,9 +435,5 @@ CMakeFiles/olive-editor.dir/effects/internal/texteffect.cpp.o: \
  /home/faranaiki/Sources/olive/timeline/sequence.h \
  /home/faranaiki/Sources/olive/timeline/clip.h \
  /home/faranaiki/Sources/olive/timeline/selection.h \
- /home/faranaiki/Sources/olive/ui/comboboxex.h \
- /home/faranaiki/Sources/olive/ui/colorbutton.h \
- /home/faranaiki/Sources/olive/ui/fontcombobox.h \
- /home/faranaiki/Sources/olive/ui/blur.h \
  /home/faranaiki/Sources/olive/global/config.h \
  /home/faranaiki/Sources/olive/ui/styling.h

@@ -246,7 +246,40 @@ CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o: \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtCore/qlocale.h \
  /usr/include/qt/QtWidgets/QMenu /usr/include/qt/QtWidgets/qmenu.h \
  /usr/include/qt/QtGui/qicon.h /usr/include/qt/QtWidgets/qaction.h \
- /usr/include/qt/QtWidgets/qactiongroup.h \
+ /usr/include/qt/QtWidgets/qactiongroup.h /usr/include/c++/11.2.0/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/muParser.h \
+ /usr/include/muParserBase.h /usr/include/c++/11.2.0/iostream \
+ /usr/include/c++/11.2.0/ostream /usr/include/c++/11.2.0/ios \
+ /usr/include/c++/11.2.0/bits/basic_ios.h \
+ /usr/include/c++/11.2.0/bits/locale_facets.h \
+ /usr/include/c++/11.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/11.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/11.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/11.2.0/bits/ostream.tcc /usr/include/c++/11.2.0/istream \
+ /usr/include/c++/11.2.0/bits/istream.tcc /usr/include/c++/11.2.0/locale \
+ /usr/include/c++/11.2.0/bits/locale_facets_nonio.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11.2.0/bits/codecvt.h \
+ /usr/include/c++/11.2.0/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11.2.0/bits/locale_conv.h /usr/include/muParserDef.h \
+ /usr/include/c++/11.2.0/sstream /usr/include/c++/11.2.0/bits/sstream.tcc \
+ /usr/include/muParserFixes.h /usr/include/muParserTokenReader.h \
+ /usr/include/c++/11.2.0/cstring /usr/include/c++/11.2.0/stack \
+ /usr/include/c++/11.2.0/deque /usr/include/c++/11.2.0/bits/stl_deque.h \
+ /usr/include/c++/11.2.0/bits/deque.tcc \
+ /usr/include/c++/11.2.0/bits/stl_stack.h /usr/include/muParserToken.h \
+ /usr/include/muParserError.h /usr/include/muParserCallback.h \
+ /usr/include/muParserBytecode.h /usr/include/muParserTemplateMagic.h \
  /home/faranaiki/Sources/olive/undo/undo.h \
  /usr/include/qt/QtWidgets/QCheckBox \
  /usr/include/qt/QtWidgets/qcheckbox.h \
@@ -273,33 +306,27 @@ CMakeFiles/olive-editor.dir/ui/labelslider.cpp.o: \
  /usr/include/libavformat/avformat.h /usr/include/libavcodec/codec.h \
  /usr/include/libavutil/avutil.h /usr/include/libavutil/common.h \
  /usr/include/inttypes.h /usr/include/c++/11.2.0/math.h \
- /usr/include/c++/11.2.0/cmath /usr/include/math.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/libavutil/attributes.h \
- /usr/include/libavutil/macros.h /usr/include/libavutil/avconfig.h \
- /usr/include/libavutil/version.h /usr/include/libavutil/mem.h \
- /usr/include/libavutil/avutil.h /usr/include/libavutil/error.h \
- /usr/include/libavutil/rational.h /usr/include/libavutil/mathematics.h \
- /usr/include/libavutil/intfloat.h /usr/include/libavutil/log.h \
- /usr/include/libavutil/pixfmt.h /usr/include/libavutil/hwcontext.h \
- /usr/include/libavutil/buffer.h /usr/include/libavutil/frame.h \
- /usr/include/libavutil/dict.h /usr/include/libavutil/samplefmt.h \
+ /usr/include/libavutil/attributes.h /usr/include/libavutil/macros.h \
+ /usr/include/libavutil/avconfig.h /usr/include/libavutil/version.h \
+ /usr/include/libavutil/mem.h /usr/include/libavutil/avutil.h \
+ /usr/include/libavutil/error.h /usr/include/libavutil/rational.h \
+ /usr/include/libavutil/mathematics.h /usr/include/libavutil/intfloat.h \
  /usr/include/libavutil/log.h /usr/include/libavutil/pixfmt.h \
- /usr/include/libavutil/rational.h /usr/include/libavutil/samplefmt.h \
- /usr/include/libavcodec/codec_id.h /usr/include/libavcodec/version.h \
- /usr/include/libavutil/version.h /usr/include/libavcodec/codec_par.h \
- /usr/include/libavcodec/codec_id.h /usr/include/libavcodec/defs.h \
- /usr/include/libavcodec/packet.h /usr/include/libavutil/attributes.h \
- /usr/include/libavutil/buffer.h /usr/include/libavutil/dict.h \
- /usr/include/libavformat/avio.h /usr/include/libavutil/common.h \
- /usr/include/libavformat/version.h /usr/include/qt/QtCore/QMetaType \
- /usr/include/qt/QtCore/qmetatype.h /usr/include/qt/QtCore/QMutex \
- /usr/include/qt/QtCore/qmutex.h /usr/include/qt/QtGui/QPixmap \
- /usr/include/qt/QtGui/qpixmap.h /home/faranaiki/Sources/olive/ui/panel.h \
+ /usr/include/libavutil/hwcontext.h /usr/include/libavutil/buffer.h \
+ /usr/include/libavutil/frame.h /usr/include/libavutil/dict.h \
+ /usr/include/libavutil/samplefmt.h /usr/include/libavutil/log.h \
+ /usr/include/libavutil/pixfmt.h /usr/include/libavutil/rational.h \
+ /usr/include/libavutil/samplefmt.h /usr/include/libavcodec/codec_id.h \
+ /usr/include/libavcodec/version.h /usr/include/libavutil/version.h \
+ /usr/include/libavcodec/codec_par.h /usr/include/libavcodec/codec_id.h \
+ /usr/include/libavcodec/defs.h /usr/include/libavcodec/packet.h \
+ /usr/include/libavutil/attributes.h /usr/include/libavutil/buffer.h \
+ /usr/include/libavutil/dict.h /usr/include/libavformat/avio.h \
+ /usr/include/libavutil/common.h /usr/include/libavformat/version.h \
+ /usr/include/qt/QtCore/QMetaType /usr/include/qt/QtCore/qmetatype.h \
+ /usr/include/qt/QtCore/QMutex /usr/include/qt/QtCore/qmutex.h \
+ /usr/include/qt/QtGui/QPixmap /usr/include/qt/QtGui/qpixmap.h \
+ /home/faranaiki/Sources/olive/ui/panel.h \
  /usr/include/qt/QtWidgets/QDockWidget \
  /usr/include/qt/QtWidgets/qdockwidget.h \
  /home/faranaiki/Sources/olive/ui/viewerwidget.h \

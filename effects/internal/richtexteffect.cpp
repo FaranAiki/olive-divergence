@@ -5,10 +5,14 @@
 #include <QRegularExpression>
 #include <QDebug>
 
-#include <muParser.h>
+#include <cmath>
+
+#include "include/muparser.h"
 
 #include "timeline/clip.h"
 #include "ui/blur.h"
+
+#include <iostream>
 
 enum AutoscrollDirection {
   SCROLL_OFF,
@@ -108,14 +112,36 @@ void RichTextEffect::redraw(double timecode)
   QString text(text_val->GetStringAt(timecode));
   
   if (advanced_text->GetValueAt(timecode).toInt()) {
+    mu::Parser parser(MuParser::parser);
+    
+    parser.DefineVar("timecode", &timecode);
+    
+    MuParser::Init(&parser);
     
     QRegularExpressionMatchIterator i = QRegularExpression("&lt;.*?&gt;").globalMatch(text);
     
     while (i.hasNext()) {
 	  QRegularExpressionMatch match = i.next();
-	  qDebug() << match.captured();
+	    
+	  QString total = match.captured();
+	  QString command = total;
+	  
+	  try {
+	    QString total = match.captured();
+	    QString command = total;
+	    
+	    command.chop(4);
+	    command.remove(0, 4);
+	    
+	    parser.SetExpr(command.toStdString().c_str());
+	    
+	    text.replace(total, QString("%1").arg(parser.Eval()));
+	  }
+	  catch (mu::Parser::exception_type &e)
+	  {
+        text.replace(total, QString("{ERROR: %1}").arg(e.GetMsg().c_str()));
+	  }
 	}
-    
   }
   
   td.setHtml(text);

@@ -327,9 +327,10 @@ CMakeFiles/olive-editor.dir/effects/internal/richtexteffect.cpp.o: \
  /usr/include/qt/QtCore/qmath.h /usr/include/qt/QtCore/QRegularExpression \
  /usr/include/qt/QtCore/qregularexpression.h \
  /usr/include/qt/QtCore/QDebug /usr/include/qt/QtCore/qdebug.h \
- /usr/include/muParser.h /usr/include/muParserBase.h \
- /usr/include/c++/11.2.0/iostream /usr/include/c++/11.2.0/ostream \
- /usr/include/c++/11.2.0/ios /usr/include/c++/11.2.0/bits/basic_ios.h \
+ /home/faranaiki/Sources/olive/include/muparser.h /usr/include/muParser.h \
+ /usr/include/muParserBase.h /usr/include/c++/11.2.0/iostream \
+ /usr/include/c++/11.2.0/ostream /usr/include/c++/11.2.0/ios \
+ /usr/include/c++/11.2.0/bits/basic_ios.h \
  /usr/include/c++/11.2.0/bits/locale_facets.h \
  /usr/include/c++/11.2.0/cwctype /usr/include/wctype.h \
  /usr/include/bits/wctype-wchar.h \

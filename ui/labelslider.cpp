@@ -1,7 +1,7 @@
 /***
 
     Olive - Non-Linear Video Editor
-    Copyright (C) 2019  Olive Team
+    Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -24,6 +24,9 @@
 #include <QInputDialog>
 #include <QApplication>
 #include <QMenu>
+
+#include <cmath>
+#include <muParser.h>
 
 #include "undo/undo.h"
 #include "panels/viewer.h"
@@ -290,6 +293,8 @@ void LabelSlider::ResetToDefault()
   }
 }
 
+double _floor(double v) {return std::floor(v);}
+
 void LabelSlider::ShowDialog()
 {
   // if the user didn't actually drag, and just clicked in one place,
@@ -297,7 +302,9 @@ void LabelSlider::ShowDialog()
   // specific value
 
   double d = internal_value;
-
+  
+  mu::Parser p;
+  
   if (display_type == FrameNumber) {
 
     // ask the user to enter a timecode
@@ -307,7 +314,7 @@ void LabelSlider::ShowDialog()
           tr("New value:"),
           QLineEdit::Normal,
           ValueToString()
-          );
+    );
     if (s.isEmpty()) return;
 
     // parse string timecode to a frame number
@@ -340,16 +347,22 @@ void LabelSlider::ShowDialog()
     }
 
     // percentages are stored 0.0 - 1.0 but displayed as 0% - 100%
-    d = QInputDialog::getDouble(
+    QString s = QInputDialog::getText(
           this,
           tr("Set Value"),
           tr("New value:"),
-          shown_value,
-          shown_minimum_value,
-          (max_enabled) ? max_value : INT_MAX,
-          decimal_places,
+          QLineEdit::Normal,
+          ValueToString(),
           &ok
-          );
+    );
+          
+    if (s.isEmpty()) return;
+    
+    p.DefineFun("floor", _floor);
+    p.SetExpr(s.toStdString().c_str());
+    
+    d = p.Eval();
+    
     if (!ok) return;
 
     // convert shown value back to internal value
@@ -359,7 +372,7 @@ void LabelSlider::ShowDialog()
       d = db_to_amplitude(d);
     }
   }
-
+  
   // if the value actually changed, trigger a change event
   if (!qFuzzyCompare(d, internal_value)) {
     SetValue(d);

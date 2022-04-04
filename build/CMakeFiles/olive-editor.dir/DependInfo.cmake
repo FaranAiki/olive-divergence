@@ -65,6 +65,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/faranaiki/Sources/olive/global/global.cpp" "CMakeFiles/olive-editor.dir/global/global.cpp.o" "gcc" "CMakeFiles/olive-editor.dir/global/global.cpp.o.d"
   "/home/faranaiki/Sources/olive/global/math.cpp" "CMakeFiles/olive-editor.dir/global/math.cpp.o" "gcc" "CMakeFiles/olive-editor.dir/global/math.cpp.o.d"
   "/home/faranaiki/Sources/olive/global/path.cpp" "CMakeFiles/olive-editor.dir/global/path.cpp.o" "gcc" "CMakeFiles/olive-editor.dir/global/path.cpp.o.d"
+  "/home/faranaiki/Sources/olive/include/muparser.cpp" "CMakeFiles/olive-editor.dir/include/muparser.cpp.o" "gcc" "CMakeFiles/olive-editor.dir/include/muparser.cpp.o.d"
   "/home/faranaiki/Sources/olive/main.cpp" "CMakeFiles/olive-editor.dir/main.cpp.o" "gcc" "CMakeFiles/olive-editor.dir/main.cpp.o.d"
   "/home/faranaiki/Sources/olive/build/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp" "CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o" "gcc" "CMakeFiles/olive-editor.dir/olive-editor_autogen/2SEMU33LXP/qrc_icons.cpp.o.d"
   "/home/faranaiki/Sources/olive/build/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp" "CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o" "gcc" "CMakeFiles/olive-editor.dir/olive-editor_autogen/QLWOC2ZJQE/qrc_cursors.cpp.o.d"

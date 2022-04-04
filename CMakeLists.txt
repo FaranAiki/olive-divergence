@@ -42,7 +42,9 @@ find_package(FFMPEG 3.4 REQUIRED
   swresample
 )
 
-find_package(MuParser)
+find_package(MuParser REQUIRED
+  MuParser
+)
 
 find_package(frei0r)
 if(NOT FREI0R_FOUND)
@@ -208,6 +210,8 @@ set(OLIVE_SOURCES
   global/math.h
   global/path.cpp
   global/path.h
+  include/muparser.cpp
+  include/muparser.h
   include/vestige.h
   panels/effectcontrols.cpp
   panels/effectcontrols.h
@@ -468,6 +472,7 @@ target_link_libraries(${OLIVE_TARGET}
   FFMPEG::avfilter
   FFMPEG::swscale
   FFMPEG::swresample
+  MuParser::MuParser
 )
 
 if(WIN32 AND OPENCOLORIO_FOUND)
@@ -475,7 +480,7 @@ if(WIN32 AND OPENCOLORIO_FOUND)
 endif()
 
 if(DOXYGEN_FOUND AND BUILD_DOXYGEN)
-  set(DOXYGEN_PROJECT_NAME "Olive")
+  set(DOXYGEN_PROJECT_NAME "Olive Divergence")
   set(DOXYGEN_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/docs")
   set(DOXYGEN_EXTRACT_ALL "YES")
   set(DOXYGEN_EXTRACT_PRIVATE "YES")

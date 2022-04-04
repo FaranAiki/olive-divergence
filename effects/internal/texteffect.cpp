@@ -34,14 +34,15 @@
 #include <QtMath>
 #include <QMenu>
 
+#include "include/muparser.h"
 #include "ui/labelslider.h"
 #include "ui/collapsiblewidget.h"
-#include "timeline/clip.h"
-#include "timeline/sequence.h"
 #include "ui/comboboxex.h"
 #include "ui/colorbutton.h"
 #include "ui/fontcombobox.h"
 #include "ui/blur.h"
+#include "timeline/clip.h"
+#include "timeline/sequence.h"
 #include "global/config.h"
 
 TextEffect::TextEffect(Clip* c, const EffectMeta* em) :
@@ -130,6 +131,10 @@ TextEffect::TextEffect(Clip* c, const EffectMeta* em) :
   shadow_opacity->SetColumnSpan(2);
   shadow_opacity->SetMinimum(0);
   shadow_opacity->SetMaximum(100);
+  
+  EffectRow* advanced_text_row = new EffectRow(this, tr("Advanced Text Edit"));
+  advanced_text = new BoolField(advanced_text_row, "advancedtextedit");
+  advanced_text->SetColumnSpan(2);
 
   size_val->SetDefault(48);
   text_val->SetValueAt(0, tr("Sample Text"));
@@ -157,7 +162,9 @@ TextEffect::TextEffect(Clip* c, const EffectMeta* em) :
 }
 
 void TextEffect::redraw(double timecode) {
-  if (size_val->GetDoubleAt(timecode) <= 0) {
+  double v_size = size_val->GetDoubleAt(timecode);
+  
+  if (v_size <= 0) {
     return;
   }
 
@@ -174,11 +181,49 @@ void TextEffect::redraw(double timecode) {
   // set font
   font.setStyleHint(QFont::Helvetica, QFont::PreferAntialias);
   font.setFamily(set_font_combobox->GetFontAt(timecode));
-  font.setPointSize(qRound(size_val->GetDoubleAt(timecode)));
+  font.setPointSize(qRound(v_size));
   p.setFont(font);
   QFontMetrics fm(font);
+  
+  // muparser
+  
+  QString text = text_val->GetStringAt(timecode);
+  
+  if (advanced_text->GetValueAt(timecode).toInt()) {
+    mu::Parser parser(MuParser::parser);
+    
+    parser.DefineVar("timecode", &timecode);
+    parser.DefineVar("size", &v_size);
+    
+    MuParser::Init(&parser);
+    
+    QRegularExpressionMatchIterator i = QRegularExpression("<.*?>").globalMatch(text);
+    
+    while (i.hasNext()) {
+	  QRegularExpressionMatch match = i.next();
+	    
+	  QString total = match.captured();
+	  QString command = total;
+	  
+	  try {
+	    QString total = match.captured();
+	    QString command = total;
+	    
+	    command.chop(1);
+	    command.remove(0, 1);
+	    
+	    parser.SetExpr(command.toStdString().c_str());
+	    
+	    text.replace(total, QString("%1").arg(parser.Eval()));
+	  }
+	  catch (mu::Parser::exception_type &e)
+	  {
+        text.replace(total, QString("{ERROR: %1}").arg(e.GetMsg().c_str()));
+	  }
+	}
+  }
 
-  QStringList lines = text_val->GetStringAt(timecode).split('\n');
+  QStringList lines = text.split('\n');
 
   // word wrap function
   if (word_wrap_field->GetBoolAt(timecode)) {
@@ -314,4 +359,8 @@ void TextEffect::shadow_enable(bool e) {
 void TextEffect::outline_enable(bool e) {
   outline_color->SetEnabled(e);
   outline_width->SetEnabled(e);
+}
+
+bool TextEffect::AlwaysUpdate(void) {
+	return (advanced_text->GetValueAt(advanced_text->Now())).toInt();
 }

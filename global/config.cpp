@@ -1,7 +1,7 @@
 /***
 
     Olive - Non-Linear Video Editor
-    Copyright (C) 2019  Olive Team
+    Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -240,7 +240,10 @@ void Config::load(QString path) {
         } else if (stream.name() == "DefaultSequenceAudioLayout") {
           stream.readNext();
           default_sequence_audio_channel_layout = stream.text().toInt();
-        } else if (stream.name() == "LockedPanels") {
+        } else if (stream.name() == "DefaultTransitionLength") {
+		  stream.readNext();
+		  default_transition_length = stream.text().toInt();
+		} else if (stream.name() == "LockedPanels") {
           stream.readNext();
           locked_panels = (stream.text() == "1");
         }
@@ -317,6 +320,7 @@ void Config::save(QString path) {
   stream.writeTextElement("DefaultSequenceFrameRate", QString::number(default_sequence_framerate));
   stream.writeTextElement("DefaultSequenceAudioFrequency", QString::number(default_sequence_audio_frequency));
   stream.writeTextElement("DefaultSequenceAudioLayout", QString::number(default_sequence_audio_channel_layout));
+  stream.writeTextElement("DefaultTransitionLength", QString::number(default_transition_length));
   stream.writeTextElement("LockedPanels", QString::number(locked_panels));
 
   stream.writeEndElement(); // configuration

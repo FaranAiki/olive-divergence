@@ -1,7 +1,7 @@
 /***
 
     Olive - Non-Linear Video Editor
-    Copyright (C) 2019  Olive Team
+    Copyright (C) 2022 Olive Team
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -20,9 +20,12 @@
 
 #include <QApplication>
 
+#include "include/muparser.h"
+
 #include "global/debug.h"
 #include "global/config.h"
 #include "global/global.h"
+
 #include "panels/timeline.h"
 #include "ui/mediaiconservice.h"
 #include "ui/mainwindow.h"
@@ -98,6 +101,9 @@ int main(int argc, char *argv[]) {
   if (use_internal_logger) {
     qInstallMessageHandler(debug_message_handler);
   }
+
+  // Initialize muparser
+  MuParser::Init();
 
   // Initialize ffmpeg subsystem
   // (these have been deprecated in FFmpeg 4, but are still necessary for FFmpeg 3)

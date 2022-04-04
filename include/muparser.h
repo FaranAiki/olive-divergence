@@ -18,16 +18,23 @@
 
 ***/
 
-#include "clickablelabel.h"
+#include <QString>
+#include <muParser.h>
 
-ClickableLabel::ClickableLabel(QWidget *parent, Qt::WindowFlags f) :
-	QLabel(parent, f)
-{}
+#ifndef MUPARSER_FUN_H
+#define MUPARSER_FUN_H
 
-ClickableLabel::ClickableLabel(const QString &text, QWidget *parent, Qt::WindowFlags f) :
-	QLabel(text, parent, f)
-{}
-
-void ClickableLabel::mousePressEvent(QMouseEvent *) {
-	emit clicked();
+namespace MuParser {
+  static mu::Parser parser;
+  
+  double inline __floor(double val);
+  double inline __ceil(double val);
+  double inline __gamma(double val);
+  
+  double inline __mod(double a, double b);
+  
+  int Init(mu::Parser *p);
+  int Init();
 }
+
+#endif // MATH_H
