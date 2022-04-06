@@ -118,7 +118,7 @@ void RichTextEffect::redraw(double timecode)
     
     MuParser::Init(&parser);
     
-    QRegularExpressionMatchIterator i = QRegularExpression("&lt;.*?&gt;").globalMatch(text);
+    QRegularExpressionMatchIterator i = QRegularExpression("(?!<=\\\\)&lt;.*?&gt;").globalMatch(text);
     
     while (i.hasNext()) {
 	  QRegularExpressionMatch match = i.next();

@@ -209,7 +209,7 @@ void TextEffect::redraw(double timecode) {
     
     MuParser::Init(&parser);
     
-    QRegularExpressionMatchIterator i = QRegularExpression("<.*?>").globalMatch(text);
+    QRegularExpressionMatchIterator i = QRegularExpression("(?!<=\\\\)<.*?>").globalMatch(text);
     
     while (i.hasNext()) {
 	  QRegularExpressionMatch match = i.next();

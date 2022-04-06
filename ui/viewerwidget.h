@@ -98,6 +98,7 @@ private slots:
   void retry();
   void show_context_menu();
   void save_frame();
+  void copy_frame();
   void queue_repaint();
   void fullscreen_menu_action(QAction* action);
   void set_fit_zoom();

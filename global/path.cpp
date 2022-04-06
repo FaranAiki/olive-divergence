@@ -84,7 +84,10 @@ QList<QString> get_effects_paths() {
   // user path - best for linux
   effects_paths.append(QDir(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation)).filePath("effects"));
   
-  // developer path - for debug, me
+  // in /usr/share/olive/effects
+  effects_paths.append("/usr/share/olive-divergence/effects");
+  
+  // developer path - best for debugging
   effects_paths.append(app_dir.filePath("../effects/shaders"));
   
   // Olive will also accept a manually provided folder with an environment variable
@@ -109,16 +112,19 @@ QList<QString> get_language_paths() {
 
   // get current app working directory
   QDir app_dir = get_app_dir();
-
+  
   // subfolder in program folder - best for Windows (or compiling+running from source dir)
   language_paths.append(app_dir.filePath("ts"));
-
+  
   // folder one level above the program's directory - best for Mac
   language_paths.append(app_dir.filePath("../Translations"));
-
+  
   // folder in share folder - best for Linux
   language_paths.append(app_dir.filePath("../share/olive-editor/ts"));
-
+  
+  // folder in the same path - best for debugging
+  language_paths.append(app_dir.filePath("."));
+  
   // Olive will also accept a manually provided folder with an environment variable
   QString env_path(qgetenv("OLIVE_LANG_PATH"));
   if (!env_path.isEmpty()) language_paths.append(env_path);

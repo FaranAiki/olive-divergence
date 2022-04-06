@@ -35,7 +35,9 @@ Config olive::CurrentConfig;
 RuntimeConfig olive::CurrentRuntimeConfig;
 
 Config::Config()
-  : show_track_lines(true),
+  : default_transition_length(30),
+    clip_copy_transition(true),
+    show_track_lines(true),
     scroll_zooms(false),
     edit_tool_selects_links(false),
     edit_tool_also_seeks(false),
@@ -43,7 +45,6 @@ Config::Config()
     paste_seeks(true),
     img_seq_formats("jpg|jpeg|bmp|tiff|tif|psd|png|tga|jp2|gif"),
     rectified_waveforms(false),
-    default_transition_length(30),
     timecode_view(olive::kTimecodeDrop),
     show_title_safe_area(false),
     use_custom_title_safe_ratio(false),
@@ -92,7 +93,13 @@ void Config::load(QString path) {
     while (!stream.atEnd()) {
       stream.readNext();
       if (stream.isStartElement()) {
-        if (stream.name() == "ShowTrackLines") {
+        if (stream.name() == "DefaultTransitionLength") {
+		  stream.readNext();
+		  default_transition_length = stream.text().toInt();
+        } else if (stream.name() == "ClipCopyTransition") {
+		  stream.readNext();
+		  clip_copy_transition = stream.text().toInt();
+        } else if (stream.name() == "ShowTrackLines") {
           stream.readNext();
           show_track_lines = (stream.text() == "1");
         } else if (stream.name() == "ScrollZooms") {
@@ -242,9 +249,6 @@ void Config::load(QString path) {
         } else if (stream.name() == "DefaultSequenceAudioLayout") {
           stream.readNext();
           default_sequence_audio_channel_layout = stream.text().toInt();
-        } else if (stream.name() == "DefaultTransitionLength") {
-		  stream.readNext();
-		  default_transition_length = stream.text().toInt();
 		} else if (stream.name() == "LockedPanels") {
           stream.readNext();
           locked_panels = (stream.text() == "1");
@@ -271,6 +275,8 @@ void Config::save(QString path) {
   stream.writeStartDocument(); // doc
   stream.writeStartElement("Configuration"); // configuration
 
+  stream.writeTextElement("DefaultTransitionLength", QString::number(default_transition_length));
+  stream.writeTextElement("ClipCopyTransition", QString::number(clip_copy_transition));
   stream.writeTextElement("Version", QString::number(olive::kSaveVersion));
   stream.writeTextElement("ShowTrackLines", QString::number(show_track_lines));
   stream.writeTextElement("ScrollZooms", QString::number(scroll_zooms));
@@ -322,7 +328,6 @@ void Config::save(QString path) {
   stream.writeTextElement("DefaultSequenceFrameRate", QString::number(default_sequence_framerate));
   stream.writeTextElement("DefaultSequenceAudioFrequency", QString::number(default_sequence_audio_frequency));
   stream.writeTextElement("DefaultSequenceAudioLayout", QString::number(default_sequence_audio_channel_layout));
-  stream.writeTextElement("DefaultTransitionLength", QString::number(default_transition_length));
   stream.writeTextElement("LockedPanels", QString::number(locked_panels));
 
   stream.writeEndElement(); // configuration

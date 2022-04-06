@@ -114,7 +114,10 @@ void ViewerWidget::show_context_menu() {
 
   QAction* save_frame_as_image = menu.addAction(tr("Save Frame as Image..."));
   connect(save_frame_as_image, SIGNAL(triggered(bool)), this, SLOT(save_frame()));
-
+  
+  QAction* copy_frame_to_clipboard = menu.addAction(tr("Copy Image to Clipboard..."));
+  connect(copy_frame_to_clipboard, SIGNAL(triggered(bool)), this, SLOT(copy_frame()));
+  
   Menu* fullscreen_menu = new Menu(tr("Show Fullscreen"));
   menu.addMenu(fullscreen_menu);
   QList<QScreen*> screens = QGuiApplication::screens();
@@ -169,6 +172,10 @@ void ViewerWidget::save_frame() {
 
     renderer->start_render(context(), viewer->seq.get(), 1, fn);
   }
+}
+
+void ViewerWidget::copy_frame() {
+  
 }
 
 void ViewerWidget::queue_repaint() {

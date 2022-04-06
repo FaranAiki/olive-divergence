@@ -169,6 +169,13 @@ struct Config {
   int default_transition_length;
 
   /**
+   * @brief Copy the transition (fade-in/fade-out) when copying a clip
+   *
+   * This is useful when dealing with text
+   */
+  bool clip_copy_transition;
+
+  /**
    * @brief Show track lines
    *
    * **TRUE** if the Timeline should show lines between tracks.

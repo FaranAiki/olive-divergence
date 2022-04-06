@@ -274,7 +274,6 @@ bool frame_rate_is_droppable(double rate) {
 }
 
 void Viewer::seek(long p) {
-  pause();
   if (main_sequence) {
     seq->playhead = p;
   } else {

@@ -1833,7 +1833,9 @@ void Timeline::add_btn_click() {
   richTextMenuItem->setText(tr("Rich Text..."));
   richTextMenuItem->setData(ADD_OBJ_RICHTEXT);
   add_menu.addAction(richTextMenuItem);
-
+  
+  add_menu.addSeparator();
+  
   QAction* solidMenuItem = new QAction(&add_menu);
   solidMenuItem->setText(tr("Solid Color..."));
   solidMenuItem->setData(ADD_OBJ_SOLID);

@@ -50,8 +50,17 @@ void load_internal_effects() {
   em.path = ":/internalshaders";
 
   em.type = EFFECT_TYPE_EFFECT;
+  
+  em.subtype = EFFECT_TYPE_MISC;
+  
+  em.name = "Spawner";
+  em.category = "Special";
+  em.internal = EFFECT_INTERNAL_SPAWNER;
+  effects.append(em);
+  
   em.subtype = EFFECT_TYPE_AUDIO;
-
+  em.category = "";
+  
   em.name = "Volume";
   em.internal = EFFECT_INTERNAL_VOLUME;
   effects.append(em);

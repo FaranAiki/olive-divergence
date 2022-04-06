@@ -63,7 +63,7 @@ Clip::Clip(Sequence* s) :
 
 ClipPtr Clip::copy(Sequence* s) {
   ClipPtr copy = std::make_shared<Clip>(s);
-
+    
   copy->set_enabled(enabled());
   copy->set_name(name());
   copy->set_clip_in(clip_in());
@@ -75,7 +75,12 @@ ClipPtr Clip::copy(Sequence* s) {
   copy->set_autoscaled(autoscaled());
   copy->set_speed(speed());
   copy->set_reversed(reversed());
-
+  
+  if (olive::CurrentConfig.clip_copy_transition) {
+    copy->opening_transition = opening_transition;
+    copy->closing_transition = closing_transition;
+  }
+  
   for (int i=0;i<effects.size();i++) {
     copy->effects.append(effects.at(i)->copy(copy.get()));
   }

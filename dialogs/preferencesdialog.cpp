@@ -520,6 +520,14 @@ void PreferencesDialog::setup_ui() {
   default_transition_length_field->setMinimum(1);
   default_transition_length_field->setValue(olive::CurrentConfig.default_transition_length);
   default_layout->addWidget(default_transition_length_field, row, 1, 1, 2);
+  
+  row++;
+  
+  default_layout->addWidget(new QLabel(tr("Copy Transition when Copying Clip:"), this), row, 0);
+  
+  QCheckBox* clip_copy_transition = new QCheckBox();
+  AddBoolPair(clip_copy_transition, &olive::CurrentConfig.clip_copy_transition);
+  default_layout->addWidget(clip_copy_transition, row, 1, 1, 2);
 
   row++;
   
