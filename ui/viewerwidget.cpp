@@ -169,13 +169,15 @@ void ViewerWidget::save_frame() {
     if (!fn.endsWith(selected_ext,  Qt::CaseInsensitive)) {
       fn += selected_ext;
     }
-
+    
+    renderer->set_render_flag_to(SAVE_FILE);
     renderer->start_render(context(), viewer->seq.get(), 1, fn);
   }
 }
 
 void ViewerWidget::copy_frame() {
-  
+  renderer->set_render_flag_to(CLIP_BOARD);
+  renderer->start_render(context(), viewer->seq.get(), 1);
 }
 
 void ViewerWidget::queue_repaint() {

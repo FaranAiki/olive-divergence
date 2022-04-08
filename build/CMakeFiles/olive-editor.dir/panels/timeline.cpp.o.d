@@ -399,7 +399,9 @@ CMakeFiles/olive-editor.dir/panels/timeline.cpp.o: \
  /home/faranaiki/Sources/olive-divergence/ui/panel.h \
  /usr/include/qt/QtWidgets/QDockWidget \
  /usr/include/qt/QtWidgets/qdockwidget.h /usr/include/qt/QtCore/QtMath \
- /usr/include/qt/QtCore/qmath.h /usr/include/qt/QtGui/QGuiApplication \
+ /usr/include/qt/QtCore/qmath.h /usr/include/qt/QtGui/QClipboard \
+ /usr/include/qt/QtGui/qclipboard.h /usr/include/qt/QtCore/QMimeData \
+ /usr/include/qt/QtCore/qmimedata.h /usr/include/qt/QtGui/QGuiApplication \
  /usr/include/qt/QtGui/qguiapplication.h /usr/include/qt/QtGui/QScreen \
  /usr/include/qt/QtGui/qscreen.h /usr/include/qt/QtCore/QList \
  /usr/include/qt/QtCore/QRect /usr/include/qt/QtCore/QSize \

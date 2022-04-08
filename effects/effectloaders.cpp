@@ -43,9 +43,9 @@ void load_internal_effects() {
   if (!olive::CurrentRuntimeConfig.shaders_are_enabled) {
     qWarning() << "Shaders are disabled, some effects may be nonfunctional";
   }
-
+  
   EffectMeta em;
-
+  
   // load internal effects
   em.path = ":/internalshaders";
 

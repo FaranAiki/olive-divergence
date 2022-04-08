@@ -41,7 +41,7 @@ namespace olive {
    * loading system understands (so that the loading system doesn't get too bloated with backwards compatibility
    * functions).
    */
-  const int kSaveVersion = 190219; // YYMMDD
+  const int kSaveVersion = 220408; // YYMMDD
 
   /**
    * @brief Minimum project version that this version of Olive can open
@@ -55,7 +55,7 @@ namespace olive {
    * project version differences and bring them up to date for the current loading algorithm. This means ideally, this
    * constant stays the same forever, but in this early stage it's not strictly necessary.
    */
-  const int kMinimumSaveVersion = 190219; // lowest compatible project version
+  const int kMinimumSaveVersion = 220408; // Faran's birthday! Who gives a f.
   
   /**
    * @brief The TimecodeType enum

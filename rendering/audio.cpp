@@ -326,17 +326,27 @@ void write_wave_trailer(QFile& f) {
   f.write(arr, 4);
 }
 
+// TODO chop the active project filename
 bool start_recording() {
   if (olive::ActiveSequence == nullptr) {
     qCritical() << "No active sequence to record into";
     return false;
   }
-
-  QString audio_path = QCoreApplication::translate("Audio", "%1 Audio").arg(olive::ActiveProjectFilename);
+  
+  QString audio_path;
+  int pos = olive::ActiveProjectFilename.lastIndexOf(QChar('.'));
+  if (pos != -1) {
+    audio_path = QString("%1/Audio").arg(olive::ActiveProjectFilename.left(pos));
+  } else {
+    audio_path = QString("%1 Folder/Audio").arg(olive::ActiveProjectFilename);
+  }
+  
   QDir audio_dir(audio_path);
   if (!audio_dir.exists() && !audio_dir.mkpath(".")) {
-    qCritical() << "Failed to create audio directory";
-    return false;
+    if (!audio_dir.mkpath("./Audio")) {
+      qCritical() << "Failed to create audio directory";
+      return false;
+    }
   }
 
   QString audio_file_path;

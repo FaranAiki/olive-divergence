@@ -210,7 +210,7 @@ public:
   bool hand_moving;
   int drag_x_start;
   int drag_y_start;
-
+  
   bool block_repaints;
 
   TimelineHeader* headers;

@@ -24,6 +24,8 @@
 
 #include <QApplication>
 #include <QImage>
+#include <QClipboard>
+#include <QGuiApplication>
 #include <QOpenGLFunctions>
 #include <QDateTime>
 #include <QDebug>
@@ -141,6 +143,7 @@ void RenderThread::set_up_ocio()
 {
 }
 
+// TODO make a vectorscope or RGB-value shims
 void RenderThread::paint() {
   // set up compose_sequence() parameters
   ComposeSequenceParams params;
@@ -188,19 +191,35 @@ void RenderThread::paint() {
   texture_failed = params.texture_failed;
 
   active_mutex.unlock();
-
-  if (!save_fn.isEmpty()) {
-    if (texture_failed) {
-      // texture failed, try again
-      queued = true;
-    } else {
-      ctx->functions()->glBindFramebuffer(GL_READ_FRAMEBUFFER, params.main_buffer);
-      QImage img(tex_width, tex_height, QImage::Format_RGBA8888);
-      glReadPixels(0, 0, tex_width, tex_height, GL_RGBA, GL_UNSIGNED_BYTE, img.bits());
-      img.save(save_fn);
-      ctx->functions()->glBindFramebuffer(GL_READ_FRAMEBUFFER, 0);
-      save_fn = "";
-    }
+  
+  switch (render_flag) {
+    case SAVE_FILE:
+	  if (!save_fn.isEmpty()) {
+		if (texture_failed) {
+		  // texture failed, try again
+		  queued = true;
+		} else {
+          ctx->functions()->glBindFramebuffer(GL_READ_FRAMEBUFFER, params.main_buffer);
+          QImage img(tex_width, tex_height, QImage::Format_RGBA8888);
+          glReadPixels(0, 0, tex_width, tex_height, GL_RGBA, GL_UNSIGNED_BYTE, img.bits());
+          img.save(save_fn);
+          ctx->functions()->glBindFramebuffer(GL_READ_FRAMEBUFFER, 0);
+          save_fn = "";
+		}
+	  }
+	  break;
+    case CLIP_BOARD:
+	  if (texture_failed) {
+	    queued = true;
+	  } else {
+        ctx->functions()->glBindFramebuffer(GL_READ_FRAMEBUFFER, params.main_buffer);
+        QImage img(tex_width, tex_height, QImage::Format_RGBA8888);
+        glReadPixels(0, 0, tex_width, tex_height, GL_RGBA, GL_UNSIGNED_BYTE, img.bits());
+		QClipboard *clipboard = QGuiApplication::clipboard();
+		clipboard->setImage(img);
+        ctx->functions()->glBindFramebuffer(GL_READ_FRAMEBUFFER, 0);
+	  }
+	  break;
   }
 
   if (pixel_buffer != nullptr) {
@@ -272,6 +291,10 @@ void RenderThread::start_render(QOpenGLContext *share,
   if (wait) {
     wait_lock_.unlock();
   }
+}
+
+void RenderThread::set_render_flag_to(int _render_flag) {
+  render_flag = _render_flag;
 }
 
 bool RenderThread::did_texture_fail() {

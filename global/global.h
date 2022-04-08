@@ -447,6 +447,11 @@ namespace olive {
      * @brief Current application name
      */
     extern QString AppName;
+    
+    /**
+     * @brief Image saving (while copy-paste) number record
+     */
+    extern int FileNumber;
 }
 
 #endif // OLIVEGLOBAL_H

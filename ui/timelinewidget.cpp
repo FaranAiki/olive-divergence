@@ -520,6 +520,7 @@ void insert_clips(ComboAction* ca) {
   }
 }
 
+// TODO fix drag-drop picture to based frame
 void TimelineWidget::dropEvent(QDropEvent* event) {
   if (panel_timeline->importing && panel_timeline->ghosts.size() > 0) {
     ComboAction* ca = new ComboAction();

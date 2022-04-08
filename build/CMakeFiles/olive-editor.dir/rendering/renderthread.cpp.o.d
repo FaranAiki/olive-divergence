@@ -388,7 +388,9 @@ CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o: \
  /usr/include/qt/QtCore/qeventloop.h \
  /usr/include/qt/QtGui/qguiapplication.h \
  /usr/include/qt/QtGui/qinputmethod.h /usr/include/qt/QtGui/QImage \
- /usr/include/qt/QtGui/qimage.h /usr/include/qt/QtCore/QDateTime \
+ /usr/include/qt/QtGui/qimage.h /usr/include/qt/QtGui/QClipboard \
+ /usr/include/qt/QtGui/qclipboard.h /usr/include/qt/QtGui/QGuiApplication \
+ /usr/include/qt/QtGui/qguiapplication.h /usr/include/qt/QtCore/QDateTime \
  /usr/include/qt/QtCore/qdatetime.h /usr/include/qt/QtCore/QDebug \
  /usr/include/qt/QtCore/qdebug.h \
  /home/faranaiki/Sources/olive-divergence/rendering/renderfunctions.h \

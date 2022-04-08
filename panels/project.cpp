@@ -1289,9 +1289,11 @@ void Project::save_project(bool autorecovery) {
   stream.writeStartElement("project"); // project
 
   stream.writeTextElement("version", QString::number(olive::kSaveVersion));
-
+  
   stream.writeTextElement("url", olive::ActiveProjectFilename);
   proj_dir = QFileInfo(olive::ActiveProjectFilename).absoluteDir();
+
+  stream.writeTextElement("filenumber", QString::number(olive::FileNumber));
 
   save_folder(stream, MEDIA_TYPE_FOLDER, true);
 

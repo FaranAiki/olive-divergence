@@ -25,6 +25,8 @@
 #include <QTime>
 #include <QScrollBar>
 #include <QtMath>
+#include <QClipboard>
+#include <QMimeData>
 #include <QGuiApplication>
 #include <QScreen>
 #include <QPainter>
@@ -1395,6 +1397,50 @@ void Timeline::paste(bool insert) {
       }
       update_ui(true);
     }
+  } else {
+    // TODO allow copying image
+    if (olive::ActiveProjectFilename.isEmpty()) {
+      QMessageBox::critical(this,
+                            tr("Unsaved Project"),
+                            tr("You must save this project before you can copy image from clipboard"),
+                            QMessageBox::Ok);
+    }
+    
+    QString path;
+    int pos = olive::ActiveProjectFilename.lastIndexOf(QChar('.'));
+    if (pos != -1) {
+      path = QString("%1").arg(olive::ActiveProjectFilename.left(pos));
+    } else {
+      path = QString("%1 Folder").arg(olive::ActiveProjectFilename);
+    }
+    
+    QDir _dir(path);
+    if (!_dir.exists() && !_dir.mkpath(".")) {
+      qCritical() << "Failed to create main directory";
+      return;
+    }
+    
+    const QClipboard *clipboard = QGuiApplication::clipboard();
+    const QMimeData *mimedata = clipboard->mimeData();
+    
+    olive::FileNumber++;
+    if (mimedata->hasImage()) { // image
+      QImage img = mimedata->imageData().value<QImage>();
+      
+      if (!_dir.exists("./Image") && !_dir.mkpath("./Image")) {
+        qCritical() << "Failed to create image directory";
+        return;
+	  }
+      
+      img.save(QString("%1/Image/Image %2.png").arg(path, QString::number(olive::FileNumber)));
+      
+	} else if (mimedata->hasHtml()) { // richtext
+      
+	} else if (mimedata->hasText()) { // text
+      
+	} else {
+      qWarning() << "Cannot copy, unknown clipboard format";
+	}
   }
 }
 

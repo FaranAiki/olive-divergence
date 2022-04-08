@@ -35,6 +35,13 @@
 #include "effects/effect.h"
 #include "rendering/framebufferobject.h"
 
+// just so we can copy and paste
+enum RenderFlag {
+	SAVE_FILE,
+	CLIP_BOARD,
+	GET_DATA,
+};
+
 // copied from source code to OCIODisplay
 const int LUT3D_EDGE_SIZE = 32;
 
@@ -64,6 +71,8 @@ public:
   bool did_texture_fail();
   void cancel();
   void wait_until_paused();
+  
+  void set_render_flag_to(int _render_flag);
 
 public slots:
   // cleanup functions
@@ -114,6 +123,7 @@ private:
   bool texture_failed;
   bool running;
   QString save_fn;
+  int render_flag;
   GLvoid *pixel_buffer;
   int pixel_buffer_linesize;
 };

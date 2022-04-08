@@ -33180,6 +33180,10 @@ CMakeFiles/olive-editor.dir/panels/timeline.cpp.o: ../panels/timeline.cpp \
   /usr/include/qt/QtWidgets/qdockwidget.h \
   /usr/include/qt/QtCore/QtMath \
   /usr/include/qt/QtCore/qmath.h \
+  /usr/include/qt/QtGui/QClipboard \
+  /usr/include/qt/QtGui/qclipboard.h \
+  /usr/include/qt/QtCore/QMimeData \
+  /usr/include/qt/QtCore/qmimedata.h \
   /usr/include/qt/QtGui/QGuiApplication \
   /usr/include/qt/QtGui/qguiapplication.h \
   /usr/include/qt/QtGui/QScreen \
@@ -42977,6 +42981,10 @@ CMakeFiles/olive-editor.dir/rendering/renderthread.cpp.o: ../rendering/renderthr
   /usr/include/qt/QtGui/qinputmethod.h \
   /usr/include/qt/QtGui/QImage \
   /usr/include/qt/QtGui/qimage.h \
+  /usr/include/qt/QtGui/QClipboard \
+  /usr/include/qt/QtGui/qclipboard.h \
+  /usr/include/qt/QtGui/QGuiApplication \
+  /usr/include/qt/QtGui/qguiapplication.h \
   /usr/include/qt/QtCore/QDateTime \
   /usr/include/qt/QtCore/qdatetime.h \
   /usr/include/qt/QtCore/QDebug \
@@ -64802,11 +64810,7 @@ CMakeFiles/olive-editor.dir/undo/undostack.cpp.o: ../undo/undostack.cpp \
 
 /usr/include/qt/QtGui/qimagereader.h:
 
-/usr/include/qt/QtGui/qclipboard.h:
-
 /usr/include/qt/QtGui/qbackingstore.h:
-
-/usr/include/qt/QtGui/qaccessibleplugin.h:
 
 /usr/include/qt/QtGui/qaccessiblebridge.h:
 
@@ -64847,6 +64851,8 @@ CMakeFiles/olive-editor.dir/undo/undostack.cpp.o: ../undo/undostack.cpp \
 /usr/include/qt/QtCore/qstate.h:
 
 /usr/include/qt/QtCore/qsignaltransition.h:
+
+/usr/include/qt/QtCore/qsharedmemory.h:
 
 ../effects/internal/shakeeffect.h:
 
@@ -64953,6 +64959,10 @@ CMakeFiles/olive-editor.dir/undo/undostack.cpp.o: ../undo/undostack.cpp \
 /usr/include/qt/QtCore/qcontiguouscache.h:
 
 ../undo/undostack.h:
+
+/usr/include/qt/QtCore/qsignalmapper.h:
+
+/usr/include/qt/QtCore/qshareddata.h:
 
 /usr/include/qt/QtWidgets/QGridLayout:
 
@@ -65672,6 +65682,10 @@ olive-editor_autogen/LHXIM2V6NU/moc_cacher.cpp:
 
 /usr/include/bits/waitflags.h:
 
+/usr/include/qt/QtGui/qaccessibleplugin.h:
+
+/usr/include/qt/QtGui/QClipboard:
+
 /usr/include/bits/endian.h:
 
 /usr/include/qt/QtCore/QTimer:
@@ -66156,10 +66170,6 @@ olive-editor_autogen/QV7S676PVK/moc_previewgenerator.cpp:
 
 /usr/include/c++/11.2.0/bits/streambuf_iterator.h:
 
-/usr/include/qt/QtCore/qshareddata.h:
-
-/usr/include/qt/QtCore/qsignalmapper.h:
-
 /usr/include/c++/11.2.0/streambuf:
 
 /usr/include/c++/11.2.0/bits/std_function.h:
@@ -66459,6 +66469,8 @@ olive-editor_autogen/UYX5XTB5RZ/moc_sourcetable.cpp:
 /usr/include/qt/QtMultimedia/qaudiodeviceinfo.h:
 
 ../effects/internal/crossdissolvetransition.h:
+
+/usr/include/qt/QtGui/qclipboard.h:
 
 /usr/include/qt/QtWidgets/QTreeWidgetItem:
 
@@ -67225,5 +67237,3 @@ olive-editor_autogen/2NRMJ5X7RK/moc_autocutsilencedialog.cpp:
 /usr/include/qt/QtCore/qsequentialanimationgroup.h:
 
 /usr/include/qt/QtCore/qsettings.h:
-
-/usr/include/qt/QtCore/qsharedmemory.h:

@@ -52,6 +52,7 @@
 std::unique_ptr<OliveGlobal> olive::Global;
 QString olive::ActiveProjectFilename;
 QString olive::AppName;
+int olive::FileNumber = 0;
 
 OliveGlobal::OliveGlobal() :
   changed_since_last_autorecovery(false)
