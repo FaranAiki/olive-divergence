@@ -218,6 +218,7 @@ void RenderThread::paint() {
 		QClipboard *clipboard = QGuiApplication::clipboard();
 		clipboard->setImage(img);
         ctx->functions()->glBindFramebuffer(GL_READ_FRAMEBUFFER, 0);
+        render_flag = SAVE_FILE;
 	  }
 	  break;
   }

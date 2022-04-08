@@ -1434,6 +1434,10 @@ void Timeline::paste(bool insert) {
       
       img.save(QString("%1/Image/Image %2.png").arg(path, QString::number(olive::FileNumber)));
       
+      QStringList files;
+      
+      files.append(QString("%1/Image/Image %2.png").arg(path, QString::number(olive::FileNumber)));
+      panel_project->process_file_list(files, false, nullptr, panel_project->get_selected_folder(), true);
 	} else if (mimedata->hasHtml()) { // richtext
       
 	} else if (mimedata->hasText()) { // text

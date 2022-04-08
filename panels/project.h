@@ -66,7 +66,7 @@ public:
   void clear();
   MediaPtr create_sequence_internal(ComboAction *ca, SequencePtr s, bool open, Media* parent);
   QString get_next_sequence_name(QString start = nullptr);
-  void process_file_list(QStringList& files, bool recursive = false, MediaPtr replace = nullptr, Media *parent = nullptr);
+  void process_file_list(QStringList& files, bool recursive = false, MediaPtr replace = nullptr, Media *parent = nullptr, bool autoskip = false);
   void replace_media(MediaPtr item, QString filename);
   Media* get_selected_folder();
   bool reveal_media(Media *media, QModelIndex parent = QModelIndex());

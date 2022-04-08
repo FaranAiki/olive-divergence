@@ -689,7 +689,7 @@ void Project::delete_selected_media() {
   }
 }
 
-void Project::process_file_list(QStringList& files, bool recursive, MediaPtr replace, Media* parent) {
+void Project::process_file_list(QStringList& files, bool recursive, MediaPtr replace, Media* parent, bool autoskip) {
   bool imported = false;
 
   // retrieve the array of image formats from the user's configuration
@@ -845,7 +845,7 @@ void Project::process_file_list(QStringList& files, bool recursive, MediaPtr rep
               image_sequence_urls.append(new_filename);
 
               // This does look like an image sequence, let's ask the user if it'll indeed be an image sequence
-              if (QMessageBox::question(this,
+              if (!autoskip && QMessageBox::question(this,
                                         tr("Image sequence detected"),
                                         tr("The file '%1' appears to be part of an image sequence. "
                                            "Would you like to import it as such?").arg(file),
@@ -1006,7 +1006,7 @@ void Project::import_dialog() {
 
   if (fd.exec()) {
     QStringList files = fd.selectedFiles();
-    process_file_list(files, false, nullptr, get_selected_folder());
+    process_file_list(files, false, nullptr, get_selected_folder(), false);
   }
 }
 
