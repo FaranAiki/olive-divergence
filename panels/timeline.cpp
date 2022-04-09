@@ -1256,6 +1256,7 @@ void Timeline::relink_clips_using_ids(QVector<int>& old_clips, QVector<ClipPtr>&
   }
 }
 
+// TODO mimic this to QClipboard whatnot so that we can copy+clipboard from anime waifu yes (lmao my grammar)
 void Timeline::paste(bool insert) {
   if (clipboard.size() > 0) {
     if (clipboard_type == CLIPBOARD_TYPE_CLIP) {
@@ -1432,12 +1433,58 @@ void Timeline::paste(bool insert) {
         return;
 	  }
       
-      img.save(QString("%1/Image/Image %2.png").arg(path, QString::number(olive::FileNumber)));
+      img.save(QString("%1/Image/Image %2 from Clipboard.png").arg(path, QString::number(olive::FileNumber)));
       
       QStringList files;
       
-      files.append(QString("%1/Image/Image %2.png").arg(path, QString::number(olive::FileNumber)));
+      files.append(QString("%1/Image/Image %2 from Clipboard.png").arg(path, QString::number(olive::FileNumber)));
       panel_project->process_file_list(files, false, nullptr, panel_project->get_selected_folder(), true);
+/*
+      ComboAction* ca = new ComboAction();
+
+      QVector<Selection> delete_areas;
+      QVector<ClipPtr> pasted_clips;
+      
+      long paste_start = LONG_MAX;
+      long paste_end = LONG_MIN;
+
+      // create copy of clip and offset by playhead
+      ClipPtr cc = std::make_shared<Clip>(olive::ActiveSequence.get());
+
+      // convert frame rates
+      cc->set_timeline_in(rescale_frame_number(cc->timeline_in(), 25, olive::ActiveSequence->frame_rate));
+      cc->set_timeline_out(rescale_frame_number(cc->timeline_out(), 25, olive::ActiveSequence->frame_rate));
+      cc->set_clip_in(rescale_frame_number(cc->clip_in(), 25, olive::ActiveSequence->frame_rate));
+
+      cc->set_timeline_in(cc->timeline_in() + olive::ActiveSequence->playhead);
+      cc->set_timeline_out(cc->timeline_out() + olive::ActiveSequence->playhead);
+      cc->set_track(1);
+
+      cc->set_media();
+
+      paste_start = qMin(paste_start, cc->timeline_in());
+      paste_end = qMax(paste_end, cc->timeline_out());
+
+      pasted_clips.append(cc);
+
+      if (!insert) {
+          Selection s;
+          s.in = cc->timeline_in();
+          s.out = cc->timeline_out();
+          s.track = c->track();
+          delete_areas.append(s);
+        }
+        
+      ca->append(new AddClipCommand(olive::ActiveSequence.get(), pasted_clips));
+
+      olive::UndoStack.push(ca);
+
+      update_ui(true);
+
+      if (olive::CurrentConfig.paste_seeks) {
+        panel_sequence_viewer->seek(paste_end);
+      }
+*/
 	} else if (mimedata->hasHtml()) { // richtext
       
 	} else if (mimedata->hasText()) { // text
