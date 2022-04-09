@@ -441,6 +441,7 @@ void delete_area_under_ghosts(ComboAction* ca) {
   panel_timeline->delete_areas_and_relink(ca, delete_areas, false);
 }
 
+// TODO fix image when inserting clip
 void insert_clips(ComboAction* ca) {
   bool ripple_old_point = true;
 

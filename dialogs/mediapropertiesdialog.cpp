@@ -90,7 +90,7 @@ MediaPropertiesDialog::MediaPropertiesDialog(QWidget *parent, Media *i) :
   }
   grid->addWidget(track_list, row, 0, 1, 2);
   row++;
-
+  
   if (f->video_tracks.size() > 0) {
     // frame conforming
     if (!f->video_tracks.at(0).infinite_length) {

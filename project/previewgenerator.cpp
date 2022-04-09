@@ -66,6 +66,7 @@ PreviewGenerator::PreviewGenerator(Media* i) :
   start(QThread::LowPriority);
 }
 
+// TODO fix image to infinity
 void PreviewGenerator::parse_media() {
   // detect video/audio streams in file
   for (int i=0;i<int(fmt_ctx_->nb_streams);i++) {
@@ -78,16 +79,24 @@ void PreviewGenerator::parse_media() {
       ms.file_index = i;
       ms.enabled = true;
       ms.infinite_length = false;
-
+      
       bool append = false;
-
+      
+      qDebug() << fmt_ctx_->iformat->name;
+      
       if (fmt_ctx_->streams[i]->codecpar->codec_type == AVMEDIA_TYPE_VIDEO
           && fmt_ctx_->streams[i]->codecpar->width > 0
           && fmt_ctx_->streams[i]->codecpar->height > 0) {
 
         // heuristic to determine if video is a still image (if it is, we treat it differently in the playback/render process)
-        if (fmt_ctx_->streams[i]->avg_frame_rate.den == 0
-            && fmt_ctx_->streams[i]->codecpar->codec_id != AV_CODEC_ID_DNXHD) { // silly hack but this is the only scenario i've seen this
+        if (
+          (QString(fmt_ctx_->iformat->name) == QString("png_pipe")) ||
+          (QString(fmt_ctx_->iformat->name) == QString("jpeg_pipe")) ||
+          (QString(fmt_ctx_->iformat->name) == QString("image2")) ||
+          (QString(fmt_ctx_->iformat->name) == QString("ico")) ||
+          (QString(fmt_ctx_->iformat->name) == QString("bmp_pipe")) ||
+          (QString(fmt_ctx_->iformat->name) == QString("tiff_pipe"))
+        ) { // ffmpeg sucks
           if (footage_->url.contains('%')) {
             // must be an image sequence
             ms.video_frame_rate = 25;
@@ -100,6 +109,7 @@ void PreviewGenerator::parse_media() {
         } else {
           // using ffmpeg's built-in heuristic
           ms.video_frame_rate = av_q2d(av_guess_frame_rate(fmt_ctx_, fmt_ctx_->streams[i], nullptr));
+          qDebug() << "Image/Video?";
         }
 
         ms.video_width = fmt_ctx_->streams[i]->codecpar->width;

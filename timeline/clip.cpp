@@ -46,7 +46,7 @@ Clip::Clip(Sequence* s) :
   enabled_(true),
   clip_in_(0),
   timeline_in_(0),
-  timeline_out_(0),
+  timeline_out_(30),
   track_(0),
   media_(nullptr),
   reverse_(false),

@@ -698,6 +698,7 @@ void Project::process_file_list(QStringList& files, bool recursive, MediaPtr rep
   // a cache of image sequence formatted URLS to assist the user in importing image sequences
   QVector<QString> image_sequence_urls;
   QVector<bool> image_sequence_importassequence;
+  QVector<bool> files_are_an_image;
 
   if (!recursive) last_imported_media.clear();
 
@@ -901,9 +902,10 @@ void Project::process_file_list(QStringList& files, bool recursive, MediaPtr rep
           m->url = file;
           m->name = get_file_name_from_path(files.at(i));
           m->start_number = start_number;
-
+          
           item->set_footage(m);
-
+          
+          files_are_an_image.append(file_is_an_image);
           last_imported_media.append(item.get());
 
           if (replace == nullptr) {

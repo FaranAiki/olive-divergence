@@ -478,7 +478,7 @@ void Cacher::CacheVideoWorker() {
   if (clip->media_stream()->infinite_length) {
 
     // for efficiency, we do slightly different things for a still image
-
+    
     // if we already queued a frame, we don't actually need to cache anything, so we only retrieve a frame if not
     if (queue_.size() == 0) {
 
