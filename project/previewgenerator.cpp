@@ -90,13 +90,14 @@ void PreviewGenerator::parse_media() {
 
         // heuristic to determine if video is a still image (if it is, we treat it differently in the playback/render process)
         // TODO optimize QString (use QStringList or what)
+        // I thought C++'s char* is different than C's char*
         if (
-          (QString(fmt_ctx_->iformat->name) == QString("png_pipe")) ||
-          (QString(fmt_ctx_->iformat->name) == QString("jpeg_pipe")) ||
-          (QString(fmt_ctx_->iformat->name) == QString("image2")) ||
-          (QString(fmt_ctx_->iformat->name) == QString("ico")) ||
-          (QString(fmt_ctx_->iformat->name) == QString("bmp_pipe")) ||
-          (QString(fmt_ctx_->iformat->name) == QString("tiff_pipe"))
+          !strcmp(fmt_ctx_->iformat->name, "png_pipe") ||
+          !strcmp(fmt_ctx_->iformat->name, "jpeg_pipe") ||
+          !strcmp(fmt_ctx_->iformat->name, "image2") ||
+          !strcmp(fmt_ctx_->iformat->name, "ico") ||
+          !strcmp(fmt_ctx_->iformat->name, "bmp_pipe") ||
+          !strcmp(fmt_ctx_->iformat->name, "tiff_pipe")
         ) { // ffmpeg sucks
           if (footage_->url.contains('%')) {
             // must be an image sequence
