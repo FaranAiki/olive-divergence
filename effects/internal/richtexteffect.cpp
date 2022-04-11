@@ -122,7 +122,7 @@ void RichTextEffect::redraw(double timecode)
     
     while (i.hasNext()) {
 	  QRegularExpressionMatch match = i.next();
-	    
+	  
 	  QString total = match.captured();
 	  QString command = total;
 	  

@@ -89,6 +89,7 @@ void PreviewGenerator::parse_media() {
           && fmt_ctx_->streams[i]->codecpar->height > 0) {
 
         // heuristic to determine if video is a still image (if it is, we treat it differently in the playback/render process)
+        // TODO optimize QString (use QStringList or what)
         if (
           (QString(fmt_ctx_->iformat->name) == QString("png_pipe")) ||
           (QString(fmt_ctx_->iformat->name) == QString("jpeg_pipe")) ||

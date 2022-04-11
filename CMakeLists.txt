@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.9 FATAL_ERROR)
 
-project(olive-editor LANGUAGES CXX)
+project(olive-divergence LANGUAGES CXX)
 
 option(BUILD_DOXYGEN "Build Doxygen documentation" OFF)
 
@@ -441,9 +441,9 @@ qt5_add_translation(OLIVE_QM_FILES
   ts/olive_zh-TW.ts
 )
 
-set(OLIVE_TARGET "olive-editor")
+set(OLIVE_TARGET "olive-divergence")
 if(APPLE)
-  set(OLIVE_TARGET "Olive")
+  set(OLIVE_TARGET "Olive Divergence")
 endif()
 
 add_executable(${OLIVE_TARGET}

@@ -483,6 +483,7 @@ GLuint olive::rendering::compose_sequence(ComposeSequenceParams &params) {
               backend_tex_1 = params.nests.last()->fbo[1]->texture();
               backend_tex_2 = params.nests.last()->fbo[2]->texture();
             } else {
+			  // Normal stuff always this
               back_buffer_1 = params.backend_buffer1;
               backend_tex_1 = params.backend_attachment1;
               backend_tex_2 = params.backend_attachment2;
@@ -551,7 +552,8 @@ GLuint olive::rendering::compose_sequence(ComposeSequenceParams &params) {
 
             // bind front buffer as draw buffer
             params.ctx->functions()->glBindFramebuffer(GL_DRAW_FRAMEBUFFER, final_fbo);
-
+            
+            // TODO allow blending with some magic shit
 //            if (olive::CurrentRuntimeConfig.disable_blending) {
               // some GPUs don't like the blending shader, so we provide a pure GL fallback here
 

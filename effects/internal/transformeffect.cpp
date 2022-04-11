@@ -88,7 +88,8 @@ TransformEffect::TransformEffect(Clip* c, const EffectMeta* em) : Effect(c, em) 
   // blend mode
   blend_mode_box = new ComboField(blend_mode_row, "blendmode");
   blend_mode_box->SetColumnSpan(2);
-  blend_mode_box->AddItem(tr("Normal"), "");
+  blend_mode_box->AddItem(tr("Normal"), 0);
+  blend_mode_box->AddItem(tr("Average"), 1);
 
   // set up gizmos
   top_left_gizmo = add_gizmo(GIZMO_TYPE_DOT);
