@@ -337,5 +337,5 @@ void Config::save(QString path) {
 
 RuntimeConfig::RuntimeConfig() :
   shaders_are_enabled(true),
-  disable_blending(false)
+  disable_blending(true)
 {}

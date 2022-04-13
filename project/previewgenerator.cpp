@@ -89,7 +89,7 @@ void PreviewGenerator::parse_media() {
           && fmt_ctx_->streams[i]->codecpar->height > 0) {
 
         // heuristic to determine if video is a still image (if it is, we treat it differently in the playback/render process)
-        // TODO optimize QString (use QStringList or what)
+        // TODO allow all types of image
         // I thought C++'s char* is different than C's char*
         if (
           !strcmp(fmt_ctx_->iformat->name, "png_pipe") ||
@@ -111,7 +111,6 @@ void PreviewGenerator::parse_media() {
         } else {
           // using ffmpeg's built-in heuristic
           ms.video_frame_rate = av_q2d(av_guess_frame_rate(fmt_ctx_, fmt_ctx_->streams[i], nullptr));
-          qDebug() << "Image/Video?";
         }
 
         ms.video_width = fmt_ctx_->streams[i]->codecpar->width;

@@ -554,7 +554,7 @@ GLuint olive::rendering::compose_sequence(ComposeSequenceParams &params) {
             params.ctx->functions()->glBindFramebuffer(GL_DRAW_FRAMEBUFFER, final_fbo);
             
             // TODO allow blending with some magic shit
-//            if (olive::CurrentRuntimeConfig.disable_blending) {
+            if (olive::CurrentRuntimeConfig.disable_blending) {
               // some GPUs don't like the blending shader, so we provide a pure GL fallback here
 
               params.ctx->functions()->glBindTexture(GL_TEXTURE_2D, backend_tex_1);
@@ -564,7 +564,6 @@ GLuint olive::rendering::compose_sequence(ComposeSequenceParams &params) {
               full_blit();
 
               params.ctx->functions()->glBindTexture(GL_TEXTURE_2D, 0);
-              /*
             } else {
               // load background texture into texture unit 0
               params.ctx->functions()->glActiveTexture(GL_TEXTURE0 + 0); // Texture unit 0
@@ -573,7 +572,7 @@ GLuint olive::rendering::compose_sequence(ComposeSequenceParams &params) {
               // load foreground texture into texture unit 1
               params.ctx->functions()->glActiveTexture(GL_TEXTURE0 + 1); // Texture unit 1
               params.ctx->functions()->glBindTexture(GL_TEXTURE_2D, backend_tex_1);
-
+              
               // bind and configure blending mode shader
               params.blend_mode_program->bind();
               params.blend_mode_program->setUniformValue("blendmode", coords.blendmode);
@@ -595,7 +594,6 @@ GLuint olive::rendering::compose_sequence(ComposeSequenceParams &params) {
               params.ctx->functions()->glActiveTexture(GL_TEXTURE0 + 0); // Texture unit 0
               params.ctx->functions()->glBindTexture(GL_TEXTURE_2D, 0);
             }
-            */
 
             // unbind framebuffer
             params.ctx->functions()->glBindFramebuffer(GL_DRAW_FRAMEBUFFER, 0);

@@ -37,7 +37,7 @@ extern "C" {
 #include <libavfilter/avfilter.h>
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char **argv) {
   olive::Global = std::unique_ptr<OliveGlobal>(new OliveGlobal);
 
   bool launch_fullscreen = false;
@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
                  "\t-f, --fullscreen\tStart in full screen mode\n"
                  "\t--disable-shaders\tDisable OpenGL shaders (for debugging)\n"
                  "\t--no-debug\t\tDisable internal debug log and output directly to console\n"
-                 "\t--disable-blend-modes\tDisable shader-based blending for older GPUs\n"
+                 "\t-d, --debug\t\tEnable blend mode for experimental software and debug\n"
                  "\t--translation <file>\tSet an external language file to use\n"
                  "\n"
                  "Environment Variables:\n"
@@ -78,8 +78,8 @@ int main(int argc, char *argv[]) {
           olive::CurrentRuntimeConfig.shaders_are_enabled = false;
         } else if (!strcmp(argv[i], "--no-debug")) {
           use_internal_logger = false;
-        } else if (!strcmp(argv[i], "--disable-blend-modes")) {
-          olive::CurrentRuntimeConfig.disable_blending = true;
+        } else if (!strcmp(argv[i], "--debug") || !strcmp(argv[i], "-d")) {
+          olive::CurrentRuntimeConfig.disable_blending = false;
         } else if (!strcmp(argv[i], "--translation")) {
           if (i + 1 < argc && argv[i + 1][0] != '-') {
             // load translation file

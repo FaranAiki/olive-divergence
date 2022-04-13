@@ -90,6 +90,7 @@ TransformEffect::TransformEffect(Clip* c, const EffectMeta* em) : Effect(c, em) 
   blend_mode_box->SetColumnSpan(2);
   blend_mode_box->AddItem(tr("Normal"), 0);
   blend_mode_box->AddItem(tr("Average"), 1);
+  blend_mode_box->AddItem(tr("Back"), 26);
 
   // set up gizmos
   top_left_gizmo = add_gizmo(GIZMO_TYPE_DOT);

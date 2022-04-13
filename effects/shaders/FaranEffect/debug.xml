@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<effect name="Debug" category="FaranEffect">
+	<row name="Image Handling">
+		<field type="file" id="image"/>
+		<field type="string" id="stringass"/>
+	</row>
+	
+	<shader vert="common.vert" frag="tonalchange.frag"/>
+</effect>

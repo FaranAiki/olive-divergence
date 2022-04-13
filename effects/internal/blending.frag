@@ -26,6 +26,7 @@ const int BLEND_MODE_SOFTLIGHT = 22;
 const int BLEND_MODE_SUBSTRACT = 23;
 const int BLEND_MODE_SUBTRACT = 24;
 const int BLEND_MODE_VIVIDLIGHT = 25;
+const int BLEND_MODE_BACK = 26;
 
 uniform sampler2D background;
 uniform sampler2D foreground;
@@ -167,6 +168,8 @@ vec3 blend(vec3 base, vec3 blend) {
 		return vec3(blend_soft_light(base.r,blend.r),blend_soft_light(base.g,blend.g),blend_soft_light(base.b,blend.b));
 	} else if (blendmode == BLEND_MODE_VIVIDLIGHT) {
 		return vec3(blend_vivid_light(base.r,blend.r),blend_vivid_light(base.g,blend.g),blend_vivid_light(base.b,blend.b));
+	} else if (blendmode == BLEND_MODE_BACK) {
+		return base;
 	} else {
 		return blend;
 	}

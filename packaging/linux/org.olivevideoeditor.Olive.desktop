@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=Olive
+Name=Olive Divergence
 Comment=Professional open-source non-linear video editor
 Comment[it]=Programma di montaggio video professionale open-source
 Comment[id]=Aplikasi edit video yang non-linier, profesional serta sumbernya terbuka.
-Exec=olive-editor %f
+Exec=olive-divergence %f
 Icon=org.olivevideoeditor.Olive
 Terminal=false
 Type=Application

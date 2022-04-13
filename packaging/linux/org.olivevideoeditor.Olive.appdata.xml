@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>org.olivevideoeditor.Olive</id>
-  <name>Olive</name>
+  <id>org.olivedivergence.Olive</id>
+  <name>Olive Divergence</name>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <developer_name>Olive Team</developer_name>
+  <developer_name>Olive Team and Muhammad Faran Aiki</developer_name>
   <summary>Non-linear video editor</summary>
   <summary xml:lang="de_DE">Nicht-lineares Videoschnittprogramm</summary>
   <summary xml:lang="pt_BR">Editor de vídeo não-linear</summary>
@@ -23,14 +23,14 @@
   <description xml:lang="uk"><p>Olive — вільний нелінійний відеоредактор, задуманий як повноцінна заміна закритим комерційним продуктам.</p></description>
   <description xml:lang="uk_UA"><p>Olive — вільний нелінійний відеоредактор, задуманий як повноцінна заміна закритим комерційним продуктам.</p></description>
   <description xml:lang="id"><p>Olive adalah aplikasi edit video bersifat non-linier yang bebas dan gratis, bertujuan untuk memberikan alternatif yang lengkap untuk aplikasi edit video profesional.</p></description>
-  <url type="homepage">https://www.olivevideoeditor.org</url>
-  <url type="donation">https://www.patreon.com/olivevideoeditor</url>
-  <url type="bugtracker">https://github.com/olive-editor/olive/issues</url>
+  <url type="homepage">https://www.github.com/FaranAiki/olive-divergence</url>
+  <url type="donation">https://www.github.com/FaranAiki/olive-divergence</url>
+  <url type="bugtracker">https://github.com/FaranAiki/olive-divergence/issues</url>
   <screenshots>
     <screenshot type="default"><image>https://olivevideoeditor.org/img/screenshot.1600.jpg</image></screenshot>
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
-    <release version="0.1.2" date="2019-11-11"/>
+    <release version="0.1.3" date="2022-4-12"/>
   </releases>
 </component>

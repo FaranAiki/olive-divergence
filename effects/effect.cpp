@@ -114,6 +114,7 @@ const EffectMeta* Effect::GetInternalMeta(int internal_id, int type) {
   return nullptr;
 }
 
+// TODO implement file/image shaders for sampler2D
 Effect::Effect(Clip* c, const EffectMeta *em) :
   parent_clip(c),
   meta(em),
@@ -343,7 +344,7 @@ Effect::~Effect() {
     close();
   }
 
-  // Clear graph editor if it's using one of these rows
+  // clear graph editor if it's using one of these rows
   if (panel_graph_editor != nullptr) {
     for (int i=0;i<row_count();i++) {
       if (row(i) == panel_graph_editor->get_row()) {
@@ -375,7 +376,7 @@ void Effect::copy_field_keyframes(EffectPtr e) {
       // Copy keyframes between effects
       copy_field->keyframes = field->keyframes;
 
-      // Copy persistet data between effects
+      // Copy persistent data between effects
       copy_field->persistent_data_ = field->persistent_data_;
     }
   }
@@ -524,6 +525,7 @@ void Effect::SetEnabled(bool b) {
   emit EnabledChanged(b);
 }
 
+// TODO implement spawner-loading
 void Effect::load(QXmlStreamReader& stream) {
   int row_count = 0;
 
@@ -616,6 +618,7 @@ void Effect::load(QXmlStreamReader& stream) {
 
 void Effect::custom_load(QXmlStreamReader &) {}
 
+// TODO implement spawner-saving
 void Effect::save(QXmlStreamWriter& stream) {
   stream.writeAttribute("name", meta->category + "/" + meta->name);
   stream.writeAttribute("enabled", QString::number(IsEnabled()));
@@ -840,10 +843,17 @@ EffectPtr Effect::copy(Clip *c) {
   return copy;
 }
 
+// TODO make sampler2D
 void Effect::process_shader(double timecode, GLTextureCoords&, int iteration) {
   glslProgram->setUniformValue("resolution", parent_clip->media_width(), parent_clip->media_height());
   glslProgram->setUniformValue("time", GLfloat(timecode));
   glslProgram->setUniformValue("iteration", iteration);
+
+  QImage img;
+  
+  QOpenGLTexture *texture;
+    
+  GLuint texture_unit = 0;
 
   for (int i=0;i<rows.size();i++) {
     EffectRow* row = rows.at(i);
@@ -875,11 +885,30 @@ void Effect::process_shader(double timecode, GLTextureCoords&, int iteration) {
         case EffectField::EFFECT_FIELD_COMBO:
           glslProgram->setUniformValue(field->id().toUtf8().constData(), field->GetValueAt(timecode).toInt());
           break;
+        // assuming file is an image, convert to sampler2D and texture
+        // TODO implement image handling
+        case EffectField::EFFECT_FIELD_FILE:
+          if (field->GetValueAt(timecode).toString().isEmpty()) return;
+        
+          img = QImage(field->GetValueAt(timecode).toString()).convertToFormat(QImage::Format_RGB888);
+          
+          if (!img.bits()) {
+            qWarning() << "Cannot load image. Either the file is not an image or corrupted!";
+            return;
+          }
+          
+          texture = new QOpenGLTexture(img);
+          
+          texture->bind(GL_TEXTURE0);
+          
+          glActiveTexture(GL_TEXTURE0);
+          
+          glslProgram->setUniformValue(field->id().toUtf8().constData(), 0);
 
+          break;
           // can you even send a string to a uniform value?
         case EffectField::EFFECT_FIELD_STRING:
         case EffectField::EFFECT_FIELD_FONT:
-        case EffectField::EFFECT_FIELD_FILE:
         case EffectField::EFFECT_FIELD_UI:
           break;
         }
