@@ -3,6 +3,7 @@
     Adaption and Implementation by CGVIRUS for Olive-Editor Community
 ***/
 
+#version 120
 uniform sampler2D tex;
 varying vec2 uTexCoord;
 uniform vec2 resolution;
@@ -15,6 +16,7 @@ uniform float parallax;
 uniform float rot;
 uniform float distortX;
 uniform float distortY;
+
 vec2 mirror(vec2 x)
 {
         return abs(fract(x/2.0) - 0.5)*2.0;
@@ -24,9 +26,9 @@ vec2 mirror(vec2 x)
 // One adds up the colors from all the iterations, the other uses only the last.
 void main(void)
 {
-        vec2 uv = ((2*gl_FragCoord.xy - resolution.xy)/resolution.x)/size;
+        vec2 uv = ((2.0 * gl_FragCoord.xy - resolution.xy) / resolution.x) / size;
 
-        float a = (parallax)*.001;
+        float a = (parallax) * .001;
         vec4 color = vec4(0.0);
         
         float rot = radians(rot);
@@ -63,5 +65,5 @@ void main(void)
                 a += i+distortY;}     
         }
 
-        gl_FragColor = texture2D(tex, mirror(uv*vec2(1.,resolution.x/resolution.y)*2.0));
+        gl_FragColor = texture2D(tex, mirror(uv*vec2(1.0,resolution.x/resolution.y)*2.0));
 }

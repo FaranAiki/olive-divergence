@@ -9,6 +9,8 @@
     
 ***/
 
+#version 110
+
 #define USE_MIPMAP
 #define GOLDEN_ANGLE 2.39996323
 
@@ -31,14 +33,14 @@ vec3 Bokeh(sampler2D tex, vec2 uv, float radius, float amount)
     vec2 pixel = (1.0 / resolution.xy)*rscale;
     float r = 1.0;
     vec2 vangle = vec2(0.0,radius); 
-    amount += radius*5000.0;
+    amount += radius * 5000.0;
     
     for (int j = 0; j < int(Samples); j++)
     {  
         r += 1. / r;
         vangle = rot * vangle;
         vec2 tuv = (uv + pixel * (r-1.) * vangle);
-        vec3 col = texture2DLod(tex, tuv, radius*.8).xyz;
+        vec3 col = vec3(1, 1, 1);
         col *= Exposure; 
         vec3 bokeh = pow(col, vec3(9.0)) * amount+.4;
         acc += col * bokeh;

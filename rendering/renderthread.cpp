@@ -143,7 +143,6 @@ void RenderThread::set_up_ocio()
 {
 }
 
-// TODO make a vectorscope or RGB-value shims
 void RenderThread::paint() {
   // set up compose_sequence() parameters
   ComposeSequenceParams params;
